@@ -10,8 +10,11 @@ Este podría dividirse en tres grandes puntos:
 La idea es crear una pantalla donde se pueda escribir o pintar. La escritura se haría con el teclado del dispositivo. A la hora de pintar hay que conseguir una experiencia de usuario lo más realista posible, eso implica:
 
 A- Que los trazos sean lo más fluido posible.
+
 B- Que el grosor del trazo sea sensible a la presión. 
+
 C- Que el grosor del trazo sea sensible a la velocidad de este.
+
 D- Que el feedback de la pantalla sea lo más rápido posible, es decir, que no haya lag entre el momento en que se pinta y el momento en que el trazo aparece en la pantalla.
 
 Hay un artículo en este blog sobre el tema que muestra claramente las diferencias entre la forma de dibujo "normal" y la que sería la ideal para conseguir una experiencia realista en el dibujado:
