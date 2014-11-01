@@ -31,3 +31,22 @@ Por un lado habría que almacenar toda la información de trazos en un servidor 
 Con pantalla wifi nos referimos a un dispositivo con soporte airplay, chromecast o miracast.  
 
 La idea es que, al igual que se ven los contenidos en los diferentes dispositivos, además se vean en una pantalla principal como puede ser una TV o un proyector
+
+
+The general idea is to have a meeting where various people can work with their tablets or phones all syncronised on a shared screen  and with the same user experience as if you were working on paper.
+
+This you can divide into three main groups:
+
+####Board functions:
+The idea is to create a screen where you can write or paint.The writing would be done using the device's keyboard. When you're painting you have to get a experience as realistic as posible, that implies:
+
+A- Strokes are as fluid as possible
+
+B- Stroke is sensitive to pressure
+
+C- Stroke is sensitive to speed of this
+
+D- Feedback of the screen is as fast as possible, it's to say, there isn't lag between when being painted and the moment when the stroke is displayed.
+
+####2- Storage / synchronization of Strokes
+We are going to storage and communicate the strokes that are made in the canvas.
