@@ -33,6 +33,11 @@ Con pantalla wifi nos referimos a un dispositivo con soporte airplay, chromecast
 La idea es que, al igual que se ven los contenidos en los diferentes dispositivos, además se vean en una pantalla principal como puede ser una TV o un proyector
 
 
+_ _ _
+
+
+#VirtualBoard
+
 The general idea is to have a meeting where various people can work with their tablets or phones all syncronised on a shared screen  and with the same user experience as if you were working on paper.
 
 This you can divide into three main groups:
