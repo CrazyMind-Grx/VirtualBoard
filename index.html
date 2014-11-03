@@ -1,92 +1,121 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <title>Virtualboard</title>
-  <meta name="description" content="A VirtualBoard for Android">
+    <title>Virtualboard by IV-2014</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
+  <body>
     <header>
-      <h1 class="title">Virtualboard</h1>
+      <div class="inner">
+        <h1>Virtualboard</h1>
+        <h2>A VirtualBoard for Android</h2>
+        <a href="https://github.com/IV-2014/VirtualBoard" class="button"><small>View project on</small> GitHub</a>
+      </div>
     </header>
-    <div id="container">
-      <p class="tagline">A VirtualBoard for Android</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/IV-2014/VirtualBoard/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/IV-2014/VirtualBoard/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/IV-2014/VirtualBoard" class="code">View Virtualboard on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="virtualboard" class="anchor" href="#virtualboard"><span class="octicon octicon-link"></span></a>VirtualBoard</h1>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>La idea general es que pueda haber una reunión en la que varias personas trabajan con sus tablets o móviles sobre una pantalla compartida de forma sincronizada y con la misma experiencia de usuario que si estuviesen trabajando sobre papel.</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>Este podría dividirse en tres grandes puntos:</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<h4>
+<a name="1--funcionalidades-de-pizarra" class="anchor" href="#1--funcionalidades-de-pizarra"><span class="octicon octicon-link"></span></a>1- Funcionalidades de pizarra:</h4>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>La idea es crear una pantalla donde se pueda escribir o pintar. La escritura se haría con el teclado del dispositivo. A la hora de pintar hay que conseguir una experiencia de usuario lo más realista posible, eso implica:</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<p>A- Que los trazos sean lo más fluido posible.</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>B- Que el grosor del trazo sea sensible a la presión. </p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<p>C- Que el grosor del trazo sea sensible a la velocidad de este.</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>D- Que el feedback de la pantalla sea lo más rápido posible, es decir, que no haya lag entre el momento en que se pinta y el momento en que el trazo aparece en la pantalla.</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<p>Hay un artículo en este blog sobre el tema que muestra claramente las diferencias entre la forma de dibujo "normal" y la que sería la ideal para conseguir una experiencia realista en el dibujado:
+<a href="http://corner.squareup.com/2012/07/smoother-signatures.html">http://corner.squareup.com/2012/07/smoother-signatures.html</a></p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
+<h4>
+<a name="2--almacenajesincronizaci%C3%B3n-de-trazos" class="anchor" href="#2--almacenajesincronizaci%C3%B3n-de-trazos"><span class="octicon octicon-link"></span></a>2- Almacenaje/Sincronización de trazos</h4>
+
+<p>La idea es poder almacenar y comunicar los trazos que se hagan en el canvas. Para ello creemos que la mejor opción es convertir los diferentes trazos a SVG. El que los trazos sean vectoriales es importante ya que cada dispositivo puede tener una resolución de pantalla diferente.</p>
+
+<p>Por un lado habría que almacenar toda la información de trazos en un servidor y por otro ver la mejor forma de mantener sincronizados los dispositivos entre si para que todos muestren los contenidos que se vayan dibujando.</p>
+
+<h4>
+<a name="3--proyecci%C3%B3n-en-pantalla-wifi" class="anchor" href="#3--proyecci%C3%B3n-en-pantalla-wifi"><span class="octicon octicon-link"></span></a>3- Proyección en pantalla wifi.</h4>
+
+<p>Con pantalla wifi nos referimos a un dispositivo con soporte airplay, chromecast o miracast.  </p>
+
+<p>La idea es que, al igual que se ven los contenidos en los diferentes dispositivos, además se vean en una pantalla principal como puede ser una TV o un proyector</p>
+
+<h4>
+<a name="4--qu%C3%A9-herramientas-se-utilizar%C3%A1n-para-implementarlo" class="anchor" href="#4--qu%C3%A9-herramientas-se-utilizar%C3%A1n-para-implementarlo"><span class="octicon octicon-link"></span></a>4- Qué herramientas se utilizarán para implementarlo</h4>
+
+<p>Tendremos que programar la parte del servidor y la parte del cliente. En el servidor utilizaremos Python o Node.js para las conexiones aun está por decidir que puede ser mas interesante para nuestra aplicacion por temas de rapidez, lag y fluidez.
+En cuanto al tema del usuario utilizaremos Android, una app sencilla para que nuestro cliente pueda manejar su VirtualBoard.</p>
+
+<hr>
+
+<h1>
+<a name="virtualboard-1" class="anchor" href="#virtualboard-1"><span class="octicon octicon-link"></span></a>VirtualBoard</h1>
+
+<p>The general idea is to have a meeting where various people can work with their tablets or phones all syncronised on a shared screen  and with the same user experience as if you were working on paper.</p>
+
+<p>This you can divide into three main groups:</p>
+
+<h4>
+<a name="board-functions" class="anchor" href="#board-functions"><span class="octicon octicon-link"></span></a>Board functions:</h4>
+
+<p>The idea is to create a screen where you can write or paint.The writing would be done using the device's keyboard. When you're painting you have to get a experience as realistic as posible, that implies:</p>
+
+<p>A- Strokes are as fluid as possible</p>
+
+<p>B- Stroke is sensitive to pressure</p>
+
+<p>C- Stroke is sensitive to speed of this</p>
+
+<p>D- Feedback of the screen is as fast as possible, it's to say, there isn't lag between when being painted and the moment when the stroke is displayed.</p>
+
+<h4>
+<a name="2--storage--synchronization-of-strokes" class="anchor" href="#2--storage--synchronization-of-strokes"><span class="octicon octicon-link"></span></a>2- Storage / synchronization of Strokes</h4>
+
+<p>We are going to storage and communicate the strokes that are made in the canvas.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/IV-2014/VirtualBoard/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/IV-2014/VirtualBoard/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/IV-2014/VirtualBoard"></a> is maintained by <a href="https://github.com/IV-2014">IV-2014</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
       </div>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/IV-2014" class="avatar"><img src="https://avatars0.githubusercontent.com/u/9316139?v=2&amp;s=60" width="48" height="48"></a> <a href="https://github.com/IV-2014">IV-2014</a> maintains <a href="https://github.com/IV-2014/VirtualBoard">Virtualboard</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/IV-2014/VirtualBoard/tarball/master" class="tar">tar</a><a href="https://github.com/IV-2014/VirtualBoard/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
 
   
-</body>
+  </body>
 </html>
