@@ -32,6 +32,10 @@ Con pantalla wifi nos referimos a un dispositivo con soporte airplay, chromecast
 
 La idea es que, al igual que se ven los contenidos en los diferentes dispositivos, además se vean en una pantalla principal como puede ser una TV o un proyector
 
+####4- Qué herramientas se utilizarán para implementarlo
+
+Tendremos que programar la parte del servidor y la parte del cliente. En el servidor utilizaremos Python o Node.js para las conexiones aun está por decidir que puede ser mas interesante para nuestra aplicacion por temas de rapidez, lag y fluidez.
+En cuanto al tema del usuario utilizaremos Android, una app sencilla para que nuestro cliente pueda manejar su VirtualBoard.
 
 _ _ _
 
