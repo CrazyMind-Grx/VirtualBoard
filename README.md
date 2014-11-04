@@ -24,7 +24,7 @@ http://corner.squareup.com/2012/07/smoother-signatures.html
 
 La idea es poder almacenar y comunicar los trazos que se hagan en el canvas. Para ello creemos que la mejor opción es convertir los diferentes trazos a SVG. El que los trazos sean vectoriales es importante ya que cada dispositivo puede tener una resolución de pantalla diferente.
 
-Por un lado habría que almacenar toda la información de trazos en un servidor y por otro ver la mejor forma de mantener sincronizados los dispositivos entre si para que todos muestren los contenidos que se vayan dibujando.
+Por un lado habría que almacenar toda la información de trazos en un servidor y por otro ver la mejor forma de mantener sincronizados los dispositivos entre si para que todos muestren los contenidos que se vayan dibujando.  
 
 ####3- Proyección en pantalla wifi.
 
