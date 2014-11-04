@@ -1,9 +1,18 @@
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Probando</title>
-</head>
-<body>
-        <h1>Hello world!</h1>
-</body>
-</html>
+import web
+
+
+urls = (
+    '/(.*)', 'hello'
+)
+
+
+class hello:        
+	def GET(self, name):
+		try:
+			return 'hola angel'
+		except:
+			return 'error'
+			
+if __name__ == "__main__":
+	app = web.application(urls, globals())
+	app.run()
