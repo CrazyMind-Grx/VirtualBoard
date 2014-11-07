@@ -1,5 +1,8 @@
-var http = require("http");
+var http = require('http');
 
-http.createServer().listen(8888);
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('servidor creado\n');
+}).listen(8080);
 
-console.log("servidor creado");
+console.log('Server listen to the port 8080');
