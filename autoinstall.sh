@@ -1,14 +1,15 @@
-cd ~;
-echo "\n \n \n ........................................................................\n Descargando e instalando el entorno de desarrollo para Android \n ........................................................................ \n \n \n";
+echo "\n \n \n ..............................................................................................\n Este script automatiza la descarga e isntalacion del entorno Eclipse + SDK manager de Android \n .............................................................................................. \n \n \n";
 
-echo "¿Quiere descargar Eclipse + SDK de Android en el directorio actual? (si elige no, se descargara en su directorio /home)   (s o n): ";
+echo "¿Quiere descargar Eclipse + SDK de Android en el directorio actual? (si elige no, se descargara en su directorio /home) [s o n]: \n \n \n ";
 read var1;
 
 if [ $var1 = s ]; then
-	pwd;
- 
+	directorio=$(pwd);
+	cd $directorio;
+else
+	cd ~;
+fi;
 
-read var1
 
 identificarSO=`uname -i`;
 echo "La arquitectura de tu sistema operativo es de: "$identificarSO " \n \n \n \n";
