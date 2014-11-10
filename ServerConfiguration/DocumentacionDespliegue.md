@@ -1,6 +1,6 @@
 #Documentación Despliegue
 
-VirtualBoard requerirá el uso de un servidor para realizar la comunicación entre los dispositivos que estén trabajando con la aplicación.
+VirtualBoard requerirá el uso de un servidor para realizar la comunicación entre los dispositivos que estén trabajando con la aplicación. El servidor elegido es Openshift y programando en node.js.
 
 ---
 
