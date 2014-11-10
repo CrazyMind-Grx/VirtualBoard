@@ -21,3 +21,14 @@
 
  	- Inscripción gratuita: disponible para que los desarrolladores puedan consultar las extraordinarias características y prestaciones, así como empezar a codificar y ejecutar aplicaciones en OpenShift.
 
+
+- Elegimos openShift debido a las siguientes características:
+	- Un buen plan gratuito.
+	- Código abierto.
+	- Bien documentado.
+	- Apoyo Node.js
+	- Dominios personalizados.
+	- Arquitectura limpia y simple.
+	- Entornos personalizables.
+	- Apoyo MongoDB.
+	- Apoyo PHP. 
