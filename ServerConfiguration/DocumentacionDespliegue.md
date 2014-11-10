@@ -1,14 +1,12 @@
 #Documentación Despliegue
 
 VirtualBoard requerirá el uso de un servidor para realizar la comunicación entre los dispositivos que estén trabajando con la aplicación.
-#### 
-
 
 ---
 
 ## Openshift
 
-### ¿Que es Openshift?
+### ¿Qué es Openshift?
 
 **OpenShift** es un producto de computación en la nube de plataforma como servicio de **Red Hat**.
 
