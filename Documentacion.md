@@ -2,4 +2,4 @@
 
 ##Documentación Despliegue
 
-[Ver documentacion](enlace)
+[Ver documentacion](https://github.com/IV-2014/VirtualBoard/blob/master/ServerConfiguration/DocumentacionDespliegue.md)
