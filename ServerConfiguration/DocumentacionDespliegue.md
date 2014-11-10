@@ -24,4 +24,4 @@ OpenShift se encarga de mantener los servicios subyacentes a la aplicación y la
 
 ### El servidor de VirtualBoard
 
-El servidor de VirtualBoard está corriendo 24/7 y para comprobar su estado podemos acceder a una web que está sirviendo continuamente [ver web](http://appprueba-angeljcc.rhcloud.com/)
+El servidor de VirtualBoard está corriendo 24/7 y para comprobar su estado podemos acceder a una web que está sirviendo continuamente [ver web](http://nodejs-virtualboard.rhcloud.com/)
