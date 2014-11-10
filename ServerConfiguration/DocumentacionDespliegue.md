@@ -53,6 +53,25 @@ OpenShift se encarga de mantener los servicios subyacentes a la aplicación y la
 	- Apoyo PHP.
 	- Más fluido en streaming
 
+###Desplegar en OpenShift
+
+- En primer lugar vamos a registrarnos en OpenShift [enlace](https://www.openshift.com/app/account/new).
+
+- Una vez registrados, nos enviarán un mensaje al correo que se ha indicado para confirmar la cuenta y darnos de alta en el servicio OpenShift.
+
+- Una vez esté la cuenta activada, nos logeamos y creamos una aplicación.
+
+![](./capturas/6.png)
+
+- Lo siguiente que haremos es escoger el tipo de aplicación que queremos implementar. En nuestro caso:
+
+![](./capturas/7.png)
+
+- Configuramos la aplicación y la creamos:
+
+![](./capturas/8.png)
+
+
 ### El servidor de VirtualBoard
 
 El servidor de VirtualBoard está corriendo 24/7 y para comprobar su estado podemos acceder a una web que está sirviendo continuamente [ver web](http://nodejs-virtualboard.rhcloud.com/)
