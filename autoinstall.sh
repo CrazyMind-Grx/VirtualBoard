@@ -23,3 +23,4 @@ else
 fi;
 
 unzip adt-bundle-linux-x86*.zip;
+rm adt-bundle-linux-x86*.zip;
