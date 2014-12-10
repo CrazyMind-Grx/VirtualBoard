@@ -49,4 +49,5 @@ if [ $var1=a ];then
 	wget https://dl.google.com/dl/android/studio/ide-zips/1.0.0/android-studio-ide-135.1629389-linux.zip
 	unzip android-studio-ide-135.1629389-linux.zip;
 	rm android-studio-ide-135.1629389-linux.zip;
+	sh studio.sh;
 fi;	
