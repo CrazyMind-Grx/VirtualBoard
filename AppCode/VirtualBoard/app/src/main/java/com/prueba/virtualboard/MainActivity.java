@@ -20,13 +20,14 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
     }
-    public void MostrarTexto (View v){
+    //Esto es para probar que funcionan bien los texrView y de mas
+    /*public void MostrarTexto (View v){
         insertarTexto = (EditText)findViewById(R.id.editText);
         verTexto = (TextView)findViewById(R.id.TextoScroll);
 
         String a = insertarTexto.getText().toString();
         verTexto.setText(a);
-    }
+    }*/
 
 
 }

@@ -49,4 +49,14 @@
         android:lines="1"
         android:layout_above="@+id/textView1" />
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Establecer Conexion"
+        android:id="@+id/checkBoxConectar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
 </RelativeLayout>
