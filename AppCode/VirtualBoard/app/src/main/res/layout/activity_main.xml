@@ -34,7 +34,9 @@
         android:id="@+id/BotonEnviar"
         android:layout_alignBottom="@+id/editText"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="MostrarTexto" />
+
 
     <TextView
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem quam, laoreet scelerisque egestas ornare"
