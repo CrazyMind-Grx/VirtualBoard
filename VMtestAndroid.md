@@ -23,5 +23,5 @@ Nos logueamos y elegimos el tipo de dispositivo que queremos utilizar:
 
 ![ventana2](https://github.com/IV-2014/VirtualBoard/blob/master/Images/tutoVM2.png)
 
-Una vex elegida, se descargara la imagen que queremos.
+Una vez elegida, se descargara la imagen que queremos.
 
