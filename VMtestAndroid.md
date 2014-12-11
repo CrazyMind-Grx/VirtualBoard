@@ -23,5 +23,11 @@ Nos logueamos y elegimos el tipo de dispositivo que queremos utilizar:
 
 ![ventana2](https://github.com/IV-2014/VirtualBoard/blob/master/Images/tutoVM2.png)
 
-Una vez elegida, se descargara la imagen que queremos.
+Una vez elegida, se descargara la imagen que queremos. Arranncamos la maquina, y ya la tenemos fucnionando.
+
+Una vez que es esta arrancada, solo nos queda conectarla con nuestro Android Studio. Para esto abriremos Android Studio y iremos a:
+
+	File > Settings
+    Plugins > Browse Repositories
+    Buscamons genymotion y pulsamos en Download and install 
 
