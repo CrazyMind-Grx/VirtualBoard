@@ -15,7 +15,7 @@ Ahora vamos a la carpta genymotion que se ha creado y ejecutamos el archivo geny
 
 	./genymotion
     
-Ahora tendremos esta ventana, y clicamos en YES:
+Nos aparecera esta ventana, y clicamos en YES:
 
 ![ventana1](https://github.com/IV-2014/VirtualBoard/blob/master/Images/tutoVM1.png)
 
