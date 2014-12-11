@@ -26,10 +26,11 @@ public class MainActivity extends ActionBarActivity {
         boton_enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mensaje.getContext(), "escribiste: "+mensaje.getText(), Toast.LENGTH_LONG).show();
+
                 if(mensaje.getText().toString().equals(vacio)) {
                     Toast.makeText(mensaje.getContext(), "El campo esta vacío, no se enviará nada!!", Toast.LENGTH_LONG).show();
                 }else{
+                    Toast.makeText(mensaje.getContext(), "escribiste: "+mensaje.getText(), Toast.LENGTH_LONG).show();
                     scroll.setText(mensaje.getText().toString());
                     mensaje.setText("");
 
