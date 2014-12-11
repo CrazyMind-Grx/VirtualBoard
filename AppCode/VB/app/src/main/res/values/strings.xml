@@ -6,5 +6,6 @@
     <string name="action_settings">Settings</string>
     <string name="entrada_texto">Inserte su mensaje a enviar:</string>
     <string name="mensajes">Mensajes Recibidos:</string>
+    <string name="enviar">Go</string>
 
 </resources>

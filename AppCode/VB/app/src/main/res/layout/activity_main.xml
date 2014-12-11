@@ -17,7 +17,7 @@
         <EditText
             android:layout_width="286dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
+            android:id="@+id/escribir"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -26,7 +26,7 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="42dp"
             android:layout_height="34dp"
-            android:text="New Button"
+            android:text="@string/enviar"
             android:id="@+id/button" />
 
     </LinearLayout>
@@ -54,13 +54,25 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView"
+        android:id="@+id/scrollview"
         android:layout_above="@+id/gridLayout"
         android:layout_alignRight="@+id/gridLayout"
         android:layout_alignEnd="@+id/gridLayout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/linearLayout2" />
+        android:layout_below="@+id/linearLayout2" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Texto a mostrar"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:id="@+id/scroll" />
+    </ScrollView>
 
     <LinearLayout
         android:orientation="vertical"
@@ -75,9 +87,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
+
             android:text="@string/mensajes"
-            android:id="@+id/textView2" />
+            android:id="@+id/mensajes1" />
     </LinearLayout>
 
 
