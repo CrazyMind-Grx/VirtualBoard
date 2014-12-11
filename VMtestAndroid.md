@@ -9,11 +9,6 @@ Para instalar virtual box, solo tendremos que ir al centro de software de nuestr
 ###2º Instalar Genymotion
  El primer paso es [registrarnos en Genymotion](https://www.genymotion.com/#!/auth/account-creation).
  
- Tras acceder al link que nos envian a nuestro email, lo [descargamos](https://www.genymotion.com/#!/download). Al hacer esto, se descargara un archivo .bin , le damos permiso de ejecucion con:
+ Tras acceder al link que nos envian a nuestro email, lo [descargamos](https://www.genymotion.com/#!/download). Al hacer esto, se descargara un archivo .bin , le damos permiso de ejecucion y lo ejecutamos [asi](http://showterm.io/81fc6d57e822570542781).
 
-	sudo chmod +x Archivo
-    
-Y lo ejecutamos con:
 
-	./(el archivo descargado)
-    
