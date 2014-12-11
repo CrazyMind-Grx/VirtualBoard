@@ -17,6 +17,11 @@ Ahora vamos a la carpta genymotion que se ha creado y ejecutamos el archivo geny
     
 Ahora tendremos esta ventana, y clicamos en YES:
 
-![ventana1]()
+![ventana1](https://github.com/IV-2014/VirtualBoard/blob/master/Images/tutoVM1.png)
 
+Nos logueamos y elegimos el tipo de dispositivo que queremos utilizar:
+
+![ventana2](https://github.com/IV-2014/VirtualBoard/blob/master/Images/tutoVM2.png)
+
+Una vex elegida, se descargara la imagen que queremos.
 
