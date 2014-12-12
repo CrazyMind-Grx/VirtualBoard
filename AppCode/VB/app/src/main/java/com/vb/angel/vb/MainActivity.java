@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity {
         final TextView scroll = (TextView)findViewById(R.id.scroll);
         final String vacio="";
 
-        ip = "vs-angeljcc.c9.io";
+        ip = "172.17.28.230";
         puerto = 8080;
 
         boton_enviar.setOnClickListener(new View.OnClickListener() {
@@ -74,7 +74,7 @@ public class MainActivity extends ActionBarActivity {
         //Obtengo datos ingresados en campos
 
         try {//creamos sockets con los valores anteriores
-            miCliente = new Socket("https://vs-angeljcc.c9.io",8080);
+            miCliente = new Socket("172.17.28.230",8080);
             //si nos conectamos
             if (miCliente.isConnected()) {
                 return true;

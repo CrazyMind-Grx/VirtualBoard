@@ -68,7 +68,6 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Texto a mostrar"
             android:ellipsize="marquee"
-            android:focusable="true"
             android:focusableInTouchMode="true"
             android:lines="1"
             android:id="@+id/scroll" />
