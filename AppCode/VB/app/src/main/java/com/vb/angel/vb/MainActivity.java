@@ -1,5 +1,6 @@
 package com.vb.angel.vb;
 
+import android.os.Message;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -16,6 +17,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.logging.Handler;
+import java.util.logging.LogRecord;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -49,9 +52,7 @@ public class MainActivity extends ActionBarActivity {
                 }else{
                     Toast.makeText(mensaje.getContext(), "escribiste: "+mensaje.getText(), Toast.LENGTH_LONG).show();
                     //scroll.setText(mensaje.getText().toString());
-                    Connect();
-                    Snd_Msg(mensaje.getText().toString());
-                    Disconnect();
+                    EnviarMensaje(mensaje.getText().toString());
                     mensaje.setText("");
                 }
             }
@@ -70,57 +71,25 @@ public class MainActivity extends ActionBarActivity {
     }
 
     //Funciones de  conexion y desconexion
-    public void Connect() {
+    public void EnviarMensaje(String mens) {
         //Obtengo datos ingresados en campos
 
         try {//creamos sockets con los valores anteriores
             miCliente = new Socket("https://vs-angeljcc.c9.io",8080);
-            
-        }catch (Exception e){
-
-        }
-    }
-
-    public void Disconnect() {
-        try {
-            miCliente.close();
-
-        } catch (Exception e) {
-            Toast.makeText(getApplicationContext(), "Desconectado...", Toast.LENGTH_LONG).show();
-        }
-
-
-
-    }
-    //FUncion de enviar mensaje
-    public boolean Snd_Msg(String s) {
-
-        try {
-            //Accedo a flujo de salida
             oos = new ObjectOutputStream(miCliente.getOutputStream());
-            //creo objeto mensaje
-
-
-            if (miCliente.isConnected())// si la conexion continua
-            {
-                //lo asocio al mensaje recibido
-                ;
-                //Envio mensaje por flujo
-                oos.writeObject(s);
-                //envio ok
-                return true;
-
-            } else {//en caso de que no halla conexion al enviar el msg
-                Toast.makeText(getApplicationContext(), "No hay conexion", Toast.LENGTH_LONG).show();
-                return false;
-            }
-
-        } catch (Exception e) {// hubo algun error
-            Toast.makeText(getApplicationContext(), "Hubo algun error DEBUG!!!", Toast.LENGTH_LONG).show();
-
-            return false;
+            oos.writeObject(mens);
+            Message serverMenssage =Message.obtain();
+            ois = new ObjectInputStream(miCliente.getInputStream());
+            serverMenssage.obj = (String)ois.readObject();
+            mHandler.sendMessage(serverMenssage);
+            oos.close();
+            ois.close();
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
+
+
 
 
     @Override
