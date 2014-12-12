@@ -81,15 +81,13 @@ public class MainActivity extends ActionBarActivity {
             Message serverMenssage =Message.obtain();
             ois = new ObjectInputStream(miCliente.getInputStream());
             serverMenssage.obj = (String)ois.readObject();
-            mHandler.sendMessage(serverMenssage);
+
             oos.close();
             ois.close();
         }catch (Exception e){
             e.printStackTrace();
         }
     }
-
-
 
 
     @Override
