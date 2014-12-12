@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity {
         final TextView scroll = (TextView)findViewById(R.id.scroll);
         final String vacio="";
 
-        ip = "172.17.28.230";
+        ip = "vs-angeljcc.c9.io";
         puerto = 8080;
 
         boton_enviar.setOnClickListener(new View.OnClickListener() {
@@ -70,24 +70,15 @@ public class MainActivity extends ActionBarActivity {
     }
 
     //Funciones de  conexion y desconexion
-    public boolean Connect() {
+    public void Connect() {
         //Obtengo datos ingresados en campos
 
         try {//creamos sockets con los valores anteriores
-            miCliente = new Socket("172.17.28.230",8080);
-            //si nos conectamos
-            if (miCliente.isConnected()) {
-                return true;
-            } else {
-                return false;
-            }
-        } catch (UnknownHostException e) {
-            //Si hubo algun error mostrmos error
-
-        }catch (IOException e){
+            miCliente = new Socket("https://vs-angeljcc.c9.io",8080);
+            
+        }catch (Exception e){
 
         }
-        return false;
     }
 
     public void Disconnect() {
