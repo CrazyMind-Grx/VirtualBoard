@@ -75,7 +75,7 @@ public class MainActivity extends ActionBarActivity {
         //Obtengo datos ingresados en campos
 
         try {//creamos sockets con los valores anteriores
-            miCliente = new Socket("https://vs-angeljcc.c9.io",8080);
+            miCliente = new Socket("23.251.142.247",8080);
             oos = new ObjectOutputStream(miCliente.getOutputStream());
             oos.writeObject(mens);
             Message serverMenssage =Message.obtain();
