@@ -62,9 +62,9 @@ public class MessageAdapter extends BaseAdapter {
         holder.txtSender.setText("Sender: " + message.getSender());
         holder.txtMessage.setText(message.getMessage());
         if(position % 2 == 0){
-            view.setBackgroundResource(R.color.gray);
+            view.setBackgroundResource(R.color.background_material_dark);
         }else {
-            view.setBackgroundResource(R.color.green);
+            view.setBackgroundResource(R.color.background_material_light);
         }
         return view;
     }
