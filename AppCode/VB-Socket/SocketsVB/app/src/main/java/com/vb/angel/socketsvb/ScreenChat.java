@@ -4,12 +4,6 @@ package com.vb.angel.socketsvb;
  * Created by Angel on 14/12/2014.
  */
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.provider.Settings.Secure;
@@ -29,6 +23,12 @@ import com.koushikdutta.async.http.socketio.EventCallback;
 import com.koushikdutta.async.http.socketio.JSONCallback;
 import com.koushikdutta.async.http.socketio.SocketIOClient;
 import com.koushikdutta.async.http.socketio.StringCallback;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.lang.reflect.Type;
+import java.util.ArrayList;
 
 public class ScreenChat extends Activity {
     EditText mEditMessage;
