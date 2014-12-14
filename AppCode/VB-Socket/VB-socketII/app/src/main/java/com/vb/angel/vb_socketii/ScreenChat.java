@@ -79,7 +79,7 @@ public class ScreenChat extends Activity {
         });
 
 
-        SocketIOClient.connect(AsyncHttpClient.getDefaultInstance(), "http://162.243.151.197:8000", mConnectCallback);
+        SocketIOClient.connect(AsyncHttpClient.getDefaultInstance(), "https://50.16.91.164:3000", mConnectCallback);
     }
 
     public void scrollMyListViewToBottom() {
