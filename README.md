@@ -24,7 +24,7 @@ Al igual que se ven los contenidos en los diferentes dispositivos, además se ve
 
 ####Herramientas se utilizarán para implementarlo
 
-Tendremos que programar la parte del servidor y la parte del cliente. En el servidor utilizaremos Python o Node.js para las conexiones aun está por decidir que puede ser mas interesante para nuestra aplicacion por temas de rapidez, lag y fluidez. Estamos investigando App Engine y Openshift.
+Tendremos que programar la parte del servidor y la parte del cliente. En el servidor utilizaremos Python o Node.js para las conexiones aun está por decidir que puede ser mas interesante para nuestra aplicacion por temas de rapidez, lag y fluidez. Finalmente y tras hacer varias pruebas, vamos a utilizar [Cloud9](https://c9.io/)
 En cuanto al tema del usuario utilizaremos Android, una app con una interface sencilla e intuitiva para que nuestro cliente pueda manejar su VirtualBoard.
 
 
