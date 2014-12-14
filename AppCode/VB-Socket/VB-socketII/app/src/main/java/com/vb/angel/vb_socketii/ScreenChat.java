@@ -16,6 +16,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -69,17 +70,22 @@ public class ScreenChat extends Activity {
                 message.setSender(userName);
                 Gson gson = new Gson();
                 String json = gson.toJson(message);
+
+                Toast.makeText(getApplicationContext(),"VA POR AQUI",Toast.LENGTH_LONG).show();
                 if (mClient.isConnected()) {
                     mClient.emit(json);
                     mEditMessage.getText().clear();
                     mMessages.add(message);
                     mMessageAdapter.notifyDataSetChanged();
+                    Toast.makeText(getApplicationContext(),"mensaje cargado",Toast.LENGTH_LONG).show();
+                }else{
+                    Toast.makeText(getApplicationContext(),"No estas conectado",Toast.LENGTH_LONG).show();
                 }
             }
         });
 
 
-        SocketIOClient.connect(AsyncHttpClient.getDefaultInstance(), "https://50.16.91.164:3000", mConnectCallback);
+        SocketIOClient.connect(AsyncHttpClient.getDefaultInstance(), "http://nodejs2-virtualboard.rhcloud.com", mConnectCallback);
     }
 
     public void scrollMyListViewToBottom() {
