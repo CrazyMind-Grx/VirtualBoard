@@ -53,7 +53,7 @@
         ![](Images/6.png)
 		Las dos capturas anteriores muestran todos los móviles donde se ha realizado el testeo de la aplicación.
         
-		- Voy a mostrar las capturas de algunos móviles de los que aparecen en las capturas anteriores.
+		- Voy a mostrar el testeo  en alguno de los móviles que aparecen en las capturas anteriores:
 			- ZTE Grand X In P940:
 				- Steps in testEverything method:
 				![](Images/13.png)
@@ -84,6 +84,16 @@
 				![](Images/26.png)
 				 Muestra el uso de memoria y el uso de CPU del móvil Asus Fonepad ME371MG al testear la aplicación
                  
-                 - :
+                 - Samsung Galaxy Nexus GT-I9250 4.0.4:
+                 	- Steps in testEverything method:
+					![](Images/27.png)
+                    ![](Images/28.png)
+                    ![](Images/29.png)
+                 	- Screenshots by Test Steps:
+                 	![](Images/30.png)
+                 	- Performance for Samsung Galaxy Nexus GT-I9250 4.0.4:
+                 	![](Images/31.png)
+                     Muestra el uso de memoria y el uso de CPU del móvil Samsung Galaxy Nexus GT-I9250 4.0.4 al testear la aplicación.
+                     
 Tutoriales Testdroid
 [Enlace](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
