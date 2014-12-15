@@ -8,7 +8,7 @@
 
    if ($nombre!="" || $texto!=""){
 
-     $con = mysql_connect("127.0.0.1","root","tr04tr08") or die("Sin conexion");
+     $con = mysql_connect("127.0.0.1","root","********") or die("Sin conexion");
 
          mysql_select_db("mybase");
 
