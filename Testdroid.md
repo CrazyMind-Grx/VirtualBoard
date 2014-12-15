@@ -10,6 +10,7 @@ Sin embargo, que el sistema corra de forma medianamente fluida no significa que 
 Por esto, los desarrolladores necesitan comprobar cual es el rendimiento de la aplicación en varios terminales para así mejorarla o incluso limitarla para ciertos terminales que no cuentan con los requisitos mínimos. Pero los desarrolladores no tienen los mil y uno móviles que tenemos en el mercado para poder probar su app en cada uno por lo que en estos casos podremos recurrir a alternativas como Testdroid.
 
 [video](https://www.youtube.com/watch?v=zj11lzUmScg#t=37)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/zj11lzUmScg#t=37/0.jpg)](http://www.youtube.com/watch?v=zj11lzUmScg#t=37)
 
 Testdroid es un servicio web que nos permitirá subir nuestra aplicación y testearla en 100 dispositivos diferentes. La web nos proporcionará datos detallados del rendimiento y de la estabilidad de la aplicación en cada terminal, así como capturas de pantalla para comprobar como queda la interfaz en todo momento.
 
