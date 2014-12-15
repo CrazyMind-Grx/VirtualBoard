@@ -1,0 +1,7 @@
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VB-Socket/VB-socketII/app/build/intermediates/classes/debug
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VB-Socket/VB-socketII/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-0ea38f83f47700eb3f8843276a43ffb36e59b1a9.jar
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VB-Socket/VB-socketII/app/build/intermediates/pre-dexed/debug/gson-2.2.4-010a6e31d9f4c456e3dead50df74092671053e2d.jar
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VB-Socket/VB-socketII/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-7c3140a7ccbbb39b6c1c821c310805cd9b36da29.jar
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VB-Socket/VB-socketII/app/build/intermediates/pre-dexed/debug/androidasync-1.1.3-4cc484f7f421356d03d44f9902598b30b1ce01d4.jar
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VB-Socket/VB-socketII/app/build/intermediates/pre-dexed/debug/classes-372e34b42283fe472ac64a8d31ad4bfd318d3d67.jar
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VB-Socket/VB-socketII/app/build/intermediates/pre-dexed/debug/classes-d923609a8761f6e83638730fd4aac367307d8589.jar
