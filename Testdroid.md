@@ -48,10 +48,13 @@
 
 		![](Images/4.png)
         Como vemos la aplicación ha terminado de testearse.
-        
+
         ![](Images/5.png)
-        
         ![](Images/6.png)
+		Las dos capturas anteriores muestran todos los móviles donde se ha realizado el testeo de la aplicación.
+        
+		- Voy a mostrar las capturas de algunos móviles de los que aparecen en las capturas anteriores.
+			-  
 
 Tutoriales Testdroid
 [Enlace](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
