@@ -62,7 +62,28 @@
     			- Screenshots by Test Steps:
     			![](Images/16.png)
                 
-     
+                - Performance for ZTE Grand X In P940:
 
+				![](Images/17.png)
+                Muestra el uso de memoria y el uso de CPU del móvil ZTE Grand X In P940 al testear la aplicación.
+                
+     		- Asus Fonepad ME371MG:
+     			- Steps in testEverything method:
+
+				![](Images/18.png)
+                ![](Images/19.png)
+                ![](Images/20.png)
+                ![](Images/21.png)
+                ![](Images/22.png)
+                
+     			- Screenshots by Test Steps:
+				![](Images/23.png)
+				![](Images/24.png)
+                ![](Images/25.png)
+     			- Performance for Asus Fonepad ME371MG: 
+				![](Images/26.png)
+				 Muestra el uso de memoria y el uso de CPU del móvil Asus Fonepad ME371MG al testear la aplicación
+                 
+                 - :
 Tutoriales Testdroid
 [Enlace](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
