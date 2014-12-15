@@ -19,8 +19,21 @@
 
 ![](Images/3.png)
 
-- Dentro de nuestra cuenta nos aparecerá lo siguiente:
+- Dentro de nuestra cuenta en Testdroid nos aparecerá lo siguiente:
 
+![](Images/8.png)
+
+- Dentro del Dashboard aparecerá lo siguiente:
+
+![](Images/9.png)
+
+![](Images/10.png)
+
+- Dentro de projects:
+
+	- Podemos crear un proyecto, en mi caso yo he creado un proyecto que se llama VirtualBoard.
+
+![](Images/11.png)
 
 Tutoriales Testdroid
 [Enlace](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
