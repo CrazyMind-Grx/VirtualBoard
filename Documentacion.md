@@ -21,3 +21,4 @@ Conoce más [aquí](https://github.com/IV-2014/VirtualBoard/blob/master/README.m
 [Ver documentacion](https://github.com/IV-2014/VirtualBoard/blob/master/ServerConfiguration/DocumentacionDespliegue.md)
 
 ##Testear una aplicación android en una Máquina virtual en linux
+#####En este tutorial vamos a explicar como montar tu maquina virtual Android y como conectarla a Android Studio para poder hacer pruebas previas a lanzar nuestra App.

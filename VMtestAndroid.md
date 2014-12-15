@@ -1,6 +1,6 @@
 #Como testear tu App android en una Maquina Virtual en Linux
 
-En este tutotial vamos a explicar como montar tu maquina virtual Android y como conectarla a Android Studio para poder hacer pruebas previas a lanzar nuestra App.
+En este tutorial vamos a explicar como montar tu maquina virtual Android y como conectarla a Android Studio para poder hacer pruebas previas a lanzar nuestra App.
 
 ###1º Instalar VirtualBox
 
