@@ -39,7 +39,7 @@
 
 	![](Images/12.png)
 
-		- Aparece el test que he realizado.
+	- Aparece el test que he realizado.
 		- Si queremos crear un test pulsamos el botón New testrun.
 
         ![](Images/2.png)
