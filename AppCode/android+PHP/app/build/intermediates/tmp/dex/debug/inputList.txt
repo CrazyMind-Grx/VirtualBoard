@@ -1,2 +1,2 @@
-/home/casa/AndroidStudioProjects/android+PHP/app/build/intermediates/classes/debug
-/home/casa/AndroidStudioProjects/android+PHP/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-067a34a8a07ed9cc9d281963d7c0c0390cfd80b5.jar
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/android+PHP/app/build/intermediates/classes/debug
+/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/android+PHP/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-89ceda92875ab9dbed145556b5d456dc3415dd3e.jar

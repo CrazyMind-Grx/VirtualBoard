@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
 		HttpClient httpClient = new DefaultHttpClient();
 		HttpContext localContext = new BasicHttpContext();
 		HttpPost httpPost = new HttpPost(
-				"http://130.206.126.144:80/PutData.php");
+				"http://virtualboardphp-virtualboard.rhcloud.com:80/PutData.php");
 		HttpResponse response = null;
 		try {
 			List<NameValuePair> params = new ArrayList<NameValuePair>(3);
@@ -98,7 +98,7 @@ public class MainActivity extends Activity {
 				+ "&modo=GET";
 
 		HttpGet httpget = new HttpGet(
-				"http://130.206.126.144:80/PutData.php" + parametros);
+				"http://virtualboardphp-virtualboard.rhcloud.com:80/PutData.php" + parametros);
 		try {
 			response = httpClient.execute(httpget, localContext);
 
