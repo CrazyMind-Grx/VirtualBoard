@@ -55,7 +55,7 @@ public class ListadoActivity extends Activity {
 	public String leer(){
 		HttpClient cliente =new DefaultHttpClient();
 		HttpContext contexto = new BasicHttpContext();
-		HttpGet httpget = new HttpGet("http://virtualboardphp-virtualboard.rhcloud.com:80/GetData.php");
+		HttpGet httpget = new HttpGet("http://virtualboardphp-virtualboard.rhcloud.com/GetData.php");
 		String resultado=null;
 		try {
 			HttpResponse response = cliente.execute(httpget,contexto);

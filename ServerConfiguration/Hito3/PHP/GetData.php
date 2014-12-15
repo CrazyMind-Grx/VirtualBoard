@@ -1,9 +1,9 @@
-GetData.php                                                                                                                                        
+
 <?php
 
- $con = mysql_connect("127.0.0.1","root","********") or die("Sin conexion");
+ $con = mysql_connect("127.5.40.130:3306","adminC77ifqE","******") or die("Sin conexion");
 
-  mysql_select_db("mybase"); 
+  mysql_select_db("virtualboardphp"); 
 
   $sql="select id, nombre, texto, modo from personas";
 
