@@ -15,7 +15,11 @@
 
 ![](Images/1.png)
 
-- Una vez registrados nos logeamos:
+- Una vez registrados, nos logeamos:
+
+![](Images/3.png)
+
+- Dentro de nuestra cuenta nos aparecerá lo siguiente:
 
 
 Tutoriales Testdroid
