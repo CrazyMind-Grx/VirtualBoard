@@ -17,6 +17,8 @@ Este tipo de servicios seguro que ayudan mucho a los desarrolladores para perfec
 
 Si eres desarrollador y quieres comprobar el rendimiento de tu app [accede página](https://cloud.testdroid.com/). Nos da una idea aproximada de cómo funcionarán las aplicaciones.
 
+###Uso de Testdroid
+- Lo primero que vamos hacer es registrarnos en la [página](http://testdroid.com/#)
 
-###Tutoriales Testdroid
-[Tutoriales](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
+Tutoriales Testdroid
+[Enlace](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
