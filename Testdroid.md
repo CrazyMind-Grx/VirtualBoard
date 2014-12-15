@@ -54,7 +54,15 @@
 		Las dos capturas anteriores muestran todos los móviles donde se ha realizado el testeo de la aplicación.
         
 		- Voy a mostrar las capturas de algunos móviles de los que aparecen en las capturas anteriores.
-			-  
+			- ZTE Grand X In P940:
+				- Steps in testEverything method:
+				![](Images/13.png)
+                ![](Images/14.png)
+                ![](Images/15.png)
+    			- Screenshots by Test Steps:
+    			![](Images/16.png)
+                
+     
 
 Tutoriales Testdroid
 [Enlace](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
