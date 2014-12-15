@@ -33,7 +33,25 @@
 
 	- Podemos crear un proyecto, en mi caso yo he creado un proyecto que se llama VirtualBoard.
 
-![](Images/11.png)
+	![](Images/11.png)
+
+	- Dentro del proyecto de VirtualBoard:
+
+	![](Images/12.png)
+
+		- Aparece el test que he realizado.
+		- Si queremos crear un test pulsamos el botón New testrun.
+
+        ![](Images/2.png)
+        Escogemos la aplicación a la que le queremos hacer el test y pulsamos start.
+        - Una vez que pulsamos start, esperamos a que termine de hacer el test y aparecerá lo siguiente:
+
+		![](Images/4.png)
+        Como vemos la aplicación ha terminado de testearse.
+        
+        ![](Images/5.png)
+        
+        ![](Images/6.png)
 
 Tutoriales Testdroid
 [Enlace](https://www.youtube.com/playlist?list=PLY1_jWSmq0VLXUwfI1d6AMyOB9Z8JZYSh)
