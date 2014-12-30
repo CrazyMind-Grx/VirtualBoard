@@ -18,45 +18,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8c1b5bf-0f03-428f-a0f4-418326160aaf" name="Default" comment="subiendo app">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_listado.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/vb/iv/virtualboardalpha/Listado.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_listado.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_listado.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../android+PHP/.idea/.name" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/dex/debug/classes.dex" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../android+PHP/build/intermediates/dex-cache/cache.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/java/com/example/enviodatos/ListadoActivity.java" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/java/com/example/enviodatos/ListadoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/java/com/example/enviodatos/MainActivity.java" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/java/com/example/enviodatos/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_listado.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_listado.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/app.iml" afterPath="$PROJECT_DIR$/../android+PHP/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../android+PHP/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/tmp/dex/debug/inputList.txt" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/tmp/dex/debug/inputList.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/listado.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/listado.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/outputs/apk/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/../android+PHP/app/build/outputs/apk/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.idea/misc.xml" afterPath="$PROJECT_DIR$/../android+PHP/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../android+PHP/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_listado.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/listado.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/menu/listado.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../android+PHP/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.idea/misc.xml" afterPath="$PROJECT_DIR$/../android+PHP/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../android+PHP/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../android+PHP/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/ListadoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity.class" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/classes/debug/com/example/enviodatos/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/tmp/dex/debug/inputList.txt" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/tmp/dex/debug/inputList.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/outputs/apk/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/../android+PHP/app/build/outputs/apk/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/java/com/example/enviodatos/MainActivity.java" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/java/com/example/enviodatos/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_listado.xml" afterPath="$PROJECT_DIR$/../android+PHP/app/src/main/res/layout/activity_listado.xml" />
     </list>
     <ignored path="VirtualBoard Alpha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +82,9 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vb/iv/virtualboardalpha/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2526315" vertical-offset="1011" max-vertical-offset="1875">
+            <state vertical-scroll-proportion="1.1289474" vertical-offset="981" max-vertical-offset="1560">
               <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,38 +92,36 @@
       <file leaf-file-name="Listado.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vb/iv/virtualboardalpha/Listado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1410">
+            <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1410">
               <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_listado.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listado.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.653846" vertical-offset="0" max-vertical-offset="360">
+            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
               <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.846153" vertical-offset="0" max-vertical-offset="1065">
+            <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1065">
               <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -747,8 +743,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="y" value="-10" />
-    <option name="width" value="1290" />
-    <option name="height" value="1039" />
+    <option name="width" value="1376" />
+    <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -846,9 +842,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1020,38 +1016,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-10" width="1290" height="1039" extended-state="6" />
+    <frame x="-5" y="-10" width="1376" height="748" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33670035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33670035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32166666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23338369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1077,6 +1073,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vb/iv/virtualboardalpha/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vb/iv/virtualboardalpha/Listado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1410">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listado.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1065">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_listado.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
@@ -1094,39 +1128,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.846153" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1065">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listado.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.653846" vertical-offset="0" max-vertical-offset="360">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../android+PHP/app/build/intermediates/res/debug/layout/activity_listado.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4847397" vertical-offset="0" max-vertical-offset="557">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1135,19 +1153,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1410">
           <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vb/iv/virtualboardalpha/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2526315" vertical-offset="1011" max-vertical-offset="1875">
+        <state vertical-scroll-proportion="1.1289474" vertical-offset="981" max-vertical-offset="1560">
           <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
