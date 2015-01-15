@@ -1,5 +1,0 @@
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/classes/debug
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-77286b450018c765668e673a0baa91c48ed88e84.jar
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ba79b1fc88a2b928a579b1bbcc2f53dd6ff57dc6.jar
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/classes-914b5f5375b1c4b92176acccba5c575d0541549b.jar
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/classes-89ab211fc88b5ba101652fe725942c382f0dd792.jar
