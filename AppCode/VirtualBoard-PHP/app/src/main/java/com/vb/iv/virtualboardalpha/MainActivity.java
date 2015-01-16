@@ -95,11 +95,22 @@ public class MainActivity extends Activity {
         nt.start();
     }
 
+    /**
+     * Esta funcion envia los datos mediante el metodo POST de http
+     * @param nombre String con el nombre que se envia
+     * @param texto String con el texto que se envia
+     * @return
+     */
     public String enviarPost(String nombre, String texto) {
 
+        //Creamos un cliente
         HttpClient httpClient = new DefaultHttpClient();
+
+        //Creamos el contecto donde se va a ejecutar
         HttpContext localContext = new BasicHttpContext();
+
         HttpPost httpPost = new HttpPost(
+                //Introducimos la direccion del server
                 "http://virtualboardphp-virtualboard.rhcloud.com/PutData.php");
         HttpResponse response = null;
         try {
@@ -107,7 +118,11 @@ public class MainActivity extends Activity {
             params.add(new BasicNameValuePair("nombre", nombre));
             params.add(new BasicNameValuePair("texto", texto));
             params.add(new BasicNameValuePair("modo", "POST"));
+
+            //Creamos una entidad
             httpPost.setEntity(new UrlEncodedFormEntity(params));
+
+            //Obtenemos el resultado de la ejecucucion
             response = httpClient.execute(httpPost, localContext);
         } catch (Exception e) {
             // TODO: handle exception
