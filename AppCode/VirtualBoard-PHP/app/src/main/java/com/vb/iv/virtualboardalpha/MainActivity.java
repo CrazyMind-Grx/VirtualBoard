@@ -24,20 +24,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * Clase principal del programa. Se encarga de enviar el mensaje escrito al server.
  */
 public class MainActivity extends Activity {
 
-    /**
-     * 
-     * @param savedInstanceState
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * Esta funcion se encarga de llevarnos al activity Listado al clicar el boton botoListado
+     * @param view
+     */
     public void listadoOnClick(View view) {
         startActivity(new Intent(this, Listado.class));
 
