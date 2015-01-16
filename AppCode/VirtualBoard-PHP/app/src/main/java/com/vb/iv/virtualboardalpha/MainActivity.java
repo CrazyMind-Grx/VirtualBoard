@@ -35,7 +35,8 @@ public class MainActivity extends Activity {
     }
 
     /**
-     * Esta funcion se encarga de llevarnos al activity Listado al clicar el boton botoListado
+     * Esta funcion se encarga de llevarnos al activity Listado al clicar el boton botonListado
+     * mediante un Intent
      * @param view
      */
     public void listadoOnClick(View view) {
@@ -44,9 +45,16 @@ public class MainActivity extends Activity {
 
     }
 
+    /**
+     * Esta funcion envia el mensaje escrito en el EditText et_texto al server
+     * @param view
+     */
     public void EnviarOnClik(View view) {
         Thread nt = new Thread() {
             @Override
+            /**
+             * Con esta funcion obtenesmos los Views que estan en pantalla
+             */
             public void run() {
                 EditText nombre = (EditText) findViewById(R.id.et_nombre);
                 EditText texto = (EditText) findViewById(R.id.et_texto);
