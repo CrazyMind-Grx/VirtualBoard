@@ -46,7 +46,8 @@ public class MainActivity extends Activity {
     }
 
     /**
-     * Esta funcion envia el mensaje escrito en el EditText et_texto al server
+     * Esta funcion envia el mensaje escritos en el EditText al pulsar el boton "et_texto"
+     * al server
      * @param view
      */
     public void EnviarOnClik(View view) {
@@ -61,20 +62,27 @@ public class MainActivity extends Activity {
                 CheckBox modo = (CheckBox) findViewById(R.id.ck_modo);
 
                 try {
+                    //res es el resultado que finalmente sera http
                     final String res;
+                    //Enviamos los datos por GET
                     if (modo.isChecked()) {
                         res = enviarGet(nombre.getText().toString(), texto
                                 .getText().toString());
 
-                    } else {
+                    }
+                    //Enviamos los datos por POST
+                    else {
                         res = enviarPost(nombre.getText().toString(), texto
                                 .getText().toString());
                     }
-
+                    /**
+                     * Esta funcion nos da acceso a los elementos de la interface de usuario
+                     */
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
                             Toast.makeText(MainActivity.this, res,
+                                    //Mostramos el resultado en un toast
                                     Toast.LENGTH_LONG).show();
                         }
                     });
@@ -83,6 +91,7 @@ public class MainActivity extends Activity {
                 }
             }
         };
+        //Hacemos que comience la hebra
         nt.start();
     }
 
