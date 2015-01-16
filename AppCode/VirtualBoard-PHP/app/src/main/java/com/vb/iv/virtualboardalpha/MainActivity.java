@@ -23,6 +23,9 @@ import org.apache.http.protocol.HttpContext;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase principal del programa. Se encarga de enviar el mensaje escrito al server.
+ */
 public class MainActivity extends Activity {
 
     @Override
@@ -31,35 +34,55 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * Esta funcion se encarga de llevarnos al activity Listado al clicar el boton botonListado
+     * mediante un Intent
+     * @param view
+     */
     public void listadoOnClick(View view) {
         startActivity(new Intent(this, Listado.class));
 
 
     }
 
+    /**
+     * Esta funcion envia el mensaje escritos en el EditText al pulsar el boton "et_texto"
+     * al server
+     * @param view
+     */
     public void EnviarOnClik(View view) {
         Thread nt = new Thread() {
             @Override
+            /**
+             * Con esta funcion obtenesmos los Views que estan en pantalla
+             */
             public void run() {
                 EditText nombre = (EditText) findViewById(R.id.et_nombre);
                 EditText texto = (EditText) findViewById(R.id.et_texto);
                 CheckBox modo = (CheckBox) findViewById(R.id.ck_modo);
 
                 try {
+                    //res es el resultado que finalmente sera http
                     final String res;
+                    //Enviamos los datos por GET
                     if (modo.isChecked()) {
                         res = enviarGet(nombre.getText().toString(), texto
                                 .getText().toString());
 
-                    } else {
+                    }
+                    //Enviamos los datos por POST
+                    else {
                         res = enviarPost(nombre.getText().toString(), texto
                                 .getText().toString());
                     }
-
+                    /**
+                     * Esta funcion nos da acceso a los elementos de la interface de usuario
+                     */
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
                             Toast.makeText(MainActivity.this, res,
+                                    //Mostramos el resultado en un toast
                                     Toast.LENGTH_LONG).show();
                         }
                     });
@@ -68,14 +91,26 @@ public class MainActivity extends Activity {
                 }
             }
         };
+        //Hacemos que comience la hebra
         nt.start();
     }
 
+    /**
+     * Esta funcion envia los datos mediante el metodo POST de http
+     * @param nombre String con el nombre que se envia
+     * @param texto String con el texto que se envia
+     * @return
+     */
     public String enviarPost(String nombre, String texto) {
 
+        //Creamos un cliente
         HttpClient httpClient = new DefaultHttpClient();
+
+        //Creamos el contecto donde se va a ejecutar
         HttpContext localContext = new BasicHttpContext();
+
         HttpPost httpPost = new HttpPost(
+                //Introducimos la direccion del server
                 "http://virtualboardphp-virtualboard.rhcloud.com/PutData.php");
         HttpResponse response = null;
         try {
@@ -83,7 +118,11 @@ public class MainActivity extends Activity {
             params.add(new BasicNameValuePair("nombre", nombre));
             params.add(new BasicNameValuePair("texto", texto));
             params.add(new BasicNameValuePair("modo", "POST"));
+
+            //Creamos una entidad
             httpPost.setEntity(new UrlEncodedFormEntity(params));
+
+            //Obtenemos el resultado de la ejecucucion
             response = httpClient.execute(httpPost, localContext);
         } catch (Exception e) {
             // TODO: handle exception
