@@ -131,10 +131,18 @@ public class MainActivity extends Activity {
 
     }
 
+    /**
+     * Esta funcion manda los datos por GET al server
+     * @param nombre String con el nombre que se envia
+     * @param texto String con el texto que se envia
+     * @return
+     */
     public String enviarGet(String nombre, String texto) {
         HttpClient httpClient = new DefaultHttpClient();
         HttpContext localContext = new BasicHttpContext();
         HttpResponse response = null;
+
+        //Creamos los parametro para pasarlos por el GET
         String parametros = "?nombre=" + nombre + "&texto=" + texto
                 + "&modo=GET";
 
@@ -149,6 +157,11 @@ public class MainActivity extends Activity {
         return response.toString();
     }
 
+    /**
+     * Este metodo crea el menu de opciones
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
