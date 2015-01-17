@@ -12,6 +12,15 @@
 		
 		}
 	
+		public function text_insercionCorrecta()
+		{
+		
+			$a = new conexionPHPdataTest();
+			
+			$this->assertTrue($a->PutData("Test","Texto de prueba","GET") !== false);
+		
+		}
+		
 	}
 
 ?>
