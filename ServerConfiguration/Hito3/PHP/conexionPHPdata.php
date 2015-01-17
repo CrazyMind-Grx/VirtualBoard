@@ -13,13 +13,18 @@ class conexionPHPdata
 	public function GetData()
 	{
 	
+		$conexion = false;
+	
 		$con = mysql_connect("127.5.40.130:3306","adminC77ifqE","******") or die("Sin conexion");
 		mysql_select_db("virtualboardphp");
 		$sql="select id, nombre, texto, modo from personas";
 
 		$datos=array();
 
-		$rs=mysql_query($sql,$con);
+		if($rs=mysql_query($sql,$con))
+		{
+			$conexion = true;
+		}
 
 		while($row=mysql_fetch_object($rs)){
 			$datos[] = $row;
@@ -27,6 +32,7 @@ class conexionPHPdata
 
 		echo json_encode($datos);
 	
+		return $conexion;
 	}
 	
 	
