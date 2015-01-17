@@ -1,7 +1,8 @@
 <?php
 
 
-class conexionPHPdata{
+class conexionPHPdata
+{
 
 
 	/**
