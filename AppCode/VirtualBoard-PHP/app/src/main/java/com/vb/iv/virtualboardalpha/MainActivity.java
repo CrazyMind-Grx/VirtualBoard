@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
         Thread nt = new Thread() {
             @Override
             /**
-             * Con esta funcion obtenesmos los Views que estan en pantalla
+             * Con esta funcion obtenemos los Views que estan en pantalla
              */
             public void run() {
                 EditText nombre = (EditText) findViewById(R.id.et_nombre);
