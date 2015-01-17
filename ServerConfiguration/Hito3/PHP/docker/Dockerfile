@@ -24,6 +24,6 @@ VOLUME ["/var/lib/mysql", "/mnt/keys"]
 RUN apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-EXPOSE 22 3306 8080 80
+EXPOSE 22 3306 8080 80 
 
 CMD ["/usr/sbin/apache2","-D","FOREGROUND"]
