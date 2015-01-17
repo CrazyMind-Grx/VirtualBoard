@@ -99,7 +99,7 @@ public class MainActivity extends Activity {
      * Esta funcion envia los datos mediante el metodo POST de http
      * @param nombre String con el nombre que se envia
      * @param texto String con el texto que se envia
-     * @return
+     * @return String con los datos recibidos del objeto HttpResponse de la solicitud POST
      */
     public String enviarPost(String nombre, String texto) {
 
@@ -135,7 +135,7 @@ public class MainActivity extends Activity {
      * Esta funcion manda los datos por GET al server
      * @param nombre String con el nombre que se envia
      * @param texto String con el texto que se envia
-     * @return
+     * @return String con los datos recibidos del objeto HttpResponse de la solicitud GET
      */
     public String enviarGet(String nombre, String texto) {
         HttpClient httpClient = new DefaultHttpClient();
@@ -160,7 +160,7 @@ public class MainActivity extends Activity {
     /**
      * Este metodo crea el menu de opciones
      * @param menu
-     * @return
+     * @return true.
      */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
