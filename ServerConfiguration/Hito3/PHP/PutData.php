@@ -10,9 +10,10 @@
 
 
 
+class PutData{
 
 
-putdata($_REQUEST["nombre"],$_REQUEST["texto"],$_REQUEST["modo"]);
+  putdata($_REQUEST["nombre"],$_REQUEST["texto"],$_REQUEST["modo"]);
 
 
 
@@ -48,6 +49,9 @@ putdata($_REQUEST["nombre"],$_REQUEST["texto"],$_REQUEST["modo"]);
 
      }
   }
+}
+
+
 
 ?>
 
