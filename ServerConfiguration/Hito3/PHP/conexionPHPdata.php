@@ -56,11 +56,12 @@ class conexionPHPdata
 			$result=mysql_query($sql,$con);
 			
 			echo $result;
+			return true;
 			
 		}else{
 		
 			echo "-1";
-			
+			return false;
 		}
 	
 	}
