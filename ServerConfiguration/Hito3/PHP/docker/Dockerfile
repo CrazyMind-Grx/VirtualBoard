@@ -1,29 +1,13 @@
-FROM phusion/baseimage:0.9.15
-MAINTAINER angeljcc <angeljcc@gmail.com>
-
-ENV HOME /root
-
-RUN apt-get update && apt-get install -y mysql-server mysql-client && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
- 
-ADD my.cnf /etc/mysql/my.cnf
-RUN mkdir /etc/service/mysql
-ADD mysql /etc/service/mysql/run
-RUN chmod +x /etc/service/mysql/run
-
-ENV APACHE_RUN_USER www-data
-ENV APACHE_RUN_GROUP www-data
-ENV APACHE_LOG_DIR /var/log/apache2
-
-
-RUN rm -R /var/lib/mysql && \
-	mkdir /var/lib/mysql && \
-    mkdir /mnt/keys
-
-VOLUME ["/var/lib/mysql", "/mnt/keys"]
- 
-RUN apt-get clean && \
-	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-EXPOSE 22 3306 8080 80 
-
-CMD ["/usr/sbin/apache2","-D","FOREGROUND"]
+FROM ubuntu:latest
+MAINTAINER VirtualBoard
+RUN apt-get update 
+RUN apt-get -y upgrade
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-client mysql-server apache2 libapache2-mod-php5 pwgen python-setuptools vim-tiny php5-mysql
+RUN easy_install supervisor
+ADD ./start.sh /start.sh
+ADD ./foreground.sh /etc/apache2/foreground.sh
+ADD ./supervisord.conf /etc/supervisord.conf
+RUN chmod 755 /start.sh
+RUN chmod 755 /etc/apache2/foreground.sh
+EXPOSE 80
+CMD ["/bin/bash", "/start.sh"]
