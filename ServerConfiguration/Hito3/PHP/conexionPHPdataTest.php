@@ -1,6 +1,6 @@
 <?php
 
-	require_once('./conexionPHPdata.php');
+	require_once('conexionPHPdata.php');
 
 
 	/*
@@ -15,7 +15,7 @@
 		public function test_conexionEstablecida()
 		{
 			
-			$a = new conexionPHPdataTest();
+			$a = new conexionPHPdata();
 		
 			$this->assertTrue($a->GetData() !== false);
 		
@@ -26,7 +26,7 @@
 		public function text_insercionCorrecta()
 		{
 		
-			$a = new conexionPHPdataTest();
+			$a = new conexionPHPdata();
 			
 			$this->assertTrue($a->PutData("Test","Texto de prueba","GET") !== false);
 		
