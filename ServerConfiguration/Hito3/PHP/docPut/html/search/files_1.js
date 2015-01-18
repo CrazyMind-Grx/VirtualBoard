@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['putdata_2ephp',['PutData.php',['../d9/d4b/PutData_8php.html',1,'']]]
+  ['getdata_2ephp',['GetData.php',['../df/d85/GetData_8php.html',1,'']]]
 ];

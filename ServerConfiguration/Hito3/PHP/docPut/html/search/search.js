@@ -7,16 +7,20 @@
 
 var indexSectionsWithContent =
 {
-  0: "gp",
-  1: "gp",
-  2: "gp"
+  0: "$cgpt",
+  1: "c",
+  2: "cgp",
+  3: "gpt",
+  4: "$"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "files",
-  2: "functions"
+  1: "classes",
+  2: "files",
+  3: "functions",
+  4: "variables"
 };
 
 function convertToId(search)

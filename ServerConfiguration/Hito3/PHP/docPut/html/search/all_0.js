@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['getdata',['getdata',['../df/d85/GetData_8php.html#a3b9e6dcf22f337e934ad2ee04952e58c',1,'GetData.php']]],
-  ['getdata_2ephp',['GetData.php',['../df/d85/GetData_8php.html',1,'']]]
+  ['_24data',['$data',['../df/d85/GetData_8php.html#a6efc15b5a2314dd4b5aaa556a375c6d6',1,'$data():&#160;GetData.php'],['../d9/d4b/PutData_8php.html#a6efc15b5a2314dd4b5aaa556a375c6d6',1,'$data():&#160;PutData.php']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['while',['while',['../df/d85/GetData_8php.html#ad5c408d21bc44a8969927f3744e60e34',1,'GetData.php']]]
+  ['putdata',['PutData',['../dd/d9d/classconexionPHPdata.html#a5026d56ccf6680b1bbc980c6d31b1e99',1,'conexionPHPdata']]],
+  ['putdata_2ephp',['PutData.php',['../d9/d4b/PutData_8php.html',1,'']]]
 ];

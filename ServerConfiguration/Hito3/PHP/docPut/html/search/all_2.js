@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['putdata',['putdata',['../d9/d4b/PutData_8php.html#a9c1a69fc1f4e15bb0e68f5dd858f2357',1,'PutData.php']]],
-  ['putdata_2ephp',['PutData.php',['../d9/d4b/PutData_8php.html',1,'']]]
+  ['getdata',['GetData',['../dd/d9d/classconexionPHPdata.html#a4f1844d8d9b17384ffe49d7d86efceaf',1,'conexionPHPdata']]],
+  ['getdata_2ephp',['GetData.php',['../df/d85/GetData_8php.html',1,'']]]
 ];

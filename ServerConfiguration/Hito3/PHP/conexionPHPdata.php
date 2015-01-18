@@ -1,12 +1,16 @@
 <?php
 
-
+/**
+	 *  @brief Class que permite la conexion entre App y servidor.
+	 *  
+	 *  
+	 */
 class conexionPHPdata
 {
 
 
 	/**
-	 *  @brief Funcion para enviar datos a la app y los busca en la base de datos.
+	 *  @brief Envia datos a la app y los busca en la base de datos.
 	 *  
 	 *  @return string  Devuelve los datos que hay en la base de datos.
 	 */
@@ -37,7 +41,7 @@ class conexionPHPdata
 	
 	
 	/**
-	 *  @brief Funcion para meter datos en la BD
+	 *  @brief Mete datos en la BD que provienen de la app android
 	 *  @param string $nombre Primer parametros de entrada en este caso es el nombre de usuario.
 	 *  @param string $texto Segundo parametro, es el texto que introduce dicho usuario
 	 *  @param string $modo Es el modo (POST/GET) que el usuario realiza la peticion.
