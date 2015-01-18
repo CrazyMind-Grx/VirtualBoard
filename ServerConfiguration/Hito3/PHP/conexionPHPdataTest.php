@@ -1,5 +1,7 @@
 <?php
 
+	require_once('./conexionPHPdata.php');
+
 	class conexionPHPdataTest extends PHPUnit_Framework_TestCase
 	{
 	
