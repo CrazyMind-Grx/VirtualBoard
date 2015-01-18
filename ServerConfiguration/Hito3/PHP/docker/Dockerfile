@@ -9,5 +9,10 @@ ADD ./foreground.sh /etc/apache2/foreground.sh
 ADD ./supervisord.conf /etc/supervisord.conf
 RUN chmod 755 /start.sh
 RUN chmod 755 /etc/apache2/foreground.sh
+
+RUN apt-get install -y git
+RUN git clone https://github.com/IV-2014/VirtualBoard.git
+RUN cd VirtualBoard
+
 EXPOSE 80
 CMD ["/bin/bash", "/start.sh"]
