@@ -13,9 +13,9 @@ class conexionPHPdata
 	public function __construct()
     {
 	
-		$dsn = "mysql:host=127.5.40.130:3306;dbname=virtualboardphp"; 
-		$usuario= "adminC77ifqE";
-		$password= "*********";
+		//$dsn = "mysql:host=127.5.40.130:3306;dbname=virtualboardphp"; 
+		//$usuario= "adminC77ifqE";
+		//$password= "*********";
 		
 		try { 
 			$conexion = new PDO( $dsn, $usuario, $password ); 
