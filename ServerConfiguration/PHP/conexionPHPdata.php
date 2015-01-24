@@ -1,5 +1,5 @@
 <?php
-
+require_once("../conexionPHPdata.php");
 /**
 	 *  @brief Class que permite la conexion entre App y servidor.
 	 *  
