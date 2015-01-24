@@ -2,13 +2,14 @@
 
 <phpunit bootstrap="Test/bootstrap.php" colors="true">
     <php>
-        <var name="db_dsn" value="mysql:dbname=hello_world_test;host=localhost"/>
+        <var name="db_dsn" value="virtualboardphp"/>
+        <var name="localhost" value="localhost"
         <var name="db_username" value="root"/>
         <var name="db_password" value=""/>
     </php>
 
     <testsuites>
-        <testsuite name="Hello World Test Suite">
+        <testsuite name="VirtualBoard">
             <directory>./Test/</directory>
         </testsuite>
     </testsuites>

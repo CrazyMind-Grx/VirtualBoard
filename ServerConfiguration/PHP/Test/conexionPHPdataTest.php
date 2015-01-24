@@ -1,6 +1,6 @@
 <?php
 
-	require_once('conexionPHPdata.php');
+	require_once('../conexionPHPdata.php');
 
 
 	/*
