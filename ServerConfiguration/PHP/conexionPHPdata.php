@@ -19,8 +19,8 @@ class conexionPHPdata
 	
 		$conexion = false;
 	
-		$con = mysql_connect("127.5.40.130:3306","adminC77ifqE","******") or die("Sin conexion");
-		mysql_select_db("virtualboardphp");
+		$con = mysql_connect("$GLOBALS['localhost']",$GLOBALS['db_username'],"$GLOBALS['db_password']") or die("Sin conexion");
+		mysql_select_db("$GLOBALS['db_dsn']");
 		$sql="select id, nombre, texto, modo from personas";
 
 		$datos=array();
@@ -52,9 +52,12 @@ class conexionPHPdata
 	
 		if ($nombre!="" || $texto!=""){
 			
-			$con = mysql_connect("127.5.40.130:3306","adminC77ifqE","*********") or die("Sin conexion");
-			mysql_select_db("virtualboardphp");
-			
+			//$con = mysql_connect("127.5.40.130:3306","adminC77ifqE","*********") or die("Sin conexion");
+			//mysql_select_db("virtualboardphp");
+			$con = mysql_connect("$GLOBALS['localhost']",$GLOBALS['db_username'],"$GLOBALS['db_password']") or die("Sin conexion");
+			mysql_select_db("$GLOBALS['db_dsn']");
+
+
 			echo $sql="insert into personas(nombre, texto, modo) values('$nombre','$texto', '$modo')";
 			
 			$result=mysql_query($sql,$con);
