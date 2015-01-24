@@ -1,5 +1,5 @@
 <?php
-require_once("../conexionPHPdata.php");
+
 /**
 	 *  @brief Class que permite la conexion entre App y servidor.
 	 *  
@@ -18,7 +18,7 @@ class conexionPHPdata
 		//$password= "*********";
 		
 		try { 
-			$conexion = new PDO( $dsn, $usuario, $password ); 
+			$conexion = new PDO( $GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password'] ); 
 			$conexion­>setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); 
 		} catch ( PDOException $e ) { echo "Conexión fallida: " . $e­>getMessage();  }
 		
