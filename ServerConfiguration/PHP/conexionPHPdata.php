@@ -8,7 +8,23 @@
 class conexionPHPdata
 {
 
+	private $pdo;
 
+	public function __construct()
+    {
+	
+		$dsn = "mysql:host=127.5.40.130:3306;dbname=virtualboardphp"; 
+		$usuario= "adminC77ifqE";
+		$password= "*********";
+		
+		try { 
+			$conexion = new PDO( $dsn, $usuario, $password ); 
+			$conexion­>setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); 
+		} catch ( PDOException $e ) { echo "Conexión fallida: " . $e­>getMessage();  }
+		
+		$this->$pdo = $conexion; 
+    }
+	
 	/**
 	 *  @brief Envia datos a la app y los busca en la base de datos.
 	 *  
@@ -16,22 +32,18 @@ class conexionPHPdata
 	 */
 	public function GetData()
 	{
-	
+		
 		$conexion = false;
 	
-		$con = mysql_connect("$GLOBALS['localhost']",$GLOBALS['db_username'],"$GLOBALS['db_password']") or die("Sin conexion");
-		mysql_select_db("$GLOBALS['db_dsn']");
-		$sql="select id, nombre, texto, modo from personas";
+		$datos = array();
 
-		$datos=array();
-
-		if($rs=mysql_query($sql,$con))
+		foreach($this->$pdo->query('select id, nombre, texto, modo from personas') as $row) {
+			$datos[] = $row;
+		}
+		
+		if($this->$pdo)
 		{
 			$conexion = true;
-		}
-
-		while($row=mysql_fetch_object($rs)){
-			$datos[] = $row;
 		}
 
 		echo json_encode($datos);
@@ -54,20 +66,15 @@ class conexionPHPdata
 			
 			//$con = mysql_connect("127.5.40.130:3306","adminC77ifqE","*********") or die("Sin conexion");
 			//mysql_select_db("virtualboardphp");
-			$con = mysql_connect("$GLOBALS['localhost']",$GLOBALS['db_username'],"$GLOBALS['db_password']") or die("Sin conexion");
-			mysql_select_db("$GLOBALS['db_dsn']");
-
-
-			echo $sql="insert into personas(nombre, texto, modo) values('$nombre','$texto', '$modo')";
+			$rows = $this->$pdo->exec("insert into personas(nombre, texto, modo) values('$nombre','$texto', '$modo')");
 			
-			$result=mysql_query($sql,$con);
-			
-			echo $result;
+			if($rows)
+				return true;
+			else return false;
+
 			return true;
 			
 		}else{
-		
-			echo "-1";
 			return false;
 		}
 	
