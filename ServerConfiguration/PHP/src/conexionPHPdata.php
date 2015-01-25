@@ -1,5 +1,5 @@
 <?php
-namespace PHP;
+namespace src;
 /**
 	 *  @brief Class que permite la conexion entre App y servidor.
 	 *  

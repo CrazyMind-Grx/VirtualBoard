@@ -25,7 +25,7 @@
 
 	    public function testPutData()
 	    {
-	        $data = new PHP\conexionPHPdata($this->pdo);
+	        $data = new src\conexionPHPdata($this->pdo);
 
 	        $this->assertTrue($data->PutData('Nombre','Texto','Modo'));
 	    }
@@ -33,7 +33,7 @@
 
 	    public function testGetData()
 	    {
-	        $data = new PHP\conexionPHPdata($this->pdo);
+	        $data = new src\conexionPHPdata($this->pdo);
 
 	        $this->assertFalse($data->GetData());
 

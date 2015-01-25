@@ -9,7 +9,7 @@
 
     <testsuites>
         <testsuite name="VirtualBoard">
-            <directory>./Test/</directory>
+            <directory>./ServerConfiguration/PHP/test/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
