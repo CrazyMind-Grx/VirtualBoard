@@ -8,7 +8,7 @@
 	{	
 		private $pdo;
 
-	    public function setUp()
+	    public function __construct()
 	    {
 	        $this->pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
 	        $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -18,14 +18,11 @@
 													 modo VARCHAR(20) NOT NULL)");
 	    }
 
-	    public function tearDown()
-	    {
-	        $this->pdo->query("DROP TABLE personas");
-	    }
+
 
 	    public function testPutData()
 	    {
-	        $data = new src\conexionPHPdata($this->pdo);
+	        $data = new src\conexionPHPdata();
 
 	        $this->assertTrue($data->PutData('Nombre','Texto','Modo'));
 	    }
@@ -33,7 +30,7 @@
 
 	    public function testGetData()
 	    {
-	        $data = new src\conexionPHPdata($this->pdo);
+	        $data = new src\conexionPHPdata();
 
 	        $this->assertFalse($data->GetData());
 
