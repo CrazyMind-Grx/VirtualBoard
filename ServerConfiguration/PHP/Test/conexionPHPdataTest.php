@@ -29,11 +29,11 @@
 	    {
 	        $data = new conexionPHPdata($this->pdo);
 
-	        $this->assertEquals(true, $data->PutData());
+	        $this->assertEquals('true', $data->PutData('Nombre','Texto','Modo'));
 	    }
 
 
-	    public function testWhat()
+	    public function testGetData()
 	    {
 	        $data = new conexionPHPdata($this->pdo);
 
