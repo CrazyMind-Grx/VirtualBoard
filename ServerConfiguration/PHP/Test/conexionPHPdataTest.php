@@ -1,7 +1,7 @@
 <?php
 
-	require 'conexionPHPdata.php';
-
+	namespace conexionPHPdataTest;
+	use conexionPHPdata;
 	/*
 	 *	Class para testeo
 	 */
