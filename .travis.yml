@@ -29,6 +29,7 @@ before_script:
 # use the $DB env variable to determine the phpunit.xml to use
 #script: phpunit --configuration phpunit_$DB.xml --coverage-text
 script: phpunit --configuration ./ServerConfiguration/PHP/phpunit_$DB.xml --coverage-text 
+script:	composer install
 # configure notifications (email, IRC, campfire etc)
 notifications:
   email: "angeljcc@gmail.com" 
