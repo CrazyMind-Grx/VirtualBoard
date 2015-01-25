@@ -1,5 +1,5 @@
 <?php
-namespace conexionPHPdata;
+namespace PHP;
 /**
 	 *  @brief Class que permite la conexion entre App y servidor.
 	 *  

@@ -1,7 +1,5 @@
 <?php
 
-	namespace conexionPHPdataTest;
-	use conexionPHPdata;
 	/*
 	 *	Class para testeo
 	 */
@@ -27,7 +25,7 @@
 
 	    public function testPutData()
 	    {
-	        $data = new conexionPHPdata($this->pdo);
+	        $data = new PHP\conexionPHPdata($this->pdo);
 
 	        $this->assertTrue($data->PutData('Nombre','Texto','Modo'));
 	    }
@@ -35,7 +33,7 @@
 
 	    public function testGetData()
 	    {
-	        $data = new conexionPHPdata($this->pdo);
+	        $data = new PHP\conexionPHPdata($this->pdo);
 
 	        $this->assertFalse($data->GetData());
 
