@@ -1,6 +1,6 @@
 <?php
 
-	require_once '../conexionPHPdata.php';
+	require 'conexionPHPdata.php';
 
 	/*
 	 *	Class para testeo
@@ -29,7 +29,7 @@
 	    {
 	        $data = new conexionPHPdata($this->pdo);
 
-	        $this->assertEquals(true, $data->PutData('Nombre','Texto','Modo'));
+	        $this->assertTrue($data->PutData('Nombre','Texto','Modo'));
 	    }
 
 
@@ -42,7 +42,7 @@
 	        $data->PutData('Nombre','Texto','Modo');
 
 
-	        $this->assertEquals(true, $data->GetData());
+	        $this->assertTrue($data->GetData());
 	    }
 
 
