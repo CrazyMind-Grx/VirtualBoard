@@ -22,9 +22,9 @@ env:
 
 # execute any number of scripts before the test run, custom env's are available as variables
 before_script:
-  - cd ServerConfiguration/PHP
-  - curl -s http://getcomposer.org/installer | php
-  - php composer.phar install
+  #- cd ServerConfiguration/PHP
+  #- curl -s http://getcomposer.org/installer | php
+  #- php composer.phar install
   - if [[ "$DB" == "mysql" ]]; then mysql -e "create database IF NOT EXISTS virtualboardphp;" -uroot; fi
 
 
