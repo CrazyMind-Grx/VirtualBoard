@@ -46,9 +46,6 @@
 		 */
 		public function test_conexionEstablecida()
 		{
-			$pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
-	        $this->pdo = $this->createDefaultDBConnection($pdo, 'personas');
-			
 			$a = new src\conexionPHPdata($this->pdo);
 		
 			$this->assertTrue($a->GetData() !== false);
