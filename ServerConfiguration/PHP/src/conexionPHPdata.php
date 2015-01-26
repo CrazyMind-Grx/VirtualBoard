@@ -10,7 +10,7 @@ class conexionPHPdata
 
 	private $pdo;
 
-	public function __construct()
+	public function __construct(PDO $pdo)
     {
 
 		//$dsn = "mysql:host=localhost;dbname=virtualboardphp"; 
@@ -24,7 +24,7 @@ class conexionPHPdata
 			 echo "Conexión fallida: " . $e­>getMessage();  
 		}*/
 
-		$this->$pdo = $conexion; 
+		$this->$pdo = $pdo; 
     }
 
 

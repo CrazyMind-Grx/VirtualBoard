@@ -8,7 +8,7 @@
 	{	
 		private $pdo;
 
-	    public function __construct()
+	    public function setUp()
 	    {
 	        $this->pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
 	        $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -22,7 +22,7 @@
 
 	    public function testPutData()
 	    {
-	        $data = new src\conexionPHPdata;
+	        $data = new src\conexionPHPdata($this->pdo);
 
 	        $this->assertTrue($data->PutData('Nombre','Texto','Modo'));
 	    }
@@ -30,7 +30,7 @@
 
 	    public function testGetData()
 	    {
-	        $data = new src\conexionPHPdata;
+	        $data = new src\conexionPHPdata($this->pdo);
 
 	        $this->assertFalse($data->GetData());
 
