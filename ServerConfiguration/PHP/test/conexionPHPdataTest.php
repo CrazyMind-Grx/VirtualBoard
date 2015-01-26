@@ -22,7 +22,7 @@
 
 	    public function testPutData()
 	    {
-	        $data = new src\conexionPHPdata();
+	        $data = new src\conexionPHPdata;
 
 	        $this->assertTrue($data->PutData('Nombre','Texto','Modo'));
 	    }
@@ -30,7 +30,7 @@
 
 	    public function testGetData()
 	    {
-	        $data = new src\conexionPHPdata();
+	        $data = new src\conexionPHPdata;
 
 	        $this->assertFalse($data->GetData());
 
