@@ -23,7 +23,7 @@ class conexionPHPdata
 			 echo "Conexión fallida: " . $e­>getMessage();  
 		}*/
 
-		$this->$pdo = $conexion; 
+		$this->$pdo = $pdo; 
     }
 
 
