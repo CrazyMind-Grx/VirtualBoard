@@ -10,21 +10,20 @@ class conexionPHPdata
 
 	private $pdo;
 
-	public function __construct(PDO $pdo2)
-    {
+	public function __construct(){
 
 		//$dsn = "mysql:host=localhost;dbname=virtualboardphp"; 
 		//$usuario= "root";
 		//$password= "";
-		/*
+		
 		try { 
 			$conexion = new PDO( "mysql:host=localhost;dbname=virtualboardphp", "root", ""); 
 			$conexion­>setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); 
 		} catch ( PDOException $e ) {
 			 echo "Conexión fallida: " . $e­>getMessage();  
-		}*/
+		}
 
-		$this->$pdo = $pdo2; 
+		$this->$pdo = $conexion; 
     }
 
 
