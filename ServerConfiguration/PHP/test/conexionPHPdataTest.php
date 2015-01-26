@@ -8,7 +8,7 @@
 	{	
 		private $pdo;
 
-	    public function setUp()
+	    public function __construct()
 	    {
 	        $this->pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
 	        $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -19,7 +19,7 @@
 	    }
 
 
-
+/*
 	    public function testPutData()
 	    {
 	        $data = new src\conexionPHPdata($this->pdo);
@@ -39,29 +39,15 @@
 
 	        $this->assertTrue($data->GetData());
 	    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 		//##################################################################
 		/*
 		 *	@brief Testea conexion con BD
 		 */
-		/*public function test_conexionEstablecida()
+		public function test_conexionEstablecida()
 		{
 			
-			$a = new conexionPHPdata();
+			$a = new src\conexionPHPdata();
 		
 			$this->assertTrue($a->GetData() !== false);
 		
@@ -69,14 +55,14 @@
 		/*
  		 * @brief Testea la inserccion de elementos en la BD
  		 */
-		/*public function text_insercionCorrecta()
+		public function text_insercionCorrecta()
 		{
 		
-			$a = new conexionPHPdata();
+			$a = new src\conexionPHPdata();
 			
 			$this->assertTrue($a->PutData("Test","Texto de prueba","GET") !== false);
 		
-		}*/
+		}
 		
 	}
 
