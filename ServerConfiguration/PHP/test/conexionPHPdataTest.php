@@ -8,7 +8,7 @@
 	{	
 		private $pdo;
 
-	    /*public function __construct()
+	    public function setUp()
 	    {
 	        $this->pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
 	        $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -16,9 +16,9 @@
 													 nombre VARCHAR(20) NOT NULL,
 													 texto VARCHAR(500) NOT NULL,
 													 modo VARCHAR(20) NOT NULL)");
-	    }*/
+	    }
 
-
+    	
 /*
 	    public function testPutData()
 	    {
