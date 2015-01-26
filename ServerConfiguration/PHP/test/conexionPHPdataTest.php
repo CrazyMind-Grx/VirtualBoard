@@ -47,7 +47,7 @@
 		public function test_conexionEstablecida()
 		{
 			
-			$a = new src\conexionPHPdata($this->pdo);
+			$a = new src\conexionPHPdata();
 		
 			$this->assertTrue($a->GetData() !== false);
 		
@@ -58,7 +58,7 @@
 		public function text_insercionCorrecta()
 		{
 		
-			$a = new src\conexionPHPdata($this->pdo);
+			$a = new src\conexionPHPdata();
 			
 			$this->assertTrue($a->PutData("Test","Texto de prueba","GET") !== false);
 		
