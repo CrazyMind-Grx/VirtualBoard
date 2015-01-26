@@ -12,10 +12,10 @@
 	    {
 	        $this->pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
 	        $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	        /*$this->pdo->query("CREATE TABLE personas (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	        $this->pdo->query("CREATE TABLE personas (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 													 nombre VARCHAR(20) NOT NULL,
 													 texto VARCHAR(500) NOT NULL,
-													 modo VARCHAR(20) NOT NULL)");*/
+													 modo VARCHAR(20) NOT NULL)");
 	    }
 
 
