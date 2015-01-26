@@ -17,10 +17,12 @@ class conexionPHPdata
 		//$usuario= "root";
 		//$password= "";
 		
-		try { 
+		try { 
 			$conexion = new PDO( "mysql:host=localhost;dbname=virtualboardphp", "root", ""); 
 			$conexion­>setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); 
-		} catch ( PDOException $e ) { echo "Conexión fallida: " . $e­>getMessage();  }
+		} catch ( PDOException $e ) {
+			 echo "Conexión fallida: " . $e­>getMessage();  
+		}
 		
 		$this->$pdo = $conexion; 
     }
