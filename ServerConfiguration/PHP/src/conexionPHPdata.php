@@ -12,7 +12,7 @@ class conexionPHPdata
 
 	public function __construct()
     {
-	
+
 		//$dsn = "mysql:host=localhost;dbname=virtualboardphp"; 
 		//$usuario= "root";
 		//$password= "";
@@ -23,10 +23,11 @@ class conexionPHPdata
 		} catch ( PDOException $e ) {
 			 echo "Conexión fallida: " . $e­>getMessage();  
 		}*/
-		
+
 		$this->$pdo = $conexion; 
     }
-	
+
+
 	/**
 	 *  @brief Envia datos a la app y los busca en la base de datos.
 	 *  
