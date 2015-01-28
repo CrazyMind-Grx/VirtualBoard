@@ -1,0 +1,19 @@
+machine:
+  
+  # Set the timezone
+  timezone:
+    Spain/Granada
+     
+  # Version of php to use
+  php:
+    version: 
+	5.4
+
+dependencies:
+  pre:
+    - cd ServerConfiguration/PHP
+    - mysql -e "create database IF NOT EXISTS virtualboardphp;" -uroot;
+
+test:
+   override:
+	- phpunit
