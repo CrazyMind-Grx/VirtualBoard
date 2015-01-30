@@ -11,7 +11,7 @@ machine:
 dependencies:
   pre:
     - cd ~/VirtualBoard/ServerConfiguration/PHP
-    - sudo apt-get update;sudo apt-get install mysql
+    - sudo apt-get update;sudo apt-get install mysql-server mysql-common mysql-client
     - mysql -e "create database IF NOT EXISTS virtualboardphp;" -uroot;
 
 test:
