@@ -9,7 +9,7 @@
 	public function testValidResult(){
 		$calc = new src\conexionPHPdata;
 		$this->assertEquals(5,$calc->add(2,3));
-	}
+	} 
 	}
 
 ?>
