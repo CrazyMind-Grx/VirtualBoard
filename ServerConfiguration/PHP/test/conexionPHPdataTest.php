@@ -49,7 +49,6 @@
 			$a = new src\conexionPHPdata($this->pdo);
 		
 			$this->assertTrue($a->GetData() !== false);
-			$this->
 		
 		}
 		/*
