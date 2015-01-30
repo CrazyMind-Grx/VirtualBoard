@@ -35,3 +35,4 @@ script: phpunit
 # configure notifications (email, IRC, campfire etc)
 notifications:
   email: "angeljcc@gmail.com"
+  email: "castellon.david@gmail.com"
