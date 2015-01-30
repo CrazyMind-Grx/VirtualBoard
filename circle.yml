@@ -10,7 +10,7 @@ machine:
 
 dependencies:
   pre:
-    - cd ServerConfiguration/PHP
+    - cd ~/VirtualBoard/ServerConfiguration/PHP
     - mysql -e "create database IF NOT EXISTS virtualboardphp;" -uroot;
 
 test:
