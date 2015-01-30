@@ -14,5 +14,5 @@ dependencies:
     - mysql -e "create database IF NOT EXISTS virtualboardphp;" -uroot;
 
 test:
-   override:
-	- phpunit
+  override:
+	  - phpunit
