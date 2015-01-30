@@ -19,4 +19,6 @@
     command: git clone  https://github.com/IV-2014/VirtualBoard.git
 
   - name: 6. Copiar php
-    copy: src=index.php dest=/var/www/index.php mode=0664
+    copy: src=~/VirtualBoard/ServerConfiguration/PHP/src/conexionPHPdata.php dest=/var/www/conexionPHPdata.php mode=0664
+    copy: src=~/VirtualBoard/ServerConfiguration/PHP/src/GetData.php dest=/var/www/GetData.php mode=0664
+    copy: src=~/VirtualBoard/ServerConfiguration/PHP/src/PutData.php dest=/var/www/PutData.php mode=0664
