@@ -10,10 +10,10 @@ class conexionPHPdata
 
 	private $pdo;
 
-	public function __construct(PDO $pdo){
+	public function __construct(){
 		
 
-		/*$dsn ='mysql:host=localhost;dbname=virtualboardphp'; 
+		$dsn ='mysql:host=localhost;dbname=virtualboardphp'; 
 		$usuario='root';
 		$password='';
 		//try { 
