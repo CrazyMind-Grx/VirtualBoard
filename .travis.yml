@@ -36,3 +36,4 @@ script: phpunit
 notifications:
   email: "angeljcc@gmail.com"
   email: "castellon.david@gmail.com"
+  email: "edupg1991@gmail.com"
