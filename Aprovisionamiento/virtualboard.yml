@@ -1,4 +1,6 @@
+
 - hosts: virtualboard
+
   sudo: yes
   tasks:
   - name: 1. Instalar Apache
