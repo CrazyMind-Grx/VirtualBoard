@@ -46,9 +46,8 @@
 		 */
 		public function test_conexionEstablecida()
 		{	
-			$this->pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
-			$this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-			$a = new src\conexionPHPdata($this->pdo);
+
+			$a = new src\conexionPHPdata();
 		
 			$this->assertTrue($a->GetData() !== false);
 		
@@ -58,10 +57,9 @@
  		 */
 		public function text_insercionCorrecta()
 		{
-			$this->pdo = new PDO($GLOBALS['db_dsn'], $GLOBALS['db_username'], $GLOBALS['db_password']);
-	        $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+			
 
-			$a = new src\conexionPHPdata($this->pdo);
+			$a = new src\conexionPHPdata();
 			
 			$this->assertTrue($a->PutData("Test","Texto de prueba","GET") !== false);
 		
