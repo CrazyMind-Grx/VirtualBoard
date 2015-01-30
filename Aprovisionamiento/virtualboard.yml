@@ -1,0 +1,20 @@
+- hosts: azure
+  sudo: yes
+  tasks:
+  - name: 1. Instalar Apache
+    apt: name=apache2 state=present
+
+  - name: 2. Instalar PHP
+    apt: name=libapache2-mod-php5 state=present
+
+  - name: 3. Start Apache
+    service: name=apache2 state=running enabled=yes
+
+  - name: 4. Instalando git.
+    apt: name=git state=present
+
+  - name: 5. Clonando Repositorio desde git
+    command: git clone  https://github.com/IV-2014/VirtualBoard.git
+
+  - name: 6. Copiar php
+    copy: src=index.php dest=/var/www/index.php mode=0664
