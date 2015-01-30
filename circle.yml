@@ -1,8 +1,8 @@
 machine:
   
   # Set the timezone
-  timezone:
-    Spain/Granada
+  #timezone:
+   # Spain/Granada
      
   # Version of php to use
   php:
