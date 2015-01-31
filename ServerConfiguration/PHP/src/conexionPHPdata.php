@@ -17,19 +17,22 @@ class conexionPHPdata
 	{
 		if ($nombre!="" || $texto!=""){
 			
-			$con = mysql_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
-			mysql_select_db("u316831537_divad");
-			$sql="insert into virtualboard(nombre, texto, modo) values('$nombre','$texto', '$modo')";
-			$result=mysql_query($sql,$con);
-			
-			if($result == "1") return true;
-			else return false;
-			
 
-		}else{
-			return false;
+			$con=mysqli_connect("mysql.hostinger.es","u316831537_user","colacao","u316831537_divad");
+			$q="insert into virtualboard(nombre, texto, modo) values('$nombre','$texto', '$modo')";
+			if(mysqli_query($con, $q))
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+
+
 		}
-
+		
+		return false;
 	}
 	
 	public function GetData()
@@ -37,7 +40,7 @@ class conexionPHPdata
 		
  		$conexion = false;
  	
-		$con = mysql_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
+		$con = mysqli_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
 		mysql_select_db("u316831537_divad");
 		$sql="select id, nombre, texto, modo from personas";
 
