@@ -3,6 +3,22 @@
 
   sudo: yes
   tasks:
+  ##
+  # otra forma de instalar todos los paquetes
+  ##
+  # - name: General | Instalación de paquetes requeridos.
+  #  action: apt pkg={{ item }} state=installed
+  #  with_items:
+  #     - php5
+  #    - apache2
+  #     - mysql-server
+  #     - mysql-client
+  #     - php5-mysql
+  #     - php-apc
+  #     - php5-xmlrpc
+  #     - python-mysqldb
+  #     -git
+        
   - name: 1. Instalar Apache
     apt: name=apache2 state=present
 
