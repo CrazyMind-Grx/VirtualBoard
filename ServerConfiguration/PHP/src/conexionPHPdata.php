@@ -30,6 +30,9 @@ class conexionPHPdata
 			}
 
 
+		}
+		
+		return false;
 	}
 	
 	public function GetData()
