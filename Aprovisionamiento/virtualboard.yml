@@ -10,25 +10,24 @@
     apt: name=libapache2-mod-php5 state=present
 
   - name: 3. Instalar MySQL server
-    apt: name=mysql-server state=present
-
-  - name: 4. Instalar MySQL client
-    apt: name=mysql-client state=present
+    apt:
+      name: "{{ item }}"
+    with_items:
+      - python-mysqldb
+      - mysql-server
+      - mysql-client
 
   - name: 5. Start Apache
     service: name=apache2 state=running enabled=yes
 
-  - name: 6. Start MySQL service
-    service: name=mysqld state=started 
-
-  - name: 7. Instalando git.
+  - name: 6. Instalando git.
     apt: name=git state=present
 
-  - name: 8. Clonando Repositorio desde git
+  - name: 7. Clonando Repositorio desde git
     command: git clone  https://github.com/IV-2014/VirtualBoard.git
 
-  - name: 9. Copiar php
+  - name: 8. Copiar php
     copy: src=../ServerConfiguration/PHP/src/ dest=/var/www/html mode=0644
 
-  - name: 10. Crear Base de Datos
-    mysql_user: name=virtualboardphp password=Virtualboard1 priv=*.*:ALL state=present
+  - name: 9. Crear Base de Datos
+    mysql_db: name=virtualboardphp state=present
