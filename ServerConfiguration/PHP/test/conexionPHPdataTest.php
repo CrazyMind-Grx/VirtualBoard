@@ -3,7 +3,7 @@
 	/*
 	 *	Class para testeo
 	 */
-	require_once("../src/conexionPHPdata");
+	require_once("../src/conexionPHPdata.php");
 
 	class conexionPHPdataTest extends PHPUnit_Framework_TestCase
 	{	
