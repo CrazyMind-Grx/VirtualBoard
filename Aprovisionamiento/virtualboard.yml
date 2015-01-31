@@ -18,11 +18,17 @@
   - name: 5. Start Apache
     service: name=apache2 state=running enabled=yes
 
-  - name: 6. Instalando git.
+  - name: 6. Start MySQL service
+    service: name=mysqld state=started 
+
+  - name: 7. Instalando git.
     apt: name=git state=present
 
-  - name: 7. Clonando Repositorio desde git
+  - name: 8. Clonando Repositorio desde git
     command: git clone  https://github.com/IV-2014/VirtualBoard.git
 
-  - name: 8. Copiar php
+  - name: 9. Copiar php
     copy: src=../ServerConfiguration/PHP/src/ dest=/var/www/html mode=0644
+
+  - name: 10. Crear Base de Datos
+    mysql_user: name=virtualboardphp password=Virtualboard1 priv=*.*:ALL state=present
