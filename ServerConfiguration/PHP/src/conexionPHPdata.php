@@ -17,31 +17,18 @@ class conexionPHPdata
 	{
 		if ($nombre!="" || $texto!=""){
 			
-<<<<<<< HEAD
+
 			$con=mysqli_connect("mysql.hostinger.es","u316831537_user","colacao","u316831537_divad");
 			$q="insert into virtualboard(nombre, texto, modo) values('$nombre','$texto', '$modo')";
 			if(mysqli_query($con, $q))
 			{
-				echo "true";
+				return true;
 			}
 			else
 			{
-				echo "false";
+				return false;
 			}
-=======
-			$con = mysqli_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
-			mysql_select_db("u316831537_divad");
-			$sql="insert into virtualboard(nombre, texto, modo) values('$nombre','$texto', '$modo')";
-			$result=mysql_query($sql,$con);
-			
-			if($result == "1") return true;
-			else return false;
-			
 
-		}else{
-			return false;
-		}
->>>>>>> f77aa1a625c8a3751ae8b40d9a4e2a578ded23a0
 
 	}
 	
