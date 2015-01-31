@@ -15,9 +15,6 @@ class conexionPHPdata
 
 	public function PutData($nombre,$texto,$modo)
 	{
-		$dns=array("8.8.8.8","8.8.4.4");
-		var_export (dns_get_record ( "host.name.tld" ,  DNS_ALL , $dns ));
-		//$result = "1";
 		if ($nombre!="" || $texto!=""){
 			
 			$con = mysql_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
@@ -30,12 +27,36 @@ class conexionPHPdata
 			
 
 		}else{
-			//echo "-1";
 			return false;
 		}
 
 	}
+	
+	public function GetData()
+ 	{
+		
+ 		$conexion = false;
+ 	
+		$con = mysql_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
+		mysql_select_db("u316831537_divad");
+		$sql="select id, nombre, texto, modo from personas";
 
+		$datos=array();
+ 
+		if($rs=mysql_query($sql,$con))
+ 		{
+ 			$conexion = true;
+ 		}
+		
+ 		while($row=mysql_fetch_object($rs)){
+			$datos[] = $row;
+		}
+
+ 		echo json_encode($datos);
+ 	
+ 		return $conexion;
+	
+	}
 }
 
 ?>
