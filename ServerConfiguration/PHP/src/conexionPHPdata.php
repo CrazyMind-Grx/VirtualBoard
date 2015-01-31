@@ -18,11 +18,11 @@ class conexionPHPdata
 
 		if ($nombre!="" || $texto!=""){
 			
-			$con = mysql_connect("127.5.40.130:3306","adminC77ifqE","Virtualboard1") or die("Sin conexion");
-			mysql_select_db("virtualboardphp");
+			$con = mysql_connect("juegoenmesa.eu","juegoenm_virtual","virtualboard1") or die("Sin conexion");
+			mysql_select_db("juegoenm_vitualboard");
 
 
-			echo $sql="insert into personas(nombre, texto, modo) values('$nombre','$texto', '$modo')";
+			echo $sql="insert into virtualboardphp(nombre, texto, modo) values('$nombre','$texto', '$modo')";
 
 			$result=mysql_query($sql,$con);
 
