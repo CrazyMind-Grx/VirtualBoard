@@ -9,8 +9,11 @@
   - name: 2. Instalar PHP
     apt: name=libapache2-mod-php5 state=present
 
-  - name: 3. Instalar MySQL
-    apt: name=mysql-server mysql-client state=present 
+  - name: 3. Instalar MySQL server
+    apt: name=mysql-server state=present
+
+   -name: 4. Instalar MySQL client
+    apt: name=mysql-client state=present 
 
   - name: 4. Start Apache
     service: name=apache2 state=running enabled=yes
