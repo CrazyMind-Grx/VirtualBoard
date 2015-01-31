@@ -354,8 +354,8 @@ int id action_settings 0x7f080048
 int id activity_chooser_view_content 0x7f080021
 int id always 0x7f080016
 int id beginning 0x7f080013
+int id botonListado 0x7f080047
 int id button1 0x7f080046
-int id button2 0x7f080047
 int id checkbox 0x7f080029
 int id ck_modo 0x7f080045
 int id collapseActionView 0x7f080017

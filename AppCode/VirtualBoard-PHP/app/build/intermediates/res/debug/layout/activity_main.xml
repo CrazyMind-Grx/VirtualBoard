@@ -57,10 +57,10 @@
         android:text="Enviar" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/botonListado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Listado"
         android:onClick="listadoOnClick" />
 
-</LinearLayout><!-- From: file:/home/casa/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/src/main/res/layout/activity_main.xml -->
+</LinearLayout><!-- From: file:/home/javi/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/src/main/res/layout/activity_main.xml -->

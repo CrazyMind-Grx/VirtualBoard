@@ -1,5 +1,6 @@
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/classes/debug
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-77286b450018c765668e673a0baa91c48ed88e84.jar
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ba79b1fc88a2b928a579b1bbcc2f53dd6ff57dc6.jar
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/classes-914b5f5375b1c4b92176acccba5c575d0541549b.jar
-/home/angeljcisneros/InfraestructuraVirtual/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/classes-89ab211fc88b5ba101652fe725942c382f0dd792.jar
+/home/javi/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/classes/debug
+/home/javi/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c7486ddd1d05575e6b2041eeccad34a7deef18f7.jar
+/home/javi/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-0aa16eb3bfb5c3af727874bd265fca0faed25774.jar
+/home/javi/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/socketio-bbcbc528a5e7877b8a1741322d20130d14b0d484.jar
+/home/javi/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/classes-a128834847dd6f944a52a0827574cff1725d1428.jar
+/home/javi/IV/VirtualBoard/AppCode/VirtualBoard-PHP/app/build/intermediates/pre-dexed/debug/classes-3a2eeceaa0c12e9004307f587e989b37be6dafee.jar
