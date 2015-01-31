@@ -17,7 +17,7 @@ class conexionPHPdata
 	{
 		if ($nombre!="" || $texto!=""){
 			
-			$con = mysql_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
+			$con = mysqli_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
 			mysql_select_db("u316831537_divad");
 			$sql="insert into virtualboard(nombre, texto, modo) values('$nombre','$texto', '$modo')";
 			$result=mysql_query($sql,$con);
@@ -37,7 +37,7 @@ class conexionPHPdata
 		
  		$conexion = false;
  	
-		$con = mysql_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
+		$con = mysqli_connect("mysql.hostinger.es","u316831537_user","colacao") or die("Sin conexion");
 		mysql_select_db("u316831537_divad");
 		$sql="select id, nombre, texto, modo from personas";
 
