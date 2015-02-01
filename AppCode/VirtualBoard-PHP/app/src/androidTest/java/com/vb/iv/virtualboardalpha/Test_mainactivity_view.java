@@ -42,8 +42,36 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 	}
 	
 	/**
-	 * Este test comprobará que tenemos en la actividad los label necesarios
-	 * Junto con sus indicaciones para el usuario
+	 * Test para comprobar que hemos creado la interfeaz correctamente (todos los elementos)
+	 * Para que el usuario pueda usar la aplicación correctamente
+	 */
+	
+	public void testinicializacion() {
+		View elemento = ma.findViewById(R.id.TextView01);
+		assertNotNull(elemento);
+		ViewAsserts.assertOnScreen(origin, elemento);
+		
+		elemento = ma.findViewById(R.id.et_texto);
+		assertNotNull(elemento);
+		ViewAsserts.assertOnScreen(origin, elemento);
+		
+		elemento = ma.findViewById(R.id.ck_modo);
+		assertNotNull(elemento);
+		ViewAsserts.assertOnScreen(origin, elemento);	
+			
+		elemento = ma.findViewById(R.id.button1);		
+		assertNotNull(elemento);
+		ViewAsserts.assertOnScreen(origin, elemento);
+		
+		elemento = ma.findViewById(R.id.botonListado);		
+		assertNotNull(elemento);
+		ViewAsserts.assertOnScreen(origin, elemento);
+
+	}
+	
+	/**
+	 * Este test comprobará que tenemos en la actividad las indicaciones necesarias
+	 * para el usuario.
 	 */
 	public void test_elementos() {
 		View label = ma.findViewById(R.id.TextView02);
@@ -55,7 +83,7 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 		label = ma.findViewById(R.id.TextView01);
 		assertNotNull(label);	
 		text = (TextView)label;
-		assertEquals("Texto", 	text.getText().toString());
+		assertEquals("Texto", text.getText().toString());
 		ViewAsserts.assertOnScreen(origin, label);
 		
 		label = ma.findViewById(R.id.ck_modo);
