@@ -12,14 +12,19 @@
 	- [Despliegue](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#despliegue)
 	- [Aprovisionaminto](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#aprovisionamiento)
 
+######[Integración continua](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#integraci%C3%B3n-continua)
+
 ######[Test PHP](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#test-php)
 
 ######[Sitio web](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#sitio-web)
 
+
+
+
 ######[Proyecto futuro](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#proyecto-futuro-1)
 
 
-#####[]
+
 
 
 ---
@@ -138,6 +143,14 @@ Esto tendrá efecto sobre la máquina o máquinas que hayan sido indicadas en el
 
 `[virtualboard]
 virtualboard.cloudapp.net`
+
+##Integración continua
+
+Para realizar la integración continua de nuestra aplicación Android hemos estado probando con jenkins, ya que entre otras cosa nos permite realizar los test cuando por ejemplo hay alguna modificación en el repositorio (aunque no es recomendable ya que se puede sobrecargar demasiado el servidor si se están trabajando muchos al mismo tiempo), Si se pasan los test se compilara de nuevo nuestra aplicación, con lo que siempre se tiene actualizada.
+
+Otra de las ventajas es poder seleccionar también ramas de dentro del proyecto (por lo que se pueden desarrollar en paralelo las distintas versiones) y que está disponible para cualquier sistema operativo prácticamente.
+
+Para conocer más sobre los pasos a seguir para realizar la integración continúa describimos todo el proceso (aquí)[https://github.com/IV-2014/VirtualBoard/blob/master/jenkins/jenkins.md].
 
 ##Test PHP
 
