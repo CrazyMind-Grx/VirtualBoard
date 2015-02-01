@@ -9,8 +9,17 @@
 ######[Tecnología utilizada](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#tecnolog%C3%ADa-utilizada-1)
 - [Cliente](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#tecnolog%C3%ADa-utilizada-1)
 - [Servidor](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#tecnolog%C3%ADa-utilizada-1)
+	- [Despliegue](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#despliegue)
+	- [Aprovisionaminto](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#aprovisionamiento)
 
-######[Proyecto futuro](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#proyecto-1)
+######[Test PHP](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#test-php)
+
+######[Sitio web](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#sitio-web)
+
+######[Proyecto futuro](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#proyecto-futuro-1)
+
+
+#####[]
 
 
 ---
