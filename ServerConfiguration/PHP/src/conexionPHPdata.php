@@ -59,7 +59,7 @@ class conexionPHPdata
  			$conexion = true;
  		}
 		
- 		while($row=mysql_fetch_object($rs)){
+ 		while($row=mysqli_fetch_array($rs)){
 			$datos[] = $row;
 		}
 
