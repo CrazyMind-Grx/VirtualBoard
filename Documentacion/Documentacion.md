@@ -156,7 +156,8 @@ Para realizar la integración continua de nuestra aplicación Android hemos esta
 
 Otra de las ventajas es poder seleccionar también ramas de dentro del proyecto (por lo que se pueden desarrollar en paralelo las distintas versiones) y que está disponible para cualquier sistema operativo prácticamente.
 
-Para conocer más sobre los pasos a seguir para realizar la integración continúa describimos todo el proceso (aquí.)[https://github.com/IV-2014/VirtualBoard/blob/master/jenkins/jenkins.md]
+Para conocer más sobre los pasos a seguir para realizar la integración continúa describimos todo el proceso [aquí.](https://github.com/IV-2014/VirtualBoard/blob/master/jenkins/jenkins.md)
+
 - - -
 
 ##Test PHP
