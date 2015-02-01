@@ -1,7 +1,7 @@
 #!/bin/bash
-cd ~/VirtualBoard/Aprovisionamiento
-mysql -h localhost -u virtualboard -p virtualboard
-
+#cd ~/VirtualBoard/Aprovisionamiento
+#mysql -h localhost -u virtualboard -p virtualboard
+mysql -u root
 #create database virtualboardphp; #-------modificado
 use virtualboardphp;
 CREATE TABLE personas (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
