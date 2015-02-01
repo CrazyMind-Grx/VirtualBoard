@@ -1,6 +1,9 @@
 <?php
 
-$data = new src\conexionPHPdata;
+require_once'conexionPHPdata.php';
+
+
+$data = new conexionPHPdata();
 
 $data->GetData();
 
