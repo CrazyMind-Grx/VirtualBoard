@@ -44,8 +44,16 @@ Es de los más importante y cada configuración dependerá del uso que le vayamo
 
 ![](imagenes/02.png)
 
-1. ++Configure System++,
+1. **Configure System**, En esta opción condiguraremos todo lo relacionado con los recursos a usar (path del JDK, de ANT, del Git, etc), dóde se almacenara todo lo que creemos con jenkins (por defecto /var/lib/jenkins), y como acceder a jenkins (en nuestro caso como ya hemos indicado antes lo tenemos [http://localhost:8080](http://localhost:8080), aunque también se podria poner el dominio del servidor (que de hecho es lo recomendable según me he informado)).
 
-2. ++Manage Plugins++,
+ ![](imagenes/03.png)
 
-3. ++System Log++,
+2. **Manage Plugins**, este es vital ya que a la hora de poder realizar las tareas deberemos tener los puglins intalados para poder llevarlas a cabo (por ejemplo, no podremos realizar los test si no tenemos el puglin jUnit instalado), para nuestro proyecto hemos isntalado los siguientes puglins:
+	- Plugin Git
+	- Plugin Junit
+	- Plugin Javadoc
+	- Plugin Credentials
+
+ Tran instalarlos reiniciamos jenkins para que funcionen correctamente
+
+3. **System Log**,
