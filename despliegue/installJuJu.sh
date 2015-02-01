@@ -4,6 +4,6 @@ else
 	add-apt-repository ppa:juju/stable
 	apt-get update
 	apt-get install juju-core
-	
+	juju init
 	
 fi
