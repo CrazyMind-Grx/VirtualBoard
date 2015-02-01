@@ -145,6 +145,11 @@ virtualboard.cloudapp.net`
 
 ##Integración continua
 
+La Integración continua sobre el código de nuestra aplicación que va situado en el servidor, hemos utilizado travis y shippable. 
+[![Build Status](https://api.shippable.com/projects/54cd11175ab6cc13528a675b/badge?branchName=master)](https://app.shippable.com/projects/54cd11175ab6cc13528a675b/builds/latest)  
+
+[![Build Status](https://travis-ci.org/IV-2014/VirtualBoard.svg?branch=master)](https://travis-ci.org/IV-2014/VirtualBoard)
+
 Para realizar la integración continua de nuestra aplicación Android hemos estado probando con jenkins, ya que entre otras cosa nos permite realizar los test cuando por ejemplo hay alguna modificación en el repositorio (aunque no es recomendable ya que se puede sobrecargar demasiado el servidor si se están trabajando muchos al mismo tiempo), Si se pasan los test se compilara de nuevo nuestra aplicación, con lo que siempre se tiene actualizada.
 
 Otra de las ventajas es poder seleccionar también ramas de dentro del proyecto (por lo que se pueden desarrollar en paralelo las distintas versiones) y que está disponible para cualquier sistema operativo prácticamente.
