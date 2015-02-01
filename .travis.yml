@@ -19,7 +19,8 @@ php:
 # optionally specify a list of environments, for example to test different RDBMS
 env:
   - DB=mysql
-
+before_install:
+  - mysql -e " create database IF NOT EXISTS virtualboardphp;" -uroot
 # execute any number of scripts before the test run, custom env's are available as variables
 before_script:
   - cd ServerConfiguration/PHP
@@ -27,7 +28,7 @@ before_script:
   #- curl -s http://getcomposer.org/installer | php
   #- php composer.phar install
   #- mysql -e "CREATE USER 'virtualboard' IDENTIFIED BY 'virtualboard';"
-  - if [[ "$DB" == "mysql" ]]; then mysql -e "CREATE USER 'virtualboard'@'localhost' IDENTIFIED BY 'virtualboard'; create database IF NOT EXISTS virtualboardphp;" -uroot; fi
+  #- if [[ "$DB" == "mysql" ]]; then mysql -e " create database IF NOT EXISTS virtualboardphp;" -uroot; fi
   #- mysql -e "CREATE USER 'virtualboard'@'localhost' IDENTIFIED BY 'virtualboard';"
   #- mysql -u virtualboard -p virtualboard;
 # omitting "script:" will default to phpunit
