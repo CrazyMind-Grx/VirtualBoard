@@ -44,21 +44,96 @@ Por la parte del **cliente** hemos desarrollado una app para Android con Android
 
 Por la parte del **servidor**:
 
-- Despliegue: ha sido realizado con **[Docker](https://github.com/IV-2014/VirtualBoard/tree/master/despliegue)** que nos permite "empaquetarlo" todo y desplegarlo en cualquier sistema Linux sin necesidad más que de introducir un par de comandos
+Como solución de servidor en la nube hemos elegido el servicio de prueba que ofrece Azure donde hemos creado una máquina virtual. Aquí podemos la máquina virtual en ejecución (junto a más las máquinas empleadas para realizar los ejercicios de la asignatura):
 
-- Aprovisionamiento: ha sido realizado con **[Ansible](https://github.com/IV-2014/VirtualBoard/tree/master/Aprovisionamiento)**
-
-- 
+![](images/1.png)
 
 
+####Despliegue:
+
+Ha sido realizado con **[Docker](https://github.com/IV-2014/VirtualBoard/tree/master/despliegue)** que nos permite "empaquetarlo" todo y desplegarlo en cualquier sistema Linux sin necesidad más que de introducir un par de comandos.
+
+####Aprovisionamiento:
+
+Ha sido realizado con **[Ansible](https://github.com/IV-2014/VirtualBoard/tree/master/Aprovisionamiento)** que nos da la posibilidad de autmatizar la instalación de todas las herramientas necesarias para el proyecto. Su funcionamiento es sencillo, todos los comandos de instalación se agrupan en uno o varios archivos .yml que será lanzado con un pequeño script:
+
+`ansible-playbook virtualboard.yml -u virtualboard`
+
+El contenido:
 
 
+          - hosts: virtualboard
+
+          sudo: yes
+          tasks:
+          - name: 1. Instalar Apache
+            apt: name=apache2 state=present
+
+          - name: 2. Instalar PHP
+            apt: name=libapache2-mod-php5 state=present
+
+          - name: 3. Instalar MySQL server
+            apt:
+              name: "{{ item }}"
+            with_items:
+              - python-mysqldb
+              - mysql-server
+              - mysql-client
+
+          - name: Start Mysql Service
+            service: name=mysql state=started enabled=yes
+
+          - name: 5. Start Apache
+            service: name=apache2 state=running enabled=yes
+
+          - name: 6. Instalar PHPmyadmin
+            debconf: name=phpmyadmin question='phpmyadmin/dbconfig-install' value='true' vtype='boolean'
+
+          - name: debconf for pma
+            debconf: name=phpmyadmin question='phpmyadmin/app-password-confirm' value='virtualboard' vtype='password'
+
+          - name: debconf for pma
+            debconf: name=phpmyadmin question='phpmyadmin/mysql/admin-pass' value='virtualboard' vtype='password'
+
+          - name: debconf for pma
+            debconf: name=phpmyadmin question='phpmyadmin/mysql/app-pass' value='virtualboard' vtype='password'
+
+          - name: debconf for pma
+            debconf: name=phpmyadmin question='phpmyadmin/reconfigure-webserver' value='' vtype='multiselect'
+
+          - name: Instalar PHPmyadmin
+            apt: pkg=phpmyadmin state=present
+
+          - name: Configurando PHPmyadmin
+            file: path=/var/www/html/phpmyadmin src=/usr/share/phpmyadmin state=link
+
+          - name: 7. Instalando git.
+            apt: name=git state=present
+
+          - name: 8. Clonando Repositorio desde git
+            command: git clone  https://github.com/IV-2014/VirtualBoard.git
+
+          - name: 9. Copiar php
+            copy: src=../ServerConfiguration/PHP/src/ dest=/var/www/html mode=0644
+
+          - name: 10. Crear Base de Datos
+            mysql_db: name=virtualboardphp state=present
+
+          - name: 11. Crear user y password para conectar a la base de datos
+            mysql_user: name=virtualboard password=virtualboard priv=*.*:ALL state=present
+
+          - name: 12. Creacion de tabla
+            script: ./crearTabla.sh
+
+Esto tendrá efecto sobre la máquina o máquinas que hayan sido indicadas en el archivo hosts
+
+`[virtualboard]
+virtualboard.cloudapp.net`
 
 
+##Proyecto futuro
 
-##Proyecto
-
-El proyecto está dividido en tres fases:
+El proyecto inicial varía notablemente con el finalmente llevado a cabo, aún sí estos son los puntos a desarrollar ahora en caso de continuar con el proyecto:
 
 - Funcionalidades de pizarra:
 
@@ -76,19 +151,3 @@ Por un lado que almacenaremos toda la información de trazos en un servidor y po
 Con pantalla wifi nos referimos a un dispositivo con soporte airplay, chromecast o miracast.
 
 Al igual que se ven los contenidos en los diferentes dispositivos, además se vean en una pantalla principal como puede ser una TV o un proyector.
-
-#####Herramientas se utilizarán para implementarlo
-
-Tendremos que programar la parte del servidor y la parte del cliente. En el servidor utilizaremos Python o Node.js para las conexiones aun está por decidir que puede ser mas interesante para nuestra aplicacion por temas de rapidez, lag y fluidez. Finalmente y tras hacer varias pruebas, vamos a utilizar [OpenShift](https://openshift.redhat.com)
-En cuanto al tema del usuario utilizaremos Android, una app con una interface sencilla e intuitiva para que nuestro cliente pueda manejar su VirtualBoard.
-
-
-
-Conoce más [aquí](https://github.com/IV-2014/VirtualBoard/blob/master/README.md)
-
-##Documentación Despliegue
-
-[Ver documentacion](https://github.com/IV-2014/VirtualBoard/blob/master/ServerConfiguration/DocumentacionDespliegue.md)
-
-##Testear una aplicación android en una Máquina virtual en linux
-#####En este tutorial vamos a explicar como montar tu maquina virtual Android y como conectarla a Android Studio para poder hacer pruebas previas a lanzar nuestra App.
