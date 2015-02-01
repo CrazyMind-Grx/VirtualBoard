@@ -40,20 +40,26 @@ En la captura, podemos observar que hemos señalado varias opciones (las más im
 
 ###### 2) Configuración (Manage Jenkins) :
 
-Es de los más importante y cada configuración dependerá del uso que le vayamos a querer dar (nostros test con jUnit, uso de git, y Android), a continuación mostraremos las opciones más importantes:
+Es el apartado más importante, y cada configuración dependerá del uso que le vayamos a querer dar (nosotros test con jUnit, uso de git, y Android), a continuación mostraremos las opciones más importantes:
 
 ![](imagenes/02.png)
 
-1. **Configure System**, En esta opción condiguraremos todo lo relacionado con los recursos a usar (path del JDK, de ANT, del Git, etc), dóde se almacenara todo lo que creemos con jenkins (por defecto /var/lib/jenkins), y como acceder a jenkins (en nuestro caso como ya hemos indicado antes lo tenemos [http://localhost:8080](http://localhost:8080), aunque también se podria poner el dominio del servidor (que de hecho es lo recomendable según me he informado)).
+1. **Configure System**, En esta opción configuraremos todo lo relacionado con los recursos a usar (path del JDK, de ANT, del Git, etc), dónde se almacenara todo lo que creemos con jenkins (por defecto /var/lib/jenkins), y como acceder a jenkins (en nuestro caso como ya hemos indicado antes lo tenemos [http://localhost:8080](http://localhost:8080), aunque también se podría poner el dominio del servidor (que de hecho es lo recomendable según me he informado)).
 
  ![](imagenes/03.png)
 
-2. **Manage Plugins**, este es vital ya que a la hora de poder realizar las tareas deberemos tener los puglins intalados para poder llevarlas a cabo (por ejemplo, no podremos realizar los test si no tenemos el puglin jUnit instalado), para nuestro proyecto hemos isntalado los siguientes puglins:
+2. **Manage Plugins**, este es vital ya que a la hora de poder realizar las tareas deberemos tener los puglins instalados para poder llevarlas a cabo (por ejemplo, no podremos realizar los test si no tenemos el puglin jUnit instalado), para nuestro proyecto hemos instalado los siguientes puglins:
 	- Plugin Git
+	- Plugin GitHub pull request builder
+    - Plugin GitHub
 	- Plugin Junit
 	- Plugin Javadoc
+	- Plugin AppThwack
+	- Plugin Android Emulator
 	- Plugin Credentials
 
- Tran instalarlos reiniciamos jenkins para que funcionen correctamente
+ Tras instalarlos reiniciamos jenkins para que funcionen correctamente.
+ 
+  ![](imagenes/04.png)
 
-3. **System Log**,
+3. **System Log**, Aquí podremos ver todos los Log de nuestras tareas tras ejecutarse, así en caso de errores sabremos en dónde falla.
