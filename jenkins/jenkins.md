@@ -6,13 +6,23 @@ Otra de las ventajas es poder seleccionar también ramas de dentro del proyecto 
 
 Ahora vamos a explicar como lo hemos realizado:
 
-1. Descargarse jenkins, desde la página oficial -> [Descargar](http://mirrors.clinkerhq.com/jenkins/debian/jenkins_1.598_all.deb) e instalarlo.
+###### 1) Instalación
+ Descargarse jenkins, desde la página oficial -> [Descargar](http://mirrors.clinkerhq.com/jenkins/debian/jenkins_1.598_all.deb) e instalarlo.
 Aunque si se esta usando ubuntu (como en nuestro caso), abrid una terminal y ejecutar los siguientes comandos:
 
-	- `wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -`	 
+- `wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -`	 
 	
-	- `sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'`
+- `sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'`
 
-	- `sudo apt-get update`
+- `sudo apt-get update`
 	
-	- `sudo apt-get install jenkins`
+- `sudo apt-get install jenkins`
+	
+No nos ocupará mucho espacio, unos 68MB (como se puede observar en la captura) y merece la pena por las comodidades que nos va a dar:
+
+![](imagenes/00.png)
+
+Una vez lo tenemos instalado, podremos ya acceder a jenkins mediante un navegador introduciendo la dirección [http://localhost:8080](http://localhost:8080), como podemos observar a continuación (recuadro rosa):
+
+![](imagenes/01.png)
+
