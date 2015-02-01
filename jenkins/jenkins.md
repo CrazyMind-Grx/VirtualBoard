@@ -75,3 +75,12 @@ Después nos saldrán una serie de opciones para configurar la tarea (como descr
 - ** Configurar el origen del código fuente**, Esta es de las más importante ya que sino ponemos dónde esta el código poco se podra hacer, además necesitaremos dar la información de acceso para que si le damos la opción de publicar algo jenkins pueda hacerlo automáticamente:
 
   ![](imagenes/05.png)
+
+- ** Disparadores de ejecuciones**, aquí mediante una sintaxis cron, ponemos cada cuanto se ejecutara la tarea, por ejemplo una vez cada 15 días hasta marzo.
+
+  ![](imagenes/06.png)
+
+- ** Ejecutar**, como era de esperar habrá que decirle que tiene que ejecutar, en nuestro caso elegimos el gradle generado por nuestro proyecto.
+
+  ![](imagenes/07.png)
+
