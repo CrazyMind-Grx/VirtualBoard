@@ -55,4 +55,4 @@
     mysql_user: name=virtualboard password=virtualboard priv=*.*:ALL state=present
     
   - name: 12. Creacion de tabla
-    command: sh crearTabla
+    command: sh /home/virtualboard/VirtualBoard/Aprovisionamiento
