@@ -111,7 +111,7 @@ public class MainActivity extends Activity {
 
         HttpPost httpPost = new HttpPost(
                 //Introducimos la direccion del server
-                "http://virtualboardphp-virtualboard.rhcloud.com/PutData.php");
+                "http://virtualboard.cloudapp.net/PutData.php");
         HttpResponse response = null;
         try {
             List<NameValuePair> params = new ArrayList<NameValuePair>(3);
@@ -147,7 +147,7 @@ public class MainActivity extends Activity {
                 + "&modo=GET";
 
         HttpGet httpget = new HttpGet(
-                "http://virtualboardphp-virtualboard.rhcloud.com/PutData.php" + parametros);
+                "http://virtualboard.cloudapp.net/PutData.php" + parametros);
         try {
             response = httpClient.execute(httpget, localContext);
 
