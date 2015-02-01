@@ -64,6 +64,18 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 		assertEquals("Enviar por GET", 	text.getText().toString());
 		ViewAsserts.assertOnScreen(origin, label);
 		
+		label = ma.findViewById(R.id.button1);
+		assertNotNull(label);
+		text = (TextView)label;
+		assertEquals("Enviar", 	text.getText().toString());
+		ViewAsserts.assertOnScreen(origin, label);
+		
+		label = ma.findViewById(R.id.botonListado);
+		assertNotNull(label);
+		text = (TextView)label;
+		assertEquals("Listado", text.getText().toString());
+		ViewAsserts.assertOnScreen(origin, label);
+		
 	}
 
 }
