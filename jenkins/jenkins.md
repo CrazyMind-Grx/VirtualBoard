@@ -22,7 +22,17 @@ No nos ocupará mucho espacio, unos 68MB (como se puede observar en la captura) 
 
 ![](imagenes/00.png)
 
-Una vez lo tenemos instalado, podremos ya acceder a jenkins mediante un navegador introduciendo la dirección [http://localhost:8080](http://localhost:8080), como podemos observar a continuación (recuadro rosa):
+Una vez lo tenemos instalado, podremos ya acceder a jenkins mediante un navegador introduciendo la dirección [http://localhost:8080](http://localhost:8080), como podemos observar a continuación (señalado con un cuadro rosa):
 
 ![](imagenes/01.png)
+
+En la captura, podemos observar que hemos señalado varias opciones (las más importantes) que vamos a explicar que función tienen:
+
+ - Cuadro Amarillo: Lo más importante antes de crear ninguna tarea, dentro de el tendremos que configurar jenkins si queremos usar algunos plugins (como en nuestro caso, para usar Git y jUnit entre otros), también aquí podremos configurar algunos path, y ver los log de las ejecuciones de nuestras tareas, entre otras cosas.
+
+ - Cuadro Morado: Si pinchamos sobre él creare una nueva tarea para que se realice según una serie de condiciones (que puede ser debido a un cambio en el repositorio o elegiendo unas horas para que se lleve a cabo, aunque esto lo explicaremos más detalladamente más adelante).
+ 
+ - Cuadro Verde: Nos mostrará las estadísticas de las veces que se ha contruido la app mediante una gráfica. 
+ 
+ - Cuadro Azul: Nos mastrara las teareas que se estan ejecutando o preparandose para ello.
 
