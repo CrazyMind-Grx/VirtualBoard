@@ -1,6 +1,6 @@
-package com.example.virtualapp.test;
-import com.example.virtualapp.MainActivity;
-import com.example.virtualapp.R;
+package com.vb.iv.virtualboardalpha.test;
+import com.vb.iv.virtualboardalpha.MainActivity;
+import com.vb.iv.virtualboardalpha.R;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.ViewAsserts;
@@ -50,7 +50,7 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 	
 	/**
 	 * Test para comprobar que hemos creado la interfeaz correctamente (todos los elementos)
-	 * Para que el usuario pueda usar la aplicación correctamente
+	 * Para que el usuario pueda usar la aplicaciÃ³n correctamente
 	 */
 	public void test_inicializacion() {
 		View elemento = ma.findViewById(R.id.TextView01);//el campo de texto a escribir
@@ -65,11 +65,11 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 		assertNotNull(elemento);
 		ViewAsserts.assertOnScreen(origin, elemento);
 		
-		elemento = ma.findViewById(R.id.ck_modo);//opción de envío
+		elemento = ma.findViewById(R.id.ck_modo);//opciÃ³n de envÃ­o
 		assertNotNull(elemento);
 		ViewAsserts.assertOnScreen(origin, elemento);	
 			
-		elemento = ma.findViewById(R.id.button1);//boton de envío		
+		elemento = ma.findViewById(R.id.button1);//boton de envÃ­o		
 		assertNotNull(elemento);
 		ViewAsserts.assertOnScreen(origin, elemento);
 		
@@ -80,7 +80,7 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 	}
 	
 	/**
-	 * Este test comprobará que tenemos en la actividad los hints necesarios
+	 * Este test comprobarÃ¡ que tenemos en la actividad los hints necesarios
 	 * para el funcionamiento.
 	 */
 	public void test_hint() {
@@ -94,7 +94,7 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 	}
 	
 	/**
-	 * Este test comprobará que tenemos en la actividad las indicaciones necesarias
+	 * Este test comprobarÃ¡ que tenemos en la actividad las indicaciones necesarias
 	 * para el usuario.
 	 */
 	public void test_elementos() {
@@ -110,13 +110,13 @@ public class Test_mainactivity_view extends ActivityInstrumentationTestCase2<Mai
 		assertEquals("Texto", text.getText().toString());
 		ViewAsserts.assertOnScreen(origin, label);
 		
-		label = ma.findViewById(R.id.ck_modo);//opción para enviar mediante GET
+		label = ma.findViewById(R.id.ck_modo);//opciÃ³n para enviar mediante GET
 		assertNotNull(label);
 		text = (TextView)label;
 		assertEquals("Enviar por GET", 	text.getText().toString());
 		ViewAsserts.assertOnScreen(origin, label);
 		
-		label = ma.findViewById(R.id.button1);//boton de envío
+		label = ma.findViewById(R.id.button1);//boton de envÃ­o
 		assertNotNull(label);
 		text = (TextView)label;
 		assertEquals("Enviar", 	text.getText().toString());
