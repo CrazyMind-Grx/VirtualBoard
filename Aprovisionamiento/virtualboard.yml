@@ -33,11 +33,16 @@
       - mysql-server
       - mysql-client
 
+  - name: Start Mysql Service
+    service: name=mysql state=started enabled=yes
+
   - name: 5. Start Apache
     service: name=apache2 state=running enabled=yes
 
   - name: 6. Instalar PHPmyadmin
     apt: name=phpmyadmin state=present
+  - name: configura PHPmyadmin
+    file: path=/var/www/phpmyadmin src=/usr/share/phpmyadmin state=link
 
   - name: 7. Instalando git.
     apt: name=git state=present
@@ -53,6 +58,8 @@
 
   - name: 11. Crear user y password para conectar a la base de datos
     mysql_user: name=virtualboard password=virtualboard priv=*.*:ALL state=present
-    
+
+  
+
   - name: 12. Creacion de tabla
     command: sh /home/virtualboard/VirtualBoard/Aprovisionamiento/crearTabla
