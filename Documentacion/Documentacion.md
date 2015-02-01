@@ -1,4 +1,5 @@
 #VirtualBoard
+---
 
 #####Índice de contenidos
 ######Descripción general
@@ -6,8 +7,13 @@
 
 ######Organización del trabajo
 ######Tecnología utilizada
+- ######Cliente
+- ######Servidor
+
 ######Proyecto
 
+
+---
 ##Descripción general
 
 #####¿Qué es VirtualBoard?
@@ -34,7 +40,15 @@ Git nos ha ayudado a trabajar en grupo teniendo la posibilidad de volver atrás 
 
 La aplicación actual, está compuesta por dos "partes", servidor-cliente.
 
-Por la parte del cliente hemos desarrollado una app para Android con Android Studio y Eclipse, programada en Java.
+Por la parte del **cliente** hemos desarrollado una app para Android con Android Studio y Eclipse, programada en Java. Podemos verla en funcionamiento aquí [aquí](https://github.com/IV-2014/VirtualBoard/blob/master/Images/testAppth01.jpg).
+
+Por la parte del **servidor**:
+
+- Despliegue: ha sido realizado con **[Docker](https://github.com/IV-2014/VirtualBoard/tree/master/despliegue)** que nos permite "empaquetarlo" todo y desplegarlo en cualquier sistema Linux sin necesidad más que de introducir un par de comandos
+
+- Aprovisionamiento: ha sido realizado con **[Ansible](https://github.com/IV-2014/VirtualBoard/tree/master/Aprovisionamiento)**
+
+- 
 
 
 
