@@ -10,7 +10,7 @@
 - [Cliente](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#tecnolog%C3%ADa-utilizada-1)
 - [Servidor](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#tecnolog%C3%ADa-utilizada-1)
 
-######[Proyecto](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#proyecto-1)
+######[Proyecto futuro](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#proyecto-1)
 
 
 ---
@@ -125,12 +125,28 @@ El contenido:
           - name: 12. Creacion de tabla
             script: ./crearTabla.sh
 
-Esto tendrá efecto sobre la máquina o máquinas que hayan sido indicadas en el archivo hosts
+Esto tendrá efecto sobre la máquina o máquinas que hayan sido indicadas en el archivo hosts:
 
 `[virtualboard]
 virtualboard.cloudapp.net`
 
+##Test PHP
 
+Hemos realizado una serie de test para la parte del servidor (programada en PHP) con PHPUnit, que es un entorno para realizar pruebas unitarias en el lenguaje de programación PHP. 
+
+Un ejemplo de ejecución:
+
+![Test con éxito](images/2.jpg)
+
+##Sitio Web
+
+Virtualboard también dispone de un sitio web desde el cual se puede acceder a nuestros perfiles en las redes social, descargar la aplicación o obtener información sobre la misma.
+
+Para realizar el sitio web hemos empleado una plantilla de 'Bootstrap' que hemos adaptado a nuestro gusto y necesidad con html y css.
+
+Se puede acceder desde [aquí](http://iv-2014.github.io/VirtualBoard/)
+
+![Test con éxito](images/3.png)
 ##Proyecto futuro
 
 El proyecto inicial varía notablemente con el finalmente llevado a cabo, aún sí estos son los puntos a desarrollar ahora en caso de continuar con el proyecto:
