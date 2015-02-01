@@ -58,7 +58,7 @@
     apt: pkg=phpmyadmin state=present
 
   - name: Configurando PHPmyadmin
-    file: path=/var/www/phpmyadmin src=/usr/share/phpmyadmin state=link
+    file: path=/var/www/html/phpmyadmin src=/usr/share/phpmyadmin state=link
 
   - name: 7. Instalando git.
     apt: name=git state=present
@@ -78,4 +78,4 @@
   
 
   - name: 12. Creacion de tabla
-    command: sh ~/VirtualBoard/Aprovisionamiento/crearTabla.sh
+    command: sh /VirtualBoard/Aprovisionamiento/crearTabla.sh
