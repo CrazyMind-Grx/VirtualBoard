@@ -8,10 +8,7 @@ namespace src;
 class conexionPHPdata
 {
 
-	public function add($x,$y)
-	{
-		return $x + $y;
-	}
+	
 
 	public function creaTabla(){
 		$con=mysqli_connect("127.0.0.1","shippable","","virtualboardphp");
