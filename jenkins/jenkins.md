@@ -80,7 +80,12 @@ Después nos saldrán una serie de opciones para configurar la tarea (como descr
 
   ![](imagenes/06.png)
 
-- ** Ejecutar**, como era de esperar habrá que decirle que tiene que ejecutar, en nuestro caso elegimos el gradle generado por nuestro proyecto.
+- ** Ejecutar**, como era de esperar habrá que decirle que tiene que ejecutar, en nuestro caso elegimos el gradle generado por nuestro proyecto (también podriamos a ver ejecutado un maven, si lo hemos importado desde eclipse por ejemplo, pero en nuestro caso Android Studio nos genera el gradle por defecto).
 
   ![](imagenes/07.png)
 
+- ** Acciones para ejecutar desués**, aquí tenemos varias opciones, pero hemos elegido las de notificar los test, que se publique la documentación y que se nos notifique por correo.
+
+  ![](imagenes/08.png)
+
+Y ya tendremos configurado correctamente jenkins para usarlo con nuestra aplicación Android junto con los test creados.
