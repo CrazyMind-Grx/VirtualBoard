@@ -1,6 +1,6 @@
 <?php
 
-$data = new conexionPHPdata();
+$data = new src\conexionPHPdata;
 
 $data->GetData();
 
