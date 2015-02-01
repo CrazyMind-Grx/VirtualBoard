@@ -55,6 +55,7 @@ Es el apartado más importante, y cada configuración dependerá del uso que le 
 	- Plugin Junit
 	- Plugin Javadoc
 	- Plugin AppThwack
+	- Plugin MobileCloud for Jenkins
 	- Plugin Android Emulator
 	- Plugin Credentials
 
@@ -63,3 +64,14 @@ Es el apartado más importante, y cada configuración dependerá del uso que le 
   ![](imagenes/04.png)
 
 3. **System Log**, Aquí podremos ver todos los Log de nuestras tareas tras ejecutarse, así en caso de errores sabremos en dónde falla.
+
+###### 3) Crear una nueva tarea :
+
+Como ya vimos, en la portada principal del programa, hay una opción para crear una tarea nueva que selecioné con un cuadrado morado en la primera captura.
+La seleccionamos, tras ello le damos un nombre a la tarea y seleccionamos "Freestyle projec" (aunque hay otra opciones como crearlas a partir de un protecto que ya tuvieramos antes, pero no será nuestro caso).
+
+Después nos saldrán una serie de opciones para configurar la tarea (como descripción, repositorio, opciones para el built, etc) mostraremos como hemos configurado las más importantes (antes hemos cambiado el idioma a español ya que así podremos ver mas información acerca de cada apartado pues jenkins cuenta con unas pestañas en forma de interrogación que te dicen con mas detalle que hace en cada caso):
+
+- ** Configurar el origen del código fuente**, Esta es de las más importante ya que sino ponemos dónde esta el código poco se podra hacer, además necesitaremos dar la información de acceso para que si le damos la opción de publicar algo jenkins pueda hacerlo automáticamente:
+
+  ![](imagenes/05.png)
