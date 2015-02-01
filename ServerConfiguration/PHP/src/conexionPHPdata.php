@@ -11,7 +11,7 @@ class conexionPHPdata
 	
 
 	public function creaTabla(){
-		$con=mysqli_connect("127.0.0.1","shippable","","virtualboardphp");
+		$con=mysqli_connect("127.0.0.1","travis","","virtualboardphp");
 		$q="CREATE TABLE personas (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 			nombre VARCHAR(20) NOT NULL,texto VARCHAR(500) NOT NULL,modo VARCHAR(20) NOT NULL);";
 		mysqli_query($con, $q);
@@ -23,7 +23,7 @@ class conexionPHPdata
 		if ($nombre!="" || $texto!=""){
 			
 
-			$con=mysqli_connect("127.0.0.1","shippable","","virtualboardphp");
+			$con=mysqli_connect("127.0.0.1","travis","","virtualboardphp");
 			$q="insert into personas(nombre, texto, modo) values('$nombre','$texto', '$modo')";
 			if(mysqli_query($con, $q))
 			{
@@ -45,7 +45,7 @@ class conexionPHPdata
 		
  		$conexion = false;
  	
-		$con = mysqli_connect("127.0.0.1","shippable","","virtualboardphp") or die("Sin conexion");
+		$con = mysqli_connect("127.0.0.1","travis","","virtualboardphp") or die("Sin conexion");
 		//mysql_select_db("u316831537_divad");
 		$sql="select id, nombre, texto, modo from personas";
 
