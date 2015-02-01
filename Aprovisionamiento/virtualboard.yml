@@ -40,8 +40,25 @@
     service: name=apache2 state=running enabled=yes
 
   - name: 6. Instalar PHPmyadmin
-    apt: name=phpmyadmin state=present
-  - name: configura PHPmyadmin
+  - name: debconf for pma
+    debconf: name=phpmyadmin question='phpmyadmin/dbconfig-install' value='true' vtype='boolean'
+
+  - name: debconf for pma
+    debconf: name=phpmyadmin question='phpmyadmin/app-password-confirm' value='{{mysql_root_pass}}' vtype='password'
+
+  - name: debconf for pma
+    debconf: name=phpmyadmin question='phpmyadmin/mysql/admin-pass' value='{{mysql_root_pass}}' vtype='password'
+
+  - name: debconf for pma
+    debconf: name=phpmyadmin question='phpmyadmin/mysql/app-pass' value='{{mysql_root_pass}}' vtype='password'
+
+  - name: debconf for pma
+    debconf: name=phpmyadmin question='phpmyadmin/reconfigure-webserver' value='' vtype='multiselect'
+
+  - name: Instalar PHPmyadmin
+    apt: pkg=phpmyadmin state=present
+
+  - name: Configurando PHPmyadmin
     file: path=/var/www/phpmyadmin src=/usr/share/phpmyadmin state=link
 
   - name: 7. Instalando git.
