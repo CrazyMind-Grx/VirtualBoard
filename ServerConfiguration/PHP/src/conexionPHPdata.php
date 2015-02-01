@@ -19,7 +19,7 @@ class conexionPHPdata
 			
 
 			$con=mysqli_connect("127.0.0.1","shippable","","virtualboardphp");
-			$q="insert into virtualboard(nombre, texto, modo) values('$nombre','$texto', '$modo')";
+			$q="insert into personas(nombre, texto, modo) values('$nombre','$texto', '$modo')";
 			if(mysqli_query($con, $q))
 			{
 				return true;

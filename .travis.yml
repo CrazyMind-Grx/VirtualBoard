@@ -27,8 +27,7 @@ before_script:
   #- curl -s http://getcomposer.org/installer | php
   #- php composer.phar install
   - if [[ "$DB" == "mysql" ]]; then mysql -e "create database IF NOT EXISTS virtualboardphp;" -uroot; fi
-
-
+  - mysql CREATE TABLE personas (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,nombre VARCHAR(20) NOT NULL,texto VARCHAR(500) NOT NULL,modo VARCHAR(20) NOT NULL);
 # omitting "script:" will default to phpunit
 # use the $DB env variable to determine the phpunit.xml to use
 #script: phpunit --configuration phpunit_$DB.xml --coverage-text
