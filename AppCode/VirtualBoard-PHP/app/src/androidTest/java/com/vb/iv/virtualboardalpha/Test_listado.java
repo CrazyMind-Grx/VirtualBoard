@@ -1,6 +1,6 @@
-package com.example.virtualapp.test;
-import com.example.virtualapp.Listado;
-import com.example.virtualapp.R;
+package com.vb.iv.virtualboardalpha.test;
+import com.vb.iv.virtualboardalpha.Listado;
+import com.vb.iv.virtualboardalpha.R;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.ViewAsserts;
@@ -48,7 +48,7 @@ public class Test_listado extends ActivityInstrumentationTestCase2<Listado> {
 	
 	/**
 	 * Test para comprobar que hemos creado la interfeaz correctamente
-	 * Para que el usuario pueda usar la aplicación correctamente
+	 * Para que el usuario pueda usar la aplicaciÃ³n correctamente
 	 */
 	public void test_inicializacion() {
 		View elemento = ma.findViewById(R.id.listView1);//lista de los mensajes
