@@ -40,17 +40,16 @@
     service: name=apache2 state=running enabled=yes
 
   - name: 6. Instalar PHPmyadmin
-  - name: debconf for pma
     debconf: name=phpmyadmin question='phpmyadmin/dbconfig-install' value='true' vtype='boolean'
 
   - name: debconf for pma
-    debconf: name=phpmyadmin question='phpmyadmin/app-password-confirm' value='{{mysql_root_pass}}' vtype='password'
+    debconf: name=phpmyadmin question='phpmyadmin/app-password-confirm' value='virtualboard' vtype='password'
 
   - name: debconf for pma
-    debconf: name=phpmyadmin question='phpmyadmin/mysql/admin-pass' value='{{mysql_root_pass}}' vtype='password'
+    debconf: name=phpmyadmin question='phpmyadmin/mysql/admin-pass' value='virtualboard' vtype='password'
 
   - name: debconf for pma
-    debconf: name=phpmyadmin question='phpmyadmin/mysql/app-pass' value='{{mysql_root_pass}}' vtype='password'
+    debconf: name=phpmyadmin question='phpmyadmin/mysql/app-pass' value='virtualboard' vtype='password'
 
   - name: debconf for pma
     debconf: name=phpmyadmin question='phpmyadmin/reconfigure-webserver' value='' vtype='multiselect'
@@ -59,7 +58,7 @@
     apt: pkg=phpmyadmin state=present
 
   - name: Configurando PHPmyadmin
-    file: path=/var/www/phpmyadmin src=/usr/share/phpmyadmin state=link
+    file: path=/var/www/html/phpmyadmin src=/usr/share/phpmyadmin state=link
 
   - name: 7. Instalando git.
     apt: name=git state=present
@@ -76,7 +75,5 @@
   - name: 11. Crear user y password para conectar a la base de datos
     mysql_user: name=virtualboard password=virtualboard priv=*.*:ALL state=present
 
-  
-
   - name: 12. Creacion de tabla
-    command: sh ~/VirtualBoard/Aprovisionamiento/crearTabla.sh
+    script: ./crearTabla.sh
