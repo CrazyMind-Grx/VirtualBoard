@@ -18,7 +18,7 @@ class conexionPHPdata
 		if ($nombre!="" || $texto!=""){
 			
 
-			$con=mysqli_connect("127.0.0.1","virtualboard","virtualboard","virtualboardphp");
+			$con=mysqli_connect("127.0.0.1","shippable","","virtualboardphp");
 			$q="insert into virtualboard(nombre, texto, modo) values('$nombre','$texto', '$modo')";
 			if(mysqli_query($con, $q))
 			{
@@ -40,7 +40,7 @@ class conexionPHPdata
 		
  		$conexion = false;
  	
-		$con = mysqli_connect("127.0.0.1","virtualboard","virtualboard","virtualboardphp") or die("Sin conexion");
+		$con = mysqli_connect("127.0.0.1","shippable","","virtualboardphp") or die("Sin conexion");
 		//mysql_select_db("u316831537_divad");
 		$sql="select id, nombre, texto, modo from personas";
 
