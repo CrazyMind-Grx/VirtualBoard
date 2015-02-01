@@ -62,4 +62,4 @@
   
 
   - name: 12. Creacion de tabla
-    command: sh /home/virtualboard/VirtualBoard/Aprovisionamiento/crearTabla
+    command: sh ~/VirtualBoard/Aprovisionamiento/crearTabla.sh
