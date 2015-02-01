@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~/VirtualBoard/Aprovisionamiento
-mysql -h localhost -u virtualboard -pvirtualboard
+mysql -h localhost -u virtualboard -p virtualboard
 
 create database virtualboardphp; #-------modificado
 use virtualboardphp;
