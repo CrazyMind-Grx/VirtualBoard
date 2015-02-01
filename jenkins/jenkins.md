@@ -67,12 +67,13 @@ Es el apartado más importante, y cada configuración dependerá del uso que le 
 
 ###### 3) Crear una nueva tarea :
 
-Como ya vimos, en la portada principal del programa, hay una opción para crear una tarea nueva que selecioné con un cuadrado morado en la primera captura.
-La seleccionamos, tras ello le damos un nombre a la tarea y seleccionamos "Freestyle projec" (aunque hay otra opciones como crearlas a partir de un protecto que ya tuvieramos antes, pero no será nuestro caso).
+Como ya vimos, en la portada principal del programa, hay una opción para crear una tarea nueva, que señale con un cuadrado morado en la primera captura.
 
-Después nos saldrán una serie de opciones para configurar la tarea (como descripción, repositorio, opciones para el built, etc) mostraremos como hemos configurado las más importantes (antes hemos cambiado el idioma a español ya que así podremos ver mas información acerca de cada apartado pues jenkins cuenta con unas pestañas en forma de interrogación que te dicen con mas detalle que hace en cada caso):
+La seleccionamos, tras ello le damos un nombre a la tarea y seleccionamos "Freestyle projec" (aunque hay otra opciones como crearlas a partir de un proyecto que ya tuviéramos antes, pero no será nuestro caso).
 
-- ** Configurar el origen del código fuente**, Esta es de las más importante ya que sino ponemos dónde esta el código poco se podra hacer, además necesitaremos dar la información de acceso para que si le damos la opción de publicar algo jenkins pueda hacerlo automáticamente:
+Después nos saldrán una serie de opciones para configurar la tarea (como descripción, repositorio, opciones para el built, etc) mostraremos como hemos configurado las más importantes (antes hemos cambiado el idioma a español ya que así podremos ver más información acerca de cada apartado pues jenkins cuenta con unas pestañas en forma de interrogación que te dicen con más detalle que hace en cada caso):
+
+- ** Configurar el origen del código fuente**, Esta es de las más importantes ya que si no ponemos dónde está el código poco se podrá hacer, además necesitaremos dar la información de acceso para que si le damos la opción de publicar algo jenkins pueda hacerlo automáticamente:
 
   ![](imagenes/05.png)
 
@@ -80,11 +81,11 @@ Después nos saldrán una serie de opciones para configurar la tarea (como descr
 
   ![](imagenes/06.png)
 
-- ** Ejecutar**, como era de esperar habrá que decirle que tiene que ejecutar, en nuestro caso elegimos el gradle generado por nuestro proyecto (también podriamos a ver ejecutado un maven, si lo hemos importado desde eclipse por ejemplo, pero en nuestro caso Android Studio nos genera el gradle por defecto).
+- ** Ejecutar**, como era de esperar habrá que decirle que tiene que ejecutar, en nuestro caso elegimos el gradle generado por nuestro proyecto (también podríamos a ver ejecutado un maven, si lo hemos importado desde eclipse por ejemplo, pero en nuestro caso Android Studio nos genera el gradle por defecto).
 
   ![](imagenes/07.png)
 
-- ** Acciones para ejecutar desués**, aquí tenemos varias opciones, pero hemos elegido las de notificar los test, que se publique la documentación y que se nos notifique por correo.
+- ** Acciones para ejecutar después**, aquí tenemos varias opciones, pero hemos elegido las de notificar los test, que se publique la documentación y que se nos notifique por correo.
 
   ![](imagenes/08.png)
 
