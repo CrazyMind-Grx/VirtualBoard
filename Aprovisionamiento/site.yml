@@ -1,0 +1,9 @@
+---
+- name: Install Apache, MySQL and Git 
+  hosts: virtualboard
+  sudo: yes
+
+  roles:
+    - mysql 
+    - php
+    - git

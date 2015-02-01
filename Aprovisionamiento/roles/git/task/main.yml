@@ -1,0 +1,6 @@
+---
+- name: 7. Instalando git.
+    apt: name=git state=present
+
+- name: 8. Clonando Repositorio desde git
+   command: git clone  https://github.com/IV-2014/VirtualBoard.git

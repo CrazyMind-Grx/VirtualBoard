@@ -1,0 +1,12 @@
+---
+- name: 1. Instalar Apache
+    apt: name=apache2 state=present
+
+- name: 2. Instalar PHP
+    apt: name=libapache2-mod-php5 state=present
+	
+- name: 5. Start Apache
+    service: name=apache2 state=running enabled=yes
+	
+- name: 9. Copiar php
+    copy: src=../ServerConfiguration/PHP/src/ dest=/var/www/html mode=0644
