@@ -54,7 +54,7 @@ class conexionPHPdata
 
 		$datos=array();
  
-		if($rs=mysql_query($sql,$con))
+		if($rs=mysqli_query($sql,$con))
  		{
  			$conexion = true;
  		}
