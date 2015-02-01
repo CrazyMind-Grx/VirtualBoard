@@ -18,10 +18,9 @@
 
 ######[Sitio web](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#sitio-web)
 
-
-
-
 ######[Proyecto futuro](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#proyecto-futuro-1)
+
+######[Licencia](https://github.com/IV-2014/VirtualBoard/blob/master/Documentacion/Documentacion.md#licencia)
 
 
 
@@ -189,3 +188,7 @@ Por un lado que almacenaremos toda la información de trazos en un servidor y po
 Con pantalla wifi nos referimos a un dispositivo con soporte airplay, chromecast o miracast.
 
 Al igual que se ven los contenidos en los diferentes dispositivos, además se vean en una pantalla principal como puede ser una TV o un proyector.
+
+##Licencia
+
+El proyecto lo hemos publicado con una licencia [GPLV2](https://github.com/IV-2014/VirtualBoard/blob/master/LICENSE)
