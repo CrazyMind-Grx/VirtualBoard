@@ -143,7 +143,7 @@ Esto tendrá efecto sobre la máquina o máquinas que hayan sido indicadas en el
 `[virtualboard]
 virtualboard.cloudapp.net`
 
-También lo hemos realizado el aprovisionamiento con [chef](https://github.com/IV-2014/VirtualBoard/tree/master/Aprovisionamiento/aprovisionamiento_chef).
+También lo hemos realizado el aprovisionamiento con [chef](https://github.com/IV-2014/VirtualBoard/tree/master/Aprovisionamiento/aprovisionamiento_chef), de esta forma en un sólo fichero definiremos la máquina virtual que tenemos con todo lo necesario para su uso.
 
 - Fichero [recetaschef.sh](https://github.com/IV-2014/VirtualBoard/blob/master/Aprovisionamiento/aprovisionamiento_chef/recetaschef.sh) 
 
