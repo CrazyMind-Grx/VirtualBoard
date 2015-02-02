@@ -1,7 +1,7 @@
 <?php
-require_once'conexionPHPdata.php';
+require_once('conexionPHPdata.php');
 
-$data = new conexionPHPdata();
+$data = new src\conexionPHPdata;
 
 $data->PutData($_REQUEST["nombre"],$_REQUEST["texto"],$_REQUEST["modo"]);
 
