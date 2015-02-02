@@ -244,7 +244,7 @@ echo json_attribs \"${path}/VirtualBoard/Aprovisionamiento/aprovisionamiento_che
 
 sudo apt-get install chef
 
-# Ejecución del dhef
+# Ejecución del chef
 
 sudo chef-solo -c ~/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef/solo.rb
 
