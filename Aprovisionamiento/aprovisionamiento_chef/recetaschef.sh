@@ -27,3 +27,6 @@ echo cookbook_path \"/chef/cookbooks\" >> chef/solo.rb
 echo json_attribs \"/chef/node.json\" >> chef/solo.rb
 
 git clone  https://github.com/IV-2014/VirtualBoard.git
+
+sudo chef-solo -c /chef/solo.rb 
+
