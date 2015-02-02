@@ -5,12 +5,14 @@ machine:
    # Spain/Granada
      
   # Version of php to use
+  
+
+dependencies:
   php:
     - 5.3
     - 5.4
-
-dependencies:
-  pre:
+    
+database:
     - cd ~/VirtualBoard/ServerConfiguration/PHP
     - sudo apt-get update;sudo apt-get install mysql-server mysql-common mysql-client
     - mysql -e "create database IF NOT EXISTS virtualboardphp;" -uroot;
