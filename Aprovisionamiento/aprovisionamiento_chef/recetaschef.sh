@@ -21,6 +21,10 @@ echo "{
                 \"recipe[php]\" ,
 		\"recipe[git]\"
     ] 
-}" > chef/cookbooks/node.json
+}" > chef/node.json
+
+echo file_cache_path \"/chef\" > chef/solo.rb
+echo cookbook_path \"/chef/cookbooks\" >> chef/solo.rb
+echo json_attribs \"/chef/node.json\" >> chef/solo.rb
 
 
