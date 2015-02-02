@@ -1,9 +1,13 @@
 #!/bin/bash
 
+#Creación de las recetas
+
 mkdir -p chef/cookbooks/apache2/recipes
 mkdir -p chef/cookbooks/mysql/recipes
 mkdir -p chef/cookbooks/php/recipes
 mkdir -p chef/cookbooks/git/recipes
+
+# Introduce los paquetes en el default.rb
 
 echo package \'apache2\' > chef/cookbooks/apache2/recipes/default.rb
 echo package \'python-mysqldb\' >> chef/cookbooks/mysql/recipes/default.rb
@@ -12,6 +16,8 @@ echo package \'mysql-client\' >> chef/cookbooks/mysql/recipes/default.rb
 echo package \'phpmyadmin\' > chef/cookbooks/php/recipes/default.rb
 echo package \'php5\' >> chef/cookbooks/php/recipes/default.rb
 echo package \'git\' > chef/cookbooks/git/recipes/default.rb
+
+#Creación del node.json
 
 echo "{
  \"run_list\": [
@@ -60,9 +66,12 @@ echo json_attribs \"${path}/VirtualBoard/Aprovisionamiento/aprovisionamiento_che
 
 #git clone  https://github.com/IV-2014/VirtualBoard.git
 
+
 sudo apt-get install chef
 
 sudo chef-solo -c ~/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef/solo.rb 
+
+# Creación de la base de datos y su tabla
 
 mysql -u root -e " CREATE DATABASE virtualboardphp;use virtualboardphp; CREATE TABLE personas (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 nombre VARCHAR(20) NOT NULL,
