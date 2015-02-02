@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 mkdir -p chef/cookbooks/apache2/recipes
 mkdir -p chef/cookbooks/mysql/recipes
 mkdir -p chef/cookbooks/php/recipes
@@ -25,6 +26,8 @@ echo "{
 echo file_cache_path \"/chef\" > chef/solo.rb
 echo cookbook_path \"/chef/cookbooks\" >> chef/solo.rb
 echo json_attribs \"/chef/node.json\" >> chef/solo.rb
+
+sudo apt-get install chef
 
 git clone  https://github.com/IV-2014/VirtualBoard.git
 
