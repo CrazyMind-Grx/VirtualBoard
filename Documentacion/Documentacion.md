@@ -68,7 +68,7 @@ Ha sido realizado con **[Docker](https://github.com/IV-2014/VirtualBoard/tree/ma
 
 ####Aprovisionamiento:
 
-Ha sido realizado con **[Ansible](https://github.com/IV-2014/VirtualBoard/tree/master/Aprovisionamiento)** que nos da la posibilidad de autmatizar la instalación de todas las herramientas necesarias para el proyecto. Su funcionamiento es sencillo, todos los comandos de instalación se agrupan en uno o varios archivos .yml que será lanzado con un pequeño script:
+Ha sido realizado con **[Ansible](https://github.com/IV-2014/VirtualBoard/tree/master/Aprovisionamiento)** que nos da la posibilidad de automatizar la instalación de todas las herramientas necesarias para el proyecto. Su funcionamiento es sencillo, todos los comandos de instalación se agrupan en uno o varios archivos .yml que será lanzado con un pequeño script:
 
 `ansible-playbook virtualboard.yml -u virtualboard`
 
@@ -174,7 +174,7 @@ Un ejemplo de ejecución:
 
 ##Sitio Web
 
-Virtualboard también dispone de un sitio web desde el cual se puede acceder a nuestros perfiles en las redes social, descargar la aplicación o obtener información sobre la misma.
+Virtualboard también dispone de un sitio web desde el cual se puede acceder a nuestros perfiles en las redes sociales, descargar la aplicación u obtener información sobre la misma.
 
 Para realizar el sitio web hemos empleado una plantilla de 'Bootstrap' que hemos adaptado a nuestro gusto y necesidad con html y css.
 
@@ -187,7 +187,7 @@ El proyecto inicial varía notablemente con el finalmente llevado a cabo, aún s
 
 - Funcionalidades de pizarra:
 
-Se creará una pantalla donde se pueda escribir o pintar. La escritura se haría con el teclado del dispositivo. A la hora de pintar se hara directamente en la pantalla del dispositivo y sera lo mas real posible.
+Se creará una pantalla donde se pueda escribir o pintar. La escritura se haría con el teclado del dispositivo. A la hora de pintar se hará directamente en la pantalla del dispositivo y será lo más real posible.
 
 
 - Almacenaje/Sincronización de trazos
