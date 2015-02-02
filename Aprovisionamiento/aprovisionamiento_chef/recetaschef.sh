@@ -52,19 +52,21 @@ version           \"0.1 \"
 
 recipe  \"git\",  \"Despliegue de git\" ">  chef/cookbooks/git/metadato.rb
 
+path=~
 
-echo file_cache_path \"/chef\" > chef/solo.rb
-echo cookbook_path \"/chef/cookbooks\" >> chef/solo.rb
-echo json_attribs \"/chef/node.json\" >> chef/solo.rb
+echo file_cache_path \"${path}/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef\" > chef/solo.rb
+echo cookbook_path \"${path}/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef/cookbooks\" >> chef/solo.rb
+echo json_attribs \"${path}/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef/node.json\" >> chef/solo.rb
 
-git clone  https://github.com/IV-2014/VirtualBoard.git
+#git clone  https://github.com/IV-2014/VirtualBoard.git
 
 sudo apt-get install chef
 
-sudo chef-solo -c /chef/solo.rb 
+sudo chef-solo -c ~/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef/solo.rb 
 
 mysql -u root -e " CREATE DATABASE virtualboardphp;use virtualboardphp; CREATE TABLE personas (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 nombre VARCHAR(20) NOT NULL,
 texto VARCHAR(500) NOT NULL,
 modo VARCHAR(20) NOT NULL
 );"
+

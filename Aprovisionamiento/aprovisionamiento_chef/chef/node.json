@@ -1,0 +1,8 @@
+{
+ "run_list": [
+ "recipe[apache2]",
+ "recipe[mysql]",
+ "recipe[php]" ,
+ "recipe[git]"
+ ] 
+}
