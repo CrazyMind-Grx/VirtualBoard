@@ -52,7 +52,7 @@ version           \"0.1 \"
 
 recipe  \"git\",  \"Despliegue de git\" ">  chef/cookbooks/git/metadato.rb
 
-path=~
+path=~ #para que nos de el path desde la máquina 
 
 echo file_cache_path \"${path}/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef\" > chef/solo.rb
 echo cookbook_path \"${path}/VirtualBoard/Aprovisionamiento/aprovisionamiento_chef/chef/cookbooks\" >> chef/solo.rb
