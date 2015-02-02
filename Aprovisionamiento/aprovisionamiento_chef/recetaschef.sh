@@ -22,8 +22,8 @@ echo "{
  ] 
 }" > chef/node.json
 
-echo file_cache_path \"/home/marquina/Desktop/chef\" > chef/solo.rb
-echo cookbook_path \"/home/marquina/Desktop/chef/cookbooks\" >> chef/solo.rb
-echo json_attribs \"/home/marquina/Desktop/chef/node.json\" >> chef/solo.rb
+echo file_cache_path \"/chef\" > chef/solo.rb
+echo cookbook_path \"/chef/cookbooks\" >> chef/solo.rb
+echo json_attribs \"/chef/node.json\" >> chef/solo.rb
 
 git clone  https://github.com/IV-2014/VirtualBoard.git
