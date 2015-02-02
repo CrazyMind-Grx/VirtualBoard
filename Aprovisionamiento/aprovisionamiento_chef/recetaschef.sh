@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mkdir -p chef/cookbooks/nginx/recipes
-mkdir -p chef/cookbooks/nano/recipes
-mkdir -p chef/cookbooks/doc/recipes
+mkdir -p chef/cookbooks/apache2/recipes
+mkdir -p chef/cookbooks/mysql/recipes
+mkdir -p chef/cookbooks/php/recipes
+mkdir -p chef/cookbooks/git/recipes
 
