@@ -55,7 +55,6 @@
 
 		- [installJuJu](https://github.com/IV-2014/VirtualBoard/commit/b799bf5938b3daefa7228de7406ecd526b469af9)
 		- [installJuJu añado juju init](https://github.com/IV-2014/VirtualBoard/commit/033e7cd9a2edcec28eeadc4afe95ba8b5a68288b)
-		- [Documentacion](https://github.com/IV-2014/VirtualBoard/commit/7f81bc88f5cff2ebadd0c97f11a70459b6fc3af0)
 
 
 - ### También a participado en:
@@ -68,7 +67,7 @@
 	- commit:
 		- [Creacion de la base de datos y la tabla closes](https://github.com/IV-2014/VirtualBoard/commit/e70cf270779e93a6599cf631b0a360a4ff0c6485)
 		- [Documentacion scriptbdytabla closes](https://github.com/IV-2014/VirtualBoard/commit/4a04701380cdec8d74775dad6a0df3816e0fce00#diff-0dd539830a6ac4d949c1a583d6e30f8cR19)
-		- 
+		- [Documentacion](https://github.com/IV-2014/VirtualBoard/commit/7f81bc88f5cff2ebadd0c97f11a70459b6fc3af0)
 
 *****
 
