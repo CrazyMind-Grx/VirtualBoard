@@ -2,7 +2,7 @@
 
 - - -
 
-- ###Ha participado en estos script de provisionamiento:
+- ####Ha participado en estos script de provisionamiento:
 
 	- issues:
 
@@ -24,7 +24,7 @@
 		- [Prueba realizada con exito](https://github.com/IV-2014/VirtualBoard/commit/605d8a240ccc7eeda98a24594084a09b17db5113)
 
 
-- ### Ha participado en los tests con:
+- #### Ha participado en los tests con:
 
 	- issues:
 
@@ -36,7 +36,7 @@
 		- [Test php con el programa phpstorm](https://github.com/IV-2014/VirtualBoard/commit/4793c6c330a908b280045051cedc9ed9118c8679)
 
 
-- ### Ha participado en esta integración continua y PaaS:
+- #### Ha participado en esta integración continua y PaaS:
 
 	- commit:
 
@@ -45,7 +45,7 @@
 		- [Integracion continua con circle](https://github.com/IV-2014/VirtualBoard/commit/c199704343118de18ce4fddc3d66244ee87a0c25)
 
 
-- ### Ha participado en la configuración de despliegue automático con:
+- #### Ha participado en la configuración de despliegue automático con:
 
 	- issues:
 
@@ -57,7 +57,7 @@
 		- [installJuJu añado juju init](https://github.com/IV-2014/VirtualBoard/commit/033e7cd9a2edcec28eeadc4afe95ba8b5a68288b)
 
 
-- ### También a participado en:
+- #### También a participado en:
 
 	- issues:
 
