@@ -54,7 +54,7 @@ aqui escribes
 * * *
 
 
-####_Angel Jimenez de Cisneros Carreño_
+####_Ángel Jiménez de Cisneros Carreño_ _([@angeljcc](https://github.com/angeljcc))_
 - - -
 _Nota: No están todos los commits referenciados, sino que he puesto los más destacados, dentro de los issues referenciados se pueden ver todas las modificaciones y el transcurso de varios archivos, por ejemplo los de integración continua, como para ver si en la pagina de travis funcionaba, hay que hacer un commit para que se compile el código y se ejecuten los test._
 
@@ -75,7 +75,7 @@ _Nota: No están todos los commits referenciados, sino que he puesto los más de
  +  Commits
    + [Archivo](https://github.com/IV-2014/VirtualBoard/commit/b336734225bfc358e61eb8b1c263db138f20f3d5)
    + [Primeros test](https://github.com/IV-2014/VirtualBoard/commit/7152027e862ad95ebbb073d96ceef4847c229fb1) 
-   + [Versión final]()
+   + [Versión final](https://github.com/IV-2014/VirtualBoard/commit/78eee010ae41e42098c114ce5002c4ecf22ae9c0)
 
 * **He participado en integración continua:**
  + Issues
@@ -104,6 +104,8 @@ _Nota: No están todos los commits referenciados, sino que he puesto los más de
  + Aportaciones en la documentación realizada: 
  	+ [Commit](https://github.com/IV-2014/VirtualBoard/commit/8cd50aa65cda40958c9f0b1ca796972c7f4aa976)
  	+ [Commit](https://github.com/IV-2014/VirtualBoard/commit/a7caae6b8052929e068c0b6ab1146be77812a6e0)
+ 	+ Más toda la de anteriores prácticas.
  + Despligue máquina Azure.
  + Correción de pequeños fallos en App android: 
     + [Cambio ruta de azure.](https://github.com/IV-2014/VirtualBoard/commit/3117d57617b0e056dc67e4abbce8c280aeb31de2)
+    + Creacción de [App en Socket](https://github.com/IV-2014/VirtualBoard/commit/23bbb1a431a257d590dc9817594797eb018762ce), prevista para una futura versión.
