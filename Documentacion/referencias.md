@@ -142,11 +142,56 @@ AQUI
 *****
 
 
-David Castellon
+###_David Castellón Rodríguez_ - [@divadcr](https://github.com/divadcr)
+_Nota: No están todos los commits referenciados, sino que he puesto los más destacados, dentro de los issues referenciados se pueden ver todas las modificaciones y el transcurso de varios archivos._
 - - -
-aqui escribes
+- **He participado en el servidor PHP**
+######Issue
+	+ [Servidor PHP](https://github.com/IV-2014/VirtualBoard/issues/43)
+
+ ######Commit
+ + [Creando clase y funciones](https://github.com/IV-2014/VirtualBoard/commit/dd155ed0ee4e5062e1e18dd3f31f2feec04a5d1f)
+ + [Cambios varios](https://github.com/IV-2014/VirtualBoard/commit/390fdfd6903b0ba9e957bc4e1ad643467a899382)
+- **He participado en los Tests PHP**
+
+ ###### Issue
+ + [Tests PHP](https://github.com/IV-2014/VirtualBoard/issues/37)
+
+ ###### Commit
+ + [Creando test de prueba](https://github.com/IV-2014/VirtualBoard/commit/54fbd7c7606d1cd67b633c3e0b9382cee2bc7fc2)
+ + [Creando nuestro test a partir del de prueba](https://github.com/IV-2014/VirtualBoard/commit/07e26d1550699a2874406747a9fad2198896a0a7)
+ + [Probando otro servidor](https://github.com/IV-2014/VirtualBoard/commit/832a0a22c04de7c48873ba9daabea0cc45e51598)
+ + [Probando con mysqli](https://github.com/IV-2014/VirtualBoard/commit/a058c3cfa9200e0a2c3af421d0a8d93dcdbe7394)
 
 
+- **He participado en la documentación general del proyecto**
+
+ ###### Issue
+	+ [Documentación](https://github.com/IV-2014/VirtualBoard/issues/50)
+
+ ###### Commit
+ + [Commit final de la documentación](https://github.com/IV-2014/VirtualBoard/commit/c9284a03625dde187f62324d7a9b40e9203fb450)
+ 
+
+- **He participado en la configuración de despliegue automático(aprovisionamiento)**
+
+ ###### Issue
+ + [Despliegue de máquina Azure utilizando Ansible](https://github.com/IV-2014/VirtualBoard/issues/48)
+
+ ###### Commit
+ + [Separando en módulos al aprovisionamiento con Ansible](https://github.com/IV-2014/VirtualBoard/commit/8d28dac585ec4c08d1ca993aa8b4eb05d5390b6a)
+ + [Ampliando instalación phpmyadmin](https://github.com/IV-2014/VirtualBoard/commit/e192245a181fc528a248144172698417c3a8bd44)
+
+
+- **He participado en la creación de la web del proyecto**
+
+ ###### Issue
+ + [Sitio wb con Bootstrap](https://github.com/IV-2014/VirtualBoard/issues/47)
+
+ ###### Commit
+ + [Primera adaptación de plantilla](https://github.com/IV-2014/VirtualBoard/commit/a96da61cf7e03aaa0cece0706f3844d1567c8107)
+ + [Algunos cambios](https://github.com/IV-2014/VirtualBoard/commit/1f9f83f774c9eae66692fef2747aa745638a7fbd)
+ + [Más cambios](https://github.com/IV-2014/VirtualBoard/commit/390fdfd6903b0ba9e957bc4e1ad643467a899382)
 * * *
 
 
