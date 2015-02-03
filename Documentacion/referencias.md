@@ -74,7 +74,7 @@
 
 **Nota**: Se han referenciado los commits que he considerado más relevantes.
 
--  **He participado en  código de la aplicación : **
+-  **He participado en  código de la aplicación :**
 ######  Commits 
  -  [Aplicación con conexión socket](https://github.com/IV-2014/VirtualBoard/commit/3c0ba790db2fbf642aa83f85bcf517fdee77e66d)
 
@@ -96,15 +96,14 @@
 	- [Aprovisionamiento - Ansible](https://github.com/IV-2014/VirtualBoard/issues/48)
 	
  ######  Commits 
- 
-   - [mejoro la estructura de creación default.rb](https://github.com/IV-2014/VirtualBoard/commit/acd5d72bf2f0fdcbd44f1ba8f302c0d3352532af)
-   - [añadidos paquetes mysql](https://github.com/IV-2014/VirtualBoard/commit/85e624f16412d1ed624738b922af6990e07df2f9)
-   - [ forma alternativa más resumida](https://github.com/IV-2014/VirtualBoard/commit/18c0a80b55b93923fa33162c98491fb667785d6f)
-   - [Añadido la parte de creación de la BD](https://github.com/IV-2014/VirtualBoard/commit/14f87d4f018697d2fc35f9557361b623c22dfe50)
-   - [añado creación de node.json](https://github.com/IV-2014/VirtualBoard/commit/cb11f8758a717e39f57508e6aaa3138b796fa77e)
-   - [documentado](https://github.com/IV-2014/VirtualBoard/commit/11f5595479cb87156f974157f95ae2e07cae6138)
+ - [mejoro la estructura de creación default.rb](https://github.com/IV-2014/VirtualBoard/commit/acd5d72bf2f0fdcbd44f1ba8f302c0d3352532af)
+ - [añadidos paquetes mysql](https://github.com/IV-2014/VirtualBoard/commit/85e624f16412d1ed624738b922af6990e07df2f9)
+ - [ forma alternativa más resumida](https://github.com/IV-2014/VirtualBoard/commit/18c0a80b55b93923fa33162c98491fb667785d6f)
+ - [Añadido la parte de creación de la BD](https://github.com/IV-2014/VirtualBoard/commit/14f87d4f018697d2fc35f9557361b623c22dfe50)
+ - [añado creación de node.json](https://github.com/IV-2014/VirtualBoard/commit/cb11f8758a717e39f57508e6aaa3138b796fa77e)
+ - [documentado](https://github.com/IV-2014/VirtualBoard/commit/11f5595479cb87156f974157f95ae2e07cae6138)
 
-- **He participado en esta integración continua : **
+- **He participado en esta integración continua :**
 ######  Issues 
 	- [Integración continua con Jenkins](https://github.com/IV-2014/VirtualBoard/issues/51)
 
@@ -115,7 +114,7 @@
  - [actualizo](https://github.com/IV-2014/VirtualBoard/commit/eefcec922b0abbce83358154d9ff1c2fc2916157)
 
 
--  **He participado en en la documentación de la aplicación : **
+-  **He participado en en la documentación de la aplicación :**
 ######  Issues 
 	- [Documentacion de la App Android con Javadoc](https://github.com/IV-2014/VirtualBoard/issues/39)
 	
@@ -124,7 +123,7 @@
 
  - [Añadidos los return en javadoc](https://github.com/IV-2014/VirtualBoard/commit/eb3ece9a06c51b012ef9ed69a9f681a35b7a2200)
 
--  **También he colaborado en Documentación arreglando pequeños fallos  : **
+-  **También he colaborado en Documentación arreglando pequeños fallos  :**
 
  ######  Issues 
  - [Actualización de documentación](https://github.com/IV-2014/VirtualBoard/issues/50)
