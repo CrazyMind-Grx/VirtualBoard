@@ -72,13 +72,14 @@
 *****
 ### Juan Marquina García, ([@marquina91](https://github.com/marquina91))
 
+**Nota**: Se han referenciado los commits que he considerado más relevantes.
 
 -  **He participado en  código de la aplicación : **
 ######  Commits 
  -  [Aplicación con conexión socket](https://github.com/IV-2014/VirtualBoard/commit/3c0ba790db2fbf642aa83f85bcf517fdee77e66d)
 
 
-- **He participado en los tests con:** 
+- **He participado en los tests :** 
  ######  Issues 
 	- [Tests Android](https://github.com/IV-2014/VirtualBoard/issues/36)
 
@@ -92,12 +93,16 @@
 - **He participado en estos scripts de provisionamiento:** 
  ######  Issues 
 	- [Aprovisionamiento con chef](https://github.com/IV-2014/VirtualBoard/issues/53)
+	- [Aprovisionamiento - Ansible](https://github.com/IV-2014/VirtualBoard/issues/48)
 	
  ######  Commits 
  
    - [mejoro la estructura de creación default.rb](https://github.com/IV-2014/VirtualBoard/commit/acd5d72bf2f0fdcbd44f1ba8f302c0d3352532af)
    - [añadidos paquetes mysql](https://github.com/IV-2014/VirtualBoard/commit/85e624f16412d1ed624738b922af6990e07df2f9)
+   - [ forma alternativa más resumida](https://github.com/IV-2014/VirtualBoard/commit/18c0a80b55b93923fa33162c98491fb667785d6f)
+   - [Añadido la parte de creación de la BD](https://github.com/IV-2014/VirtualBoard/commit/14f87d4f018697d2fc35f9557361b623c22dfe50)
    - [añado creación de node.json](https://github.com/IV-2014/VirtualBoard/commit/cb11f8758a717e39f57508e6aaa3138b796fa77e)
+   - [documentado](https://github.com/IV-2014/VirtualBoard/commit/11f5595479cb87156f974157f95ae2e07cae6138)
 
 - **He participado en esta integración continua : **
 ######  Issues 
@@ -119,6 +124,14 @@
 
  - [Añadidos los return en javadoc](https://github.com/IV-2014/VirtualBoard/commit/eb3ece9a06c51b012ef9ed69a9f681a35b7a2200)
 
+-  **También he colaborado en Documentación arreglando pequeños fallos  : **
+
+ ######  Issues 
+ - [Actualización de documentación](https://github.com/IV-2014/VirtualBoard/issues/50)
+
+ ######  Commits 
+ - [Update Documentacion.md](https://github.com/IV-2014/VirtualBoard/commit/51c2928f2241b9b0565070f3f06a99402cbfa16e)
+ - [Corregido errores ortográficos y añadido chef](https://github.com/IV-2014/VirtualBoard/commit/a9c4db936b794e9249d7432e63a85620023e8ef9)
 
 *****
 
