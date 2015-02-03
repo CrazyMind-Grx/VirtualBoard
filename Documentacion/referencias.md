@@ -1,8 +1,8 @@
-#Eduardo J. Polo Gonzalez, (@edupg1)
+###Eduardo J. Polo Gonzalez, ([@edupg1](https://github.com/edupg1))
 
 - - -
 
-- ###Ha participado en estos script de provisionamiento:
+- ####Ha participado en estos script de provisionamiento:
 
 	- issues:
 
@@ -24,7 +24,7 @@
 		- [Prueba realizada con exito](https://github.com/IV-2014/VirtualBoard/commit/605d8a240ccc7eeda98a24594084a09b17db5113)
 
 
-- ### Ha participado en los tests con:
+- #### Ha participado en los tests con:
 
 	- issues:
 
@@ -36,7 +36,7 @@
 		- [Test php con el programa phpstorm](https://github.com/IV-2014/VirtualBoard/commit/4793c6c330a908b280045051cedc9ed9118c8679)
 
 
-- ### Ha participado en esta integración continua y PaaS:
+- #### Ha participado en esta integración continua y PaaS:
 
 	- commit:
 
@@ -45,7 +45,7 @@
 		- [Integracion continua con circle](https://github.com/IV-2014/VirtualBoard/commit/c199704343118de18ce4fddc3d66244ee87a0c25)
 
 
-- ### Ha participado en la configuración de despliegue automático con:
+- #### Ha participado en la configuración de despliegue automático con:
 
 	- issues:
 
@@ -55,10 +55,9 @@
 
 		- [installJuJu](https://github.com/IV-2014/VirtualBoard/commit/b799bf5938b3daefa7228de7406ecd526b469af9)
 		- [installJuJu añado juju init](https://github.com/IV-2014/VirtualBoard/commit/033e7cd9a2edcec28eeadc4afe95ba8b5a68288b)
-		- [Documentacion](https://github.com/IV-2014/VirtualBoard/commit/7f81bc88f5cff2ebadd0c97f11a70459b6fc3af0)
 
 
-- ### También a participado en:
+- #### También a participado en:
 
 	- issues:
 
@@ -68,7 +67,7 @@
 	- commit:
 		- [Creacion de la base de datos y la tabla closes](https://github.com/IV-2014/VirtualBoard/commit/e70cf270779e93a6599cf631b0a360a4ff0c6485)
 		- [Documentacion scriptbdytabla closes](https://github.com/IV-2014/VirtualBoard/commit/4a04701380cdec8d74775dad6a0df3816e0fce00#diff-0dd539830a6ac4d949c1a583d6e30f8cR19)
-		- 
+		- [Documentacion](https://github.com/IV-2014/VirtualBoard/commit/7f81bc88f5cff2ebadd0c97f11a70459b6fc3af0)
 
 *****
 
