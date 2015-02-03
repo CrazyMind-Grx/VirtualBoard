@@ -1,4 +1,4 @@
-#Eduardo J. Polo Gonzalez, (@edupg1)
+###Eduardo J. Polo Gonzalez, ([@edupg1](https://github.com/edupg1))
 
 - - -
 
