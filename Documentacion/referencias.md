@@ -70,38 +70,55 @@
 		- [Documentacion](https://github.com/IV-2014/VirtualBoard/commit/7f81bc88f5cff2ebadd0c97f11a70459b6fc3af0)
 
 *****
-
-
 ### Juan Marquina García, ([@marquina91](https://github.com/marquina91))
 
 
--  **Ha participado en  código de la aplicación : **
-######  Commit 
+-  **He participado en  código de la aplicación : **
+######  Commits 
  -  [Aplicación con conexión socket](https://github.com/IV-2014/VirtualBoard/commit/3c0ba790db2fbf642aa83f85bcf517fdee77e66d)
 
 
-- **Ha participado en los tests con:** 
+- **He participado en los tests con:** 
  ######  Issues 
 	- [Tests Android](https://github.com/IV-2014/VirtualBoard/issues/36)
 
- ######  Commit 
- - https://github.com/IV-2014/VirtualBoard/commit/bbd7251e521ba015f6b036f69f75c91114237e1e
+ ######  Commits 
+ - [primer test para Listado documentado](https://github.com/IV-2014/VirtualBoard/commit/1e63c7c1fcec63d86c308297a66e23acdc16bd99)
+ - [primer test de la app que funciona](https://github.com/IV-2014/VirtualBoard/commit/066c55f66a16da2c3b3fbe818bfccbce9177b600)
+ - [mejorando el primer test de la app que funciona](https://github.com/IV-2014/VirtualBoard/commit/caf0aa6124f3dcb5b3315514e04c9a848db1907b)
+ -  [primer test update ](https://github.com/IV-2014/VirtualBoard/commit/5fef96ea98ff5dad18c5921bf77241112c621512)
+ -  [test de android(de elementos visuales: views) con exito ](https://github.com/IV-2014/VirtualBoard/commit/bbd7251e521ba015f6b036f69f75c91114237e1e)
 
-
-- **Ha participado en estos scripts de provisionamiento:** 
+- **He participado en estos scripts de provisionamiento:** 
  ######  Issues 
 	- [Aprovisionamiento con chef](https://github.com/IV-2014/VirtualBoard/issues/53)
+	
+ ######  Commits 
+ 
+   - [mejoro la estructura de creación default.rb](https://github.com/IV-2014/VirtualBoard/commit/acd5d72bf2f0fdcbd44f1ba8f302c0d3352532af)
+   - [añadidos paquetes mysql](https://github.com/IV-2014/VirtualBoard/commit/85e624f16412d1ed624738b922af6990e07df2f9)
+   - [añado creación de node.json](https://github.com/IV-2014/VirtualBoard/commit/cb11f8758a717e39f57508e6aaa3138b796fa77e)
 
-- **Ha participado en esta integración continua : **
+- **He participado en esta integración continua : **
 ######  Issues 
 	- [Integración continua con Jenkins](https://github.com/IV-2014/VirtualBoard/issues/51)
 
--  **Ha participado en en la documentación de la aplicación : **
+ ######  Commits 
+  - [como realizarla](https://github.com/IV-2014/VirtualBoard/commit/1fb54d279718f1359b342845c5624bb69b038c02)
+ - [update](https://github.com/IV-2014/VirtualBoard/commit/b731a83d89c0644bf89d1456cab203e101e02475)
+ - [update](https://github.com/IV-2014/VirtualBoard/commit/67dd01948df516cb30eec2e72904a0dac236b052)
+ - [actualizo](https://github.com/IV-2014/VirtualBoard/commit/eefcec922b0abbce83358154d9ff1c2fc2916157)
+
+
+-  **He participado en en la documentación de la aplicación : **
 ######  Issues 
 	- [Documentacion de la App Android con Javadoc](https://github.com/IV-2014/VirtualBoard/issues/39)
 	
- ######  Commit 
+ ######  Commits 
  - [Documentado con javadoc](https://github.com/IV-2014/VirtualBoard/commit/bf0cacc7192cc2b492e75b3d0ee3e4fbf0bb750a)
+
+ - [Añadidos los return en javadoc](https://github.com/IV-2014/VirtualBoard/commit/eb3ece9a06c51b012ef9ed69a9f681a35b7a2200)
+
 
 *****
 
