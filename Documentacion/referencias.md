@@ -250,3 +250,81 @@ _Nota: No están todos los commits referenciados, sino que he puesto los más de
  + Correción de pequeños fallos en App android: 
     + [Cambio ruta de azure.](https://github.com/IV-2014/VirtualBoard/commit/3117d57617b0e056dc67e4abbce8c280aeb31de2)
     + Creacción de [App en Socket](https://github.com/IV-2014/VirtualBoard/commit/23bbb1a431a257d590dc9817594797eb018762ce), prevista para una futura versión.
+
+
+
+# [Javier Aranda Izquierdo](https://github.com/JavideBaza)
+
+- - -
+#### En cuanto a codigo:
+
+- Creacion del codigo inicial y posterior modificacion segun el alojamiento usado del servidor en PHP 
+	- [Commit inicial](https://github.com/IV-2014/VirtualBoard/commit/b518f16b655c4eb530ff97c7bbed7972bf2812dd)
+	- [Commit de modificacnion para conectar con Server](https://github.com/IV-2014/VirtualBoard/commit/a0cd1023b8ce84c50122b123343fc54bef62057f)
+
+- Creacion de la App en Android y posteriores modificaciones
+	- [Commit de la creacion inicial de la Aplicacion Android VirtualBoard ](https://github.com/IV-2014/VirtualBoard/commit/a72f74611aa2235579cd2811a4311c01e8aea09c)
+	- [Commit agregando funcionalidad orientada al proyecto propuesto por Codeko](https://github.com/IV-2014/VirtualBoard/commit/4d3b221e3bbd1bcae32a82013e2aba92eccc90de)
+	- [Commit agregando nuevas clases y funcionalidad a la App](https://github.com/IV-2014/VirtualBoard/commit/03dd914f0727760dbe565ee5aeba9cf14f10c6fb)
+	- [Commit de actualizacion de la App](https://github.com/IV-2014/VirtualBoard/commit/23da2da15b5a40f1a771970d21417d2ada759bf8)
+	- [Commit de una nueva App para hacer pruebas y no interferir en la principal](https://github.com/IV-2014/VirtualBoard/commit/7fc6c906c438ce56a41260f9bbb32fb31e353301)
+
+
+#### Documentacion del proyecto
+
+- Descripcion inicial del proyescto tras hablar mediante emails y en persona con la gente de la empresa [CodeKo](http://codeko.com/)
+	- [Commit descripción inicial](https://github.com/IV-2014/VirtualBoard/commit/2978c95c1384c2585f9363a652cb64457bbf4577)
+	- [Commit actualización de la documentación](https://github.com/IV-2014/VirtualBoard/commit/29220e2b9e0affc33e2af5b404381faed46e64f1)
+	- [Commit traducción del proyecto en inglés que no salió a delante](https://github.com/IV-2014/VirtualBoard/commit/71035bfe1a7551342571a07d7a9f75160c0833af)
+	- [Commit de organización de los documentos del proyecto](https://github.com/IV-2014/VirtualBoard/commit/e3d94afa8e8dcd113130f543317f98e80def3540)
+
+- Documentacion de la App de Android
+	- Estos son algunos de lo commit de la documentacion 
+		- [Commit 1](https://github.com/IV-2014/VirtualBoard/commit/abd23ed5ecc869fb465681faa70dd81453aa695d)
+		- [Commit 2](https://github.com/IV-2014/VirtualBoard/commit/3168284c27bcf69d25c13d7d1ea852a17269d9e4)
+		- [Commit 3](https://github.com/IV-2014/VirtualBoard/commit/87ae0365f8562e98d28c5ff308d3bb7bb02f0738)
+
+
+#### Despliegue
+
+- Despliegue del [servidor de la App inial en Fiware](http://130.206.126.144/), teniendo que invertir bastante tiempo gracias a su rapidez y los quebraderos de cabeza que da.
+- Despliegue del [servidor de la App inicial en Cloud 9](https://ide.c9.io/javidebaza/appphp)
+
+#### Aprovisionamiento (despliegue automatico)
+- Script para la instalacion automatica de Eclipse para Linux
+	- [Commit inicial del script](https://github.com/IV-2014/VirtualBoard/commit/a09a47b21887259433f6ef10b678a3352e9fdd65)
+	- [Commit primera modificacion añadiendo funcionalidad](https://github.com/IV-2014/VirtualBoard/commit/0d80b8e998eb84a37f16bf6bc2551c5fb92a9aeb)
+	- [Commit segunda modificacion añadiendo mas funcionalidad](https://github.com/IV-2014/VirtualBoard/commit/dcdcbe329a3aed6e681bbba927a6e9f7b0358b72)
+	- [Commit script terminado](https://github.com/IV-2014/VirtualBoard/commit/3f757c580adbb2619c58fde394cd166539147e5c)
+
+- Script agregando la opcion de descargar e instalar Android Studio 1.0 automaticamente ( ya que hicieron una actualizacion e iba mucho mejor que Eclipse)
+	- [Commit](https://github.com/IV-2014/VirtualBoard/commit/08b6eaba874fb5d84f81905b5b6c45c75e1874ce)
+ 
+- Aprovisionamiento en la MV de Azure con Ansible
+	- [Commit 1](https://github.com/IV-2014/VirtualBoard/commit/5a6e3f3ccd80346119f21dea70467aa2235e494f)
+	- [Commit 2](https://github.com/IV-2014/VirtualBoard/commit/8018cd6810f1b5bc3cd9ca5d2f47637bb4303efb)
+	- [Commit script para creacion de tabla dentro de la base de datos de Azure](https://github.com/IV-2014/VirtualBoard/commit/4f1e3b00c10763528b5f01c32323bb78a7f35734)
+	- [Commit 3](https://github.com/IV-2014/VirtualBoard/commit/5edf179c06805f06ca482eddc42200216af4b5a2)
+
+#### Testeo
+- Crear maquinas virtuales con SO Android para testeo de la App
+	 - [Commit inicial](https://github.com/IV-2014/VirtualBoard/commit/322c00affcc6868fdf0f296f91d42d3596dace2b)
+	 - [Commit de una de las actualizaciones del tutorial](https://github.com/IV-2014/VirtualBoard/commit/380a002fd3966d7be631c5ce453f7bbed723d604)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
