@@ -299,12 +299,14 @@ _Nota: No están todos los commits referenciados, sino que he puesto los más de
 
 - Script agregando la opcion de descargar e instalar Android Studio 1.0 automaticamente ( ya que hicieron una actualizacion e iba mucho mejor que Eclipse)
 	- [Commit](https://github.com/IV-2014/VirtualBoard/commit/08b6eaba874fb5d84f81905b5b6c45c75e1874ce)
+	- [Issue](https://github.com/IV-2014/VirtualBoard/issues/35)
  
 - Aprovisionamiento en la MV de Azure con Ansible
 	- [Commit 1](https://github.com/IV-2014/VirtualBoard/commit/5a6e3f3ccd80346119f21dea70467aa2235e494f)
 	- [Commit 2](https://github.com/IV-2014/VirtualBoard/commit/8018cd6810f1b5bc3cd9ca5d2f47637bb4303efb)
 	- [Commit script para creacion de tabla dentro de la base de datos de Azure](https://github.com/IV-2014/VirtualBoard/commit/4f1e3b00c10763528b5f01c32323bb78a7f35734)
 	- [Commit 3](https://github.com/IV-2014/VirtualBoard/commit/5edf179c06805f06ca482eddc42200216af4b5a2)
+	- [Issue](https://github.com/IV-2014/VirtualBoard/issues/48)
 
 #### Testeo
 - Crear maquinas virtuales con SO Android para testeo de la App
