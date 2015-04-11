@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity implements callbackAdapter{
     private EditText mensaje;
     private ScrollView scroll;
     private SocketIO socket;
+
     //private IOCallback callback;
     private ListView listado;
     private callback callbackIO;
@@ -43,9 +44,6 @@ public class MainActivity extends ActionBarActivity implements callbackAdapter{
     private  ArrayList<String> datos;
 
     private ArrayAdapter<String> adaptador;
-
-    private static final int SERVERPORT = 3000;
-    private static final String SERVER_IP = "192.168.0.194";
 
 
 

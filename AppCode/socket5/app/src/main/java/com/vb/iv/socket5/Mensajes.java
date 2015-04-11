@@ -22,9 +22,7 @@ public class Mensajes extends Thread {
     @Override
     public void run(){
         try{
-           // socket = new SocketIO("http://192.168.0.194:3000/", cback);
-            socket = new SocketIO("http://nodejs-angeljcc.c9.io", cback);
-            //socket = new SocketIO("http://54.237.116.169:8080", cback);
+            socket = new SocketIO("http://nodejs-angeljcc.c9.io", cback);//Servidor en Cloud9
         }catch (MalformedURLException e){
             e.printStackTrace();
         }
@@ -32,9 +30,9 @@ public class Mensajes extends Thread {
 
     public void sendMessage(String message) {
         try {
-            JSONObject json = new JSONObject();
-            json.putOpt("data", message);
-            socket.emit("sendMessage", json);
+            JSONObject json = new JSONObject();//Creamos un nuevo objeto json
+            json.putOpt("data", message);//Le pasamos al nuevo objeto un mensaje
+            socket.emit("pepito", json);//Emitimos el objeto al servidor
         } catch (JSONException ex) {
             ex.printStackTrace();
         }

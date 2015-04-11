@@ -7,6 +7,9 @@ import org.json.JSONObject;
 /**
  * Created by root on 28/12/14.
  */
+/*
+    Interface para utilizar el callbackAdapter
+ */
 public interface callbackAdapter {
     public void callback(JSONArray data)throws JSONException;
     public void on(String event,JSONObject data);
