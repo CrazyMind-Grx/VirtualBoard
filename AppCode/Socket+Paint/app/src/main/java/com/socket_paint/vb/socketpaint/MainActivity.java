@@ -22,6 +22,14 @@ public class MainActivity extends ActionBarActivity{
         verPizarra=(Button)findViewById(R.id.botonVerPizarra);
 
 
+        verPizarra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent act = new Intent(MainActivity.this, VerPizarra.class);
+                startActivity(act);
+
+            }
+        });
 
         irPizarra.setOnClickListener(new View.OnClickListener() {
             @Override
