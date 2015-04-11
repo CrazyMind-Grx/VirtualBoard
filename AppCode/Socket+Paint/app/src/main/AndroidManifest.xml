@@ -23,6 +23,10 @@
             android:name=".IrPizarra"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".VerPizarra"
+            android:label="@string/app_name" >
+        </activity>
 
 
     </application>

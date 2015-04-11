@@ -7,24 +7,90 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 
-public class IrPizarra extends Activity {
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+
+import java.util.ArrayList;
+import java.lang.Float;
+
+public class IrPizarra extends Activity implements callbackAdapter{
+
+    private Conexion conexionMensajes;
+    private  String datosx,datosy;
+
+    JSONObject json = new JSONObject();//Creamos un nuevo objeto json
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Pizarra pizarra=new Pizarra(this);
         setContentView(pizarra);
+
+        conexionMensajes = new Conexion(this);
+        conexionMensajes.start();
     }
+
+    @Override
+    public void callback(JSONArray data) throws JSONException {
+
+    }
+
+    @Override
+    public void on(String event, JSONObject data) {
+
+        try{
+            if(event.equals("new message")){
+
+
+                datosx=(data.getString("data").toString());
+                System.out.println("Evento: "+event);
+                System.out.println("cadena mandada: "+data.getString("data").toString());
+            }
+        }catch (JSONException e){
+            e.printStackTrace();
+
+        }
+    }
+
+    @Override
+    public void onMessage(String message) {
+
+    }
+
+    @Override
+    public void onMessage(JSONObject json) {
+
+    }
+
+    @Override
+    public void onConnect() {
+
+    }
+
+    @Override
+    public void onDisconnect() {
+
+    }
+
+    @Override
+    public void onConnectFailure() {
+
+    }
+
     //Creamos nuestra propia vista
     class Pizarra extends View {
 
-        float x = 0;
-        float y = 0;
+        Float x = new Float(0);
+        Float y = new Float(0);
         String accion= "accion";
 
         Path path = new Path(); // Encapsula varios tipos de caminos geometricos
@@ -43,10 +109,12 @@ public class IrPizarra extends Activity {
 
             if(accion== "down"){
                 path.moveTo(x,y);//Desde este punto comienza nuestra linea a dibujar
+
             }
 
             if (accion=="move"){
                 path.lineTo(x,y);//Sigue el camino de la linea
+
             }
 
             canvas.drawPath(path,paint);
@@ -61,16 +129,38 @@ public class IrPizarra extends Activity {
             if(e.getAction()==MotionEvent.ACTION_DOWN)//Al pulsar la prantalla...
             {
                 accion="down";
+                datosx=(x.toString());
+                datosy=(y.toString());
+
+                try{
+                    json.putOpt("x", datosx);
+                    json.putOpt("y",datosy);}//Le pasamos al nuevo objeto un mensaje
+                catch (JSONException ex) {
+                    ex.printStackTrace();
+                }
+                conexionMensajes.sendMessage(json);
             }
             if(e.getAction()==MotionEvent.ACTION_MOVE)//Al mover el dedo sobre la pantalla....
             {
                 accion="move";
+                datosx=(x.toString());
+                datosy=(y.toString());
+
+                try{
+                    json.putOpt("x", datosx);
+                    json.putOpt("y",datosy);}//Le pasamos al nuevo objeto un mensaje
+                catch (JSONException ex) {
+                    ex.printStackTrace();
+                }
+                conexionMensajes.sendMessage(json);
             }
 
             invalidate();
             return true;
         }
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
