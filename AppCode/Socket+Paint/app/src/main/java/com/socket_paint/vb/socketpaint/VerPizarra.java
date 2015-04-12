@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.os.Bundle;
 import android.view.View;
 
 import org.json.JSONArray;
@@ -17,9 +18,20 @@ import org.json.JSONObject;
  */
 public class VerPizarra extends Activity implements callbackAdapter{
 
-    private Float x,y;
+    private Float x=new Float(0.0),y=new Float(0.0);
     Path path = new Path(); // Encapsula varios tipos de caminos geometricos
     boolean cambio=true;
+    private Conexion conexionMensajes;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Pizarra pizarra=new Pizarra(this);
+        setContentView(pizarra);
+
+        conexionMensajes = new Conexion(this);
+        conexionMensajes.start();
+    }
 
     @Override
     public void callback(JSONArray data) throws JSONException {
@@ -28,15 +40,13 @@ public class VerPizarra extends Activity implements callbackAdapter{
 
     @Override
     public void on(String event, JSONObject data) {
-
+        System.out.println("entra por ON");
         try{
             if(event.equals("IrPizarra")){
 
-
-                x=(float)(data.getLong("x"));
-                y=(float)(data.getLong("y"));
+                x = Float.parseFloat(data.getString("x"));
+                y = Float.parseFloat(data.getString("y"));
                 System.out.println("Estoy en ver pizarra x: "+x+ " y: "+y);
-
             }
         }catch (JSONException e){
             e.printStackTrace();

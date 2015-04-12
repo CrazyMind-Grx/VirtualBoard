@@ -80,6 +80,7 @@ public class MainActivity extends ActionBarActivity implements callbackAdapter{
                 listado.setAdapter(adaptador);
 
 
+
                 //socket = new SocketIO();
                 /*callback = new IOCallback() {
                     @Override
@@ -170,8 +171,10 @@ public class MainActivity extends ActionBarActivity implements callbackAdapter{
 
                 aux=event;
 
-                datos.add(data.getString("data").toString());
-            System.out.println("Evento: "+event);
+                adaptador.add(data.getString("data").toString());
+                adaptador.notifyDataSetChanged();
+
+                System.out.println("Evento: "+event);
             System.out.println("cadena mandada: "+data.getString("data").toString());
             }
         }catch (JSONException e){
