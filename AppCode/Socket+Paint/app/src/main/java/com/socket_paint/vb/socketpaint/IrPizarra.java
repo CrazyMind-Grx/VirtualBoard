@@ -6,12 +6,16 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.Point;
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.Display;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -25,15 +29,31 @@ public class IrPizarra extends Activity implements callbackAdapter{
 
     private Conexion conexionMensajes;
     private  String datosx,datosy;
+    private int contador=0;
+    boolean doubleBackToExitPressedOnce;
+    float w,h;
 
     JSONObject json = new JSONObject();//Creamos un nuevo objeto json
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Pizarra pizarra=new Pizarra(this);
         setContentView(pizarra);
+
+        Display display = getWindowManager().getDefaultDisplay();
+        Point tam= new Point();
+        display.getSize(tam);
+         w = tam.x;
+         h = tam.y;
+        try{
+            json.putOpt("h", h);
+            json.putOpt("w", w);
+        }
+        catch (JSONException ex) {
+            ex.printStackTrace();
+        }
+
 
         conexionMensajes = new Conexion(this);
         conexionMensajes.start();
@@ -93,6 +113,7 @@ public class IrPizarra extends Activity implements callbackAdapter{
         Float y = new Float(0);
         String accion= "accion";
 
+
         Path path = new Path(); // Encapsula varios tipos de caminos geometricos
 
         public Pizarra(Context context) {
@@ -109,6 +130,7 @@ public class IrPizarra extends Activity implements callbackAdapter{
 
             if(accion== "down"){
                 path.moveTo(x,y);//Desde este punto comienza nuestra linea a dibujar
+
 
             }
 
@@ -133,12 +155,19 @@ public class IrPizarra extends Activity implements callbackAdapter{
                 datosy=(y.toString());
 
                 try{
+
                     json.putOpt("x", datosx);
-                    json.putOpt("y",datosy);}//Le pasamos al nuevo objeto un mensaje
+                    json.putOpt("y", datosy);
+                    json.putOpt("ultimo",1);
+
+
+                }
                 catch (JSONException ex) {
                     ex.printStackTrace();
                 }
+                contador+=2;
                 conexionMensajes.sendMessage(json);
+
             }
             if(e.getAction()==MotionEvent.ACTION_MOVE)//Al mover el dedo sobre la pantalla....
             {
@@ -147,19 +176,73 @@ public class IrPizarra extends Activity implements callbackAdapter{
                 datosy=(y.toString());
 
                 try{
+
                     json.putOpt("x", datosx);
-                    json.putOpt("y",datosy);}//Le pasamos al nuevo objeto un mensaje
+                    json.putOpt("y", datosy);
+                    json.putOpt("ultimo",1);
+                }
                 catch (JSONException ex) {
                     ex.printStackTrace();
                 }
+                contador+=2;
+
+                conexionMensajes.sendMessage(json);
+
+            }
+            if(e.getAction()==MotionEvent.ACTION_UP){
+
+
+                try{
+
+                    json.putOpt("ultimo", 0);
+                    json.putOpt("x", datosx);
+                    json.putOpt("y", datosy);
+                }
+                catch (JSONException ex) {
+                    ex.printStackTrace();
+                }
+                //contador+=2;
+
                 conexionMensajes.sendMessage(json);
             }
 
-            invalidate();
+                invalidate();
             return true;
         }
+
+
     }
 
+    @Override
+    public void onBackPressed() {
+
+        if (doubleBackToExitPressedOnce) {
+
+            try{
+
+                json.putOpt("ultimo", 2);
+
+            }
+            catch (JSONException ex) {
+                ex.printStackTrace();
+            }
+            conexionMensajes.sendMessage(json);
+            super.onBackPressed();
+            return;
+        }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Vuelva a pulsar el botón ATRAS para salir", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce = false;
+
+            }
+        }, 2000);
+    }
 
 
     @Override
